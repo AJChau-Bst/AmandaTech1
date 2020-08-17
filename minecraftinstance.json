@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-17T19:16:19.3567859Z",
+  "lastPlayed": "2020-08-17T19:22:09.9836354Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -164,6 +164,36 @@
       "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
       "fileCount": 1,
       "fileSize": 4912890
+    },
+    {
+      "folderName": "BetterQuesting-3.5.329.jar",
+      "fingerprint": 1334472196,
+      "fileDateHash": 549488802,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1334472196
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:21:22.4088328Z",
+      "lastWriteTimeUtc": "2020-08-17T19:21:19.4640006Z",
+      "queryTimestamp": "2020-08-17T19:21:22.5005933Z",
+      "fileCount": 1,
+      "fileSize": 1425671
+    },
+    {
+      "folderName": "beebetteratbees-1.12.2-2.0.3.jar",
+      "fingerprint": 1947786579,
+      "fileDateHash": 1321293048,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1947786579
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:21:19.8370894Z",
+      "lastWriteTimeUtc": "2020-08-17T19:13:39.2276763Z",
+      "queryTimestamp": "2020-08-17T19:21:20.0971378Z",
+      "fileCount": 1,
+      "fileSize": 44806
     }
   ],
   "isValid": true,
@@ -190,6 +220,90 @@
   "preferenceShowAddOnInfo": true,
   "installDate": "2020-08-17T17:42:51.5369088Z",
   "installedAddons": [
+    {
+      "addonID": 238856,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2950248,
+        "displayName": "BetterQuesting-3.5.329.jar",
+        "fileName": "BetterQuesting-3.5.329.jar",
+        "fileDate": "2020-05-07T00:54:37.177Z",
+        "fileLength": 1425671,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2950/248/BetterQuesting-3.5.329.jar",
+        "isAlternate": false,
+        "alternateFileId": 2950260,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 547830645,
+            "type": 3
+          },
+          {
+            "foldername": "betterquesting",
+            "fingerprint": 966433935,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 607147053,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 955855833,
+            "type": 3
+          },
+          {
+            "foldername": "title.png",
+            "fingerprint": 716088397,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1334472196,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1854491,
+        "projectId": 238856,
+        "packageFingerprintId": 453314592,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2215374,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "BetterQuesting-3.5.329.jar"
+      },
+      "dateInstalled": "2020-08-17T19:21:22.6989478Z",
+      "dateUpdated": "2019-08-17T19:21:22.6989478Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
     {
       "addonID": 224472,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
@@ -721,6 +835,98 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 244516,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2627215,
+        "displayName": "BeeBetterAtBees-1.12.2-2.0.3.jar",
+        "fileName": "beebetteratbees-1.12.2-2.0.3.jar",
+        "fileDate": "2018-10-12T22:26:12.423Z",
+        "fileLength": 44806,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2627/215/beebetteratbees-1.12.2-2.0.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 20493737,
+            "addonId": 238222,
+            "type": 3,
+            "fileId": 2627215
+          },
+          {
+            "id": 20493736,
+            "addonId": 59751,
+            "type": 3,
+            "fileId": 2627215
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2098754414,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2144641834,
+            "type": 3
+          },
+          {
+            "foldername": "hellfirepvp",
+            "fingerprint": 3126794076,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1302871222,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1947786579,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1458978,
+        "projectId": 244516,
+        "packageFingerprintId": 269819092,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1681803,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "beebetteratbees-1.12.2-2.0.3.jar"
+      },
+      "dateInstalled": "2020-08-17T19:21:20.2597851Z",
+      "dateUpdated": "2019-08-17T19:21:20.2597851Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 321117,
