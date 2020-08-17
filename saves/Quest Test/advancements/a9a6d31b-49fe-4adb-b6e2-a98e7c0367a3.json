@@ -1,0 +1,83 @@
+{
+  "triumph:vanilla/recipes/brewing/speckled_melon": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:example/example_recipe_unlocked": {
+    "criteria": {
+      "unlocked_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/golden_carrot": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:example/root": {
+    "criteria": {
+      "location": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:example/example_left_click_block": {
+    "criteria": {
+      "clickedBlock": "2020-08-17 17:09:06 -0400"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:vanilla/adventure/adventuring_time": {
+    "criteria": {
+      "forest": "2020-08-17 16:53:30 -0400",
+      "beaches": "2020-08-17 17:34:10 -0400",
+      "ocean": "2020-08-17 17:34:21 -0400",
+      "river": "2020-08-17 17:09:18 -0400"
+    },
+    "done": false
+  },
+  "triumph:vanilla/recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/glass_bottle": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:vanilla/recipes/brewing/cauldron": {
+    "criteria": {
+      "has_the_recipe": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  },
+  "triumph:example/example_enter_biome": {
+    "criteria": {
+      "entered_forest": "2020-08-17 16:53:30 -0400"
+    },
+    "done": true
+  }
+}

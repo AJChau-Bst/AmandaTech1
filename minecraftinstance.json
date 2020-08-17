@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-17T21:04:23.9232401Z",
+  "lastPlayed": "2020-08-17T21:31:03.868244Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -59,6 +59,21 @@
       "queryTimestamp": "2020-08-17T19:11:43.9308644Z",
       "fileCount": 1,
       "fileSize": 312457
+    },
+    {
+      "folderName": "RebornStorage-1.12.2-3.3.4.1.jar",
+      "fingerprint": 3685526158,
+      "fileDateHash": 1491583740,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3685526158
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:23:20.4126513Z",
+      "lastWriteTimeUtc": "2020-08-17T21:23:13.7934329Z",
+      "queryTimestamp": "2020-08-17T21:23:20.5576194Z",
+      "fileCount": 1,
+      "fileSize": 80178
     },
     {
       "folderName": "jei_1.12.2-4.15.0.296 (1).jar",
@@ -181,6 +196,21 @@
       "fileSize": 1437093
     },
     {
+      "folderName": "LootBags-1.12.2-2.5.8.5.jar",
+      "fingerprint": 758788077,
+      "fileDateHash": 3396390856,
+      "sectionID": 8,
+      "individualFingerprints": [
+        758788077
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:14:16.1018328Z",
+      "lastWriteTimeUtc": "2020-08-17T21:14:12.6111017Z",
+      "queryTimestamp": "2020-08-17T21:14:16.292299Z",
+      "fileCount": 1,
+      "fileSize": 279242
+    },
+    {
       "folderName": "aether_legacy-1.12.2-v1.4.4.jar",
       "fingerprint": 1887406433,
       "fileDateHash": 242645940,
@@ -211,6 +241,21 @@
       "fileSize": 91121
     },
     {
+      "folderName": "EnderStorage-1.12.2-2.4.6.137-universal.jar",
+      "fingerprint": 3887579715,
+      "fileDateHash": 4167162285,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3887579715
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:12:21.2415076Z",
+      "lastWriteTimeUtc": "2020-08-17T21:12:15.7477327Z",
+      "queryTimestamp": "2020-08-17T21:12:21.6742375Z",
+      "fileCount": 1,
+      "fileSize": 223250
+    },
+    {
       "folderName": "BNBGamingLib-1.12.2-2.17.6.jar",
       "fingerprint": 1245112832,
       "fileDateHash": 2692338110,
@@ -239,6 +284,21 @@
       "queryTimestamp": "2020-08-17T19:48:56.4968962Z",
       "fileCount": 1,
       "fileSize": 521135
+    },
+    {
+      "folderName": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+      "fingerprint": 2940918666,
+      "fileDateHash": 3396183371,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2940918666
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:28:58.0028989Z",
+      "lastWriteTimeUtc": "2020-08-17T21:26:07.5486066Z",
+      "queryTimestamp": "2020-08-17T21:28:58.2438238Z",
+      "fileCount": 1,
+      "fileSize": 704330
     },
     {
       "folderName": "TravelersBackpack-1.12.2-1.0.33.jar",
@@ -376,6 +436,21 @@
       "fileSize": 62668
     },
     {
+      "folderName": "ImmersiveCables-1.12.2-1.3.2.jar",
+      "fingerprint": 991598649,
+      "fileDateHash": 2045377243,
+      "sectionID": 8,
+      "individualFingerprints": [
+        991598649
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:23:17.4101442Z",
+      "lastWriteTimeUtc": "2020-08-17T21:23:10.899102Z",
+      "queryTimestamp": "2020-08-17T21:23:17.6446132Z",
+      "fileCount": 1,
+      "fileSize": 205922
+    },
+    {
       "folderName": "MagicBees-1.12.2-3.1.10.jar",
       "fingerprint": 3030765590,
       "fileDateHash": 2700284183,
@@ -391,6 +466,21 @@
       "fileSize": 1035863
     },
     {
+      "folderName": "ImmersiveEngineering-0.12-98.jar",
+      "fingerprint": 3177475693,
+      "fileDateHash": 3181177239,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3177475693
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:29:00.2959975Z",
+      "lastWriteTimeUtc": "2020-08-17T21:27:45.2057983Z",
+      "queryTimestamp": "2020-08-17T21:29:04.6942587Z",
+      "fileCount": 1,
+      "fileSize": 6360959
+    },
+    {
       "folderName": "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
       "fingerprint": 3073248050,
       "fileDateHash": 1364004231,
@@ -404,6 +494,21 @@
       "queryTimestamp": "2020-08-17T19:49:30.2076052Z",
       "fileCount": 1,
       "fileSize": 75709
+    },
+    {
+      "folderName": "refinedstorageaddons-0.4.5.jar",
+      "fingerprint": 2763256947,
+      "fileDateHash": 2728686142,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2763256947
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:26:15.9528523Z",
+      "lastWriteTimeUtc": "2020-08-17T21:25:54.297947Z",
+      "queryTimestamp": "2020-08-17T21:26:16.1930015Z",
+      "fileCount": 1,
+      "fileSize": 26804
     },
     {
       "folderName": "Quark-r1.6-179.jar",
@@ -422,16 +527,15 @@
     },
     {
       "folderName": "Quest Test",
-      "fingerprint": 472494810,
-      "fileDateHash": 893848548,
+      "fingerprint": 3613197289,
+      "fileDateHash": 3133035,
       "sectionID": 10,
       "individualFingerprints": [
-        40316464,
         107143064,
-        158159545,
+        224059856,
         224251200,
         224251200,
-        300961890,
+        489458212,
         489458212,
         489458212,
         584499092,
@@ -439,28 +543,32 @@
         758054953,
         758054953,
         758054953,
-        1216147066,
+        758054953,
         1254400901,
         1282249443,
-        1383084033,
+        1350517169,
+        1413074776,
+        1441842433,
+        1441842433,
+        1441842433,
+        1441842433,
         1452862183,
         1803953797,
         1957606574,
-        2234829704,
-        2352370896,
-        3187581471,
+        1998309723,
+        2297176482,
+        2639132577,
+        2645977811,
+        3653452092,
         3820414998,
         3833284048,
-        4170812892,
-        4213863462,
-        4213863462,
-        4213863462
+        3979602399
       ],
       "status": 1,
-      "timestamp": "2020-08-17T20:57:40.092208Z",
-      "lastWriteTimeUtc": "2020-08-17T20:54:08.5998902Z",
-      "queryTimestamp": "2020-08-17T20:57:40.4780226Z",
-      "fileCount": 13,
+      "timestamp": "2020-08-17T21:12:21.2434591Z",
+      "lastWriteTimeUtc": "2020-08-17T21:09:47.9893317Z",
+      "queryTimestamp": "2020-08-17T21:12:21.6772779Z",
+      "fileCount": 14,
       "fileSize": 0
     },
     {
@@ -510,7 +618,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-08-17T20:44:28.766064Z",
+  "lastPreviousMatchUpdate": "2020-08-17T21:23:17.8661646Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -702,6 +810,102 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 231951,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2974106,
+        "displayName": "ImmersiveEngineering-0.12-98",
+        "fileName": "ImmersiveEngineering-0.12-98.jar",
+        "fileDate": "2020-06-06T20:20:24.903Z",
+        "fileLength": 6360959,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2974/106/ImmersiveEngineering-0.12-98.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 36282968,
+            "type": 3
+          },
+          {
+            "foldername": "blusunrize",
+            "fingerprint": 3319380826,
+            "type": 3
+          },
+          {
+            "foldername": "invtweaks",
+            "fingerprint": 783127171,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1902698820,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1454248115,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 2007758541,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3177475693,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1884954,
+        "projectId": 231951,
+        "packageFingerprintId": 469002121,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2259306,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "ImmersiveEngineering-0.12-98.jar"
+      },
+      "dateInstalled": "2020-08-17T21:29:04.920769Z",
+      "dateUpdated": "2019-08-17T21:29:04.920769Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 59751,
@@ -1084,6 +1288,95 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 225946,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2680883,
+        "displayName": "LootBags-1.12.2-2.5.8.5.jar",
+        "fileName": "LootBags-1.12.2-2.5.8.5.jar",
+        "fileDate": "2019-02-27T02:01:39.307Z",
+        "fileLength": 279242,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2680/883/LootBags-1.12.2-2.5.8.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 879666921,
+            "type": 3
+          },
+          {
+            "foldername": "mal",
+            "fingerprint": 348909628,
+            "type": 3
+          },
+          {
+            "foldername": "net",
+            "fingerprint": 3367586825,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 823483120,
+            "type": 3
+          },
+          {
+            "foldername": "license.txt",
+            "fingerprint": 4165207826,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3756708852,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 758788077,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1523846,
+        "projectId": 225946,
+        "packageFingerprintId": 297092305,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1763126,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "LootBags-1.12.2-2.5.8.5.jar"
+      },
+      "dateInstalled": "2020-08-17T21:14:16.482256Z",
+      "dateUpdated": "2019-08-17T21:14:16.482256Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 243076,
@@ -1652,6 +1945,85 @@
       "installedTargets": []
     },
     {
+      "addonID": 242818,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2779848,
+        "displayName": "CodeChicken Lib 1.12.2-3.2.3.358-universal",
+        "fileName": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+        "fileDate": "2019-09-06T23:00:03.483Z",
+        "fileLength": 704330,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2779/848/CodeChickenLib-1.12.2-3.2.3.358-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 2779849,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4021114675,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3618322680,
+            "type": 3
+          },
+          {
+            "foldername": "codechicken",
+            "fingerprint": 3367392570,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2473310429,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2940918666,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1646126,
+        "projectId": 242818,
+        "packageFingerprintId": 353801574,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1925248,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "CodeChickenLib-1.12.2-3.2.3.358-universal.jar"
+      },
+      "dateInstalled": "2020-08-17T21:28:58.5208148Z",
+      "dateUpdated": "2019-08-17T21:28:58.5208148Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 221857,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
@@ -1746,6 +2118,112 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 256662,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2833871,
+        "displayName": "RebornStorage-1.12.2-3.3.4.1.jar",
+        "fileName": "RebornStorage-1.12.2-3.3.4.1.jar",
+        "fileDate": "2019-11-28T17:37:15.653Z",
+        "fileLength": 80178,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2833/871/RebornStorage-1.12.2-3.3.4.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 2833872,
+        "dependencies": [
+          {
+            "id": 33733857,
+            "addonId": 243076,
+            "type": 3,
+            "fileId": 2833871
+          },
+          {
+            "id": 33733858,
+            "addonId": 237903,
+            "type": 3,
+            "fileId": 2833871
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2429797900,
+            "type": 3
+          },
+          {
+            "foldername": "me",
+            "fingerprint": 4185581831,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1342723341,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1259120165,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3685526158,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1710594,
+        "projectId": 256662,
+        "packageFingerprintId": 382501281,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameVersionMappingId": 2013797,
+        "gameVersionId": 6580,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "RebornStorage-1.12.2-3.3.4.1.jar"
+      },
+      "dateInstalled": "2020-08-17T21:23:20.814706Z",
+      "dateUpdated": "2019-08-17T21:23:20.814706Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 231868,
@@ -2265,6 +2743,92 @@
       "installedTargets": []
     },
     {
+      "addonID": 245174,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2755787,
+        "displayName": "Ender Storage 1.12.2-2.4.6.137-universal",
+        "fileName": "EnderStorage-1.12.2-2.4.6.137-universal.jar",
+        "fileDate": "2019-08-06T08:46:44.31Z",
+        "fileLength": 223250,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2755/787/EnderStorage-1.12.2-2.4.6.137-universal.jar",
+        "isAlternate": false,
+        "alternateFileId": 2755788,
+        "dependencies": [
+          {
+            "id": 29183877,
+            "addonId": 242818,
+            "type": 3,
+            "fileId": 2755787
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2174987299,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2967838152,
+            "type": 3
+          },
+          {
+            "foldername": "codechicken",
+            "fingerprint": 708585167,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1635696721,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3887579715,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1616683,
+        "projectId": 245174,
+        "packageFingerprintId": 341328208,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1886014,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "EnderStorage-1.12.2-2.4.6.137-universal.jar"
+      },
+      "dateInstalled": "2020-08-17T21:12:21.9025984Z",
+      "dateUpdated": "2019-08-17T21:12:21.9025984Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 226406,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
@@ -2336,6 +2900,104 @@
       },
       "dateInstalled": "2020-08-17T20:59:31.8459004Z",
       "dateUpdated": "2019-08-17T20:59:31.8459004Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 272302,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2941010,
+        "displayName": "Refined Storage Addons 0.4.5",
+        "fileName": "refinedstorageaddons-0.4.5.jar",
+        "fileDate": "2020-04-26T12:50:07.137Z",
+        "fileLength": 26804,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2941/10/refinedstorageaddons-0.4.5.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 40808346,
+            "addonId": 243076,
+            "type": 3,
+            "fileId": 2941010
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2366356468,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1567343779,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1503568962,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3860741021,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2763256947,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1842604,
+        "projectId": 272302,
+        "packageFingerprintId": 447691997,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2197599,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "refinedstorageaddons-0.4.5.jar"
+      },
+      "dateInstalled": "2020-08-17T21:26:16.3987314Z",
+      "dateUpdated": "2019-08-17T21:26:16.3987314Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -3033,6 +3695,109 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 283992,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2595013,
+        "displayName": "ImmersiveCables-1.12.2-1.3.2.jar",
+        "fileName": "ImmersiveCables-1.12.2-1.3.2.jar",
+        "fileDate": "2018-07-30T13:05:27.68Z",
+        "fileLength": 205922,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2595/13/ImmersiveCables-1.12.2-1.3.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 18810755,
+            "addonId": 231951,
+            "type": 3,
+            "fileId": 2595013
+          },
+          {
+            "id": 18810753,
+            "addonId": 223794,
+            "type": 2,
+            "fileId": 2595013
+          },
+          {
+            "id": 18810754,
+            "addonId": 243076,
+            "type": 2,
+            "fileId": 2595013
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 76164064,
+            "type": 3
+          },
+          {
+            "foldername": "de",
+            "fingerprint": 28259960,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3132041383,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3098415894,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1624006537,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 991598649,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1421656,
+        "projectId": 283992,
+        "packageFingerprintId": 255754179,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1632813,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "ImmersiveCables-1.12.2-1.3.2.jar"
+      },
+      "dateInstalled": "2020-08-17T21:23:17.8576488Z",
+      "dateUpdated": "2019-08-17T21:23:17.8576488Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 239197,
