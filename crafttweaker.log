@@ -7,4 +7,5 @@
 [INITIALIZATION][CLIENT][INFO] Loading scripts for loader with names [crafttweaker | recipeevent]
 [INITIALIZATION][CLIENT][INFO] Completed script loading in: 0ms
 [POSTINITIALIZATION][CLIENT][INFO] Removing recipes for various outputs
+[POSTINITIALIZATION][CLIENT][INFO] Applying MrCrayfish's Furniture Mod changes...
 [AVAILABLE][CLIENT][INFO] Fixed the RecipeBook
