@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-17T19:06:18.2930948Z",
+  "lastPlayed": "2020-08-17T19:08:27.3437833Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -104,21 +104,6 @@
       "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
       "fileCount": 1,
       "fileSize": 1912377
-    },
-    {
-      "folderName": "Advanced+Solar+Panels-4.3.0.jar",
-      "fingerprint": 869481068,
-      "fileDateHash": 1799584128,
-      "sectionID": 8,
-      "individualFingerprints": [
-        869481068
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T19:05:59.5361833Z",
-      "lastWriteTimeUtc": "2020-08-17T17:53:40.4766674Z",
-      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
-      "fileCount": 1,
-      "fileSize": 316833
     },
     {
       "folderName": "Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar",
@@ -268,113 +253,6 @@
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 252714,
-      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
-      "installedFile": {
-        "id": 2652182,
-        "displayName": " Advanced Solar Panels-4.2.1",
-        "fileName": "Advanced Solar Panels-4.3.0.jar",
-        "fileDate": "2018-12-25T02:04:35.757Z",
-        "fileLength": 316833,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2652/182/Advanced Solar Panels-4.3.0.jar",
-        "isAlternate": false,
-        "alternateFileId": 2652183,
-        "dependencies": [
-          {
-            "id": 28957982,
-            "addonId": 242638,
-            "type": 3,
-            "fileId": 2652182
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 4190237829,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 3225680870,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3333074214,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 4016260874,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 869481068,
-        "gameVersion": [
-          "1.12",
-          "1.12.1",
-          "Forge",
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012",
-            "gameVersion": "1.12",
-            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
-            "gameVersionName": "1.12"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000001",
-            "gameVersion": "1.12.1",
-            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
-            "gameVersionName": "1.12.1"
-          },
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1488904,
-        "projectId": 252714,
-        "packageFingerprintId": 282387206,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1720292,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "Advanced+Solar+Panels-4.3.0.jar"
-      },
-      "dateInstalled": "2020-08-17T19:06:00.205715Z",
-      "dateUpdated": "2019-08-17T19:06:00.205715Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
