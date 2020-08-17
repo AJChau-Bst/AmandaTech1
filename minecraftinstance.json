@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-17T19:08:27.3437833Z",
+  "lastPlayed": "2020-08-17T19:16:19.3567859Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -59,6 +59,21 @@
       "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
       "fileCount": 1,
       "fileSize": 392908
+    },
+    {
+      "folderName": "MagicBees-1.12.2-3.1.10.jar",
+      "fingerprint": 3030765590,
+      "fileDateHash": 2700284183,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3030765590
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:11:43.7275439Z",
+      "lastWriteTimeUtc": "2020-08-17T19:10:49.0998658Z",
+      "queryTimestamp": "2020-08-17T19:11:43.9308644Z",
+      "fileCount": 1,
+      "fileSize": 1035863
     },
     {
       "folderName": "AppleCore-mc1.12.2-3.4.0.jar",
@@ -107,14 +122,16 @@
     },
     {
       "folderName": "Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar",
-      "fingerprint": 0,
+      "fingerprint": 188584303,
       "fileDateHash": 3432445286,
       "sectionID": 8,
-      "individualFingerprints": null,
-      "status": 4,
-      "timestamp": "2020-08-17T19:05:59.5403355Z",
+      "individualFingerprints": [
+        188584303
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:11:43.7251448Z",
       "lastWriteTimeUtc": "2020-08-17T17:51:43.3770382Z",
-      "queryTimestamp": "0001-01-01T00:00:00",
+      "queryTimestamp": "2020-08-17T19:11:43.9308644Z",
       "fileCount": 1,
       "fileSize": 312457
     },
@@ -257,7 +274,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 224476,
@@ -348,7 +365,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 243076,
@@ -439,7 +456,177 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 322504,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2715202,
+        "displayName": "Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar",
+        "fileName": "Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar",
+        "fileDate": "2019-05-24T13:02:45.153Z",
+        "fileLength": 312457,
+        "releaseType": 3,
+        "fileStatus": 3,
+        "downloadUrl": "https://edge.forgecdn.net/files/2715/202/Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": false,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2378772385,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 3465042651,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3670805288,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3726984614,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 188584303,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 2,
+        "renderCacheId": 1564629,
+        "projectId": 322504,
+        "packageFingerprintId": 318312903,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1818697,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar"
+      },
+      "dateInstalled": "2020-08-17T19:11:44.2107483Z",
+      "dateUpdated": "2019-08-17T19:11:44.2107483Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 65764,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2566282,
+        "displayName": "MagicBees-1.12.2-3.1.10.jar",
+        "fileName": "MagicBees-1.12.2-3.1.10.jar",
+        "fileDate": "2018-05-27T01:51:04.94Z",
+        "fileLength": 1035863,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2566/282/MagicBees-1.12.2-3.1.10.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 17286939,
+            "addonId": 59751,
+            "type": 3,
+            "fileId": 2566282
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1327128121,
+            "type": 3
+          },
+          {
+            "foldername": "magicbees",
+            "fingerprint": 4182576687,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2192724001,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2778756995,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3030765590,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1388508,
+        "projectId": 65764,
+        "packageFingerprintId": 243598954,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1588981,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "MagicBees-1.12.2-3.1.10.jar"
+      },
+      "dateInstalled": "2020-08-17T19:11:44.2107483Z",
+      "dateUpdated": "2019-08-17T19:11:44.2107483Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 59751,
@@ -533,7 +720,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 321117,
@@ -624,7 +811,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     },
     {
       "addonID": 221857,
@@ -720,7 +907,7 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
     }
   ],
   "isMigrated": false,
