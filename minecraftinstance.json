@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-17T20:35:58.3249187Z",
+  "lastPlayed": "2020-08-17T21:04:23.9232401Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -61,6 +61,21 @@
       "fileSize": 312457
     },
     {
+      "folderName": "jei_1.12.2-4.15.0.296 (1).jar",
+      "fingerprint": 2316325014,
+      "fileDateHash": 2695981938,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2316325014
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:03:16.3290723Z",
+      "lastWriteTimeUtc": "2020-08-17T21:03:13.5303881Z",
+      "queryTimestamp": "2020-08-17T21:03:16.484083Z",
+      "fileCount": 1,
+      "fileSize": 653115
+    },
+    {
       "folderName": "Pam's+HarvestCraft+1.12.2zg.jar",
       "fingerprint": 1735713960,
       "fileDateHash": 1251075623,
@@ -74,6 +89,21 @@
       "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
       "fileCount": 1,
       "fileSize": 4912890
+    },
+    {
+      "folderName": "Triumph-1.12.2-3.19.2 (1).jar",
+      "fingerprint": 3275259596,
+      "fileDateHash": 3883445045,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3275259596
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T20:52:16.2029275Z",
+      "lastWriteTimeUtc": "2020-08-17T20:51:54.5576392Z",
+      "queryTimestamp": "2020-08-17T20:52:16.3540805Z",
+      "fileCount": 1,
+      "fileSize": 367437
     },
     {
       "folderName": "Chisel-MC1.12.2-1.0.2.45.jar",
@@ -136,6 +166,51 @@
       "fileSize": 199045
     },
     {
+      "folderName": "CraftTweaker2-1.12-4.1.20.583.jar",
+      "fingerprint": 386941905,
+      "fileDateHash": 3305715292,
+      "sectionID": 8,
+      "individualFingerprints": [
+        386941905
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T20:44:31.1206626Z",
+      "lastWriteTimeUtc": "2020-08-17T20:44:25.4564695Z",
+      "queryTimestamp": "2020-08-17T20:44:31.2906101Z",
+      "fileCount": 1,
+      "fileSize": 1437093
+    },
+    {
+      "folderName": "aether_legacy-1.12.2-v1.4.4.jar",
+      "fingerprint": 1887406433,
+      "fileDateHash": 242645940,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1887406433
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T20:57:40.0239696Z",
+      "lastWriteTimeUtc": "2020-08-17T20:57:36.5571898Z",
+      "queryTimestamp": "2020-08-17T20:57:40.4770252Z",
+      "fileCount": 1,
+      "fileSize": 14129163
+    },
+    {
+      "folderName": "CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+      "fingerprint": 3526146934,
+      "fileDateHash": 742460120,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3526146934
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T20:59:31.3620407Z",
+      "lastWriteTimeUtc": "2020-08-17T20:59:28.3380281Z",
+      "queryTimestamp": "2020-08-17T20:59:31.6420513Z",
+      "fileCount": 1,
+      "fileSize": 91121
+    },
+    {
       "folderName": "BNBGamingLib-1.12.2-2.17.6.jar",
       "fingerprint": 1245112832,
       "fileDateHash": 2692338110,
@@ -144,26 +219,11 @@
         1245112832
       ],
       "status": 1,
-      "timestamp": "2020-08-17T20:35:44.5081366Z",
+      "timestamp": "2020-08-17T20:51:35.7774053Z",
       "lastWriteTimeUtc": "2020-08-17T20:35:29.3098495Z",
-      "queryTimestamp": "2020-08-17T20:35:44.6632129Z",
+      "queryTimestamp": "2020-08-17T20:51:35.9582015Z",
       "fileCount": 1,
       "fileSize": 132644
-    },
-    {
-      "folderName": "FTBLib-5.4.7.2.jar",
-      "fingerprint": 957833589,
-      "fileDateHash": 1322675578,
-      "sectionID": 8,
-      "individualFingerprints": [
-        957833589
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T20:35:40.2039205Z",
-      "lastWriteTimeUtc": "2020-08-17T20:35:25.7777167Z",
-      "queryTimestamp": "2020-08-17T20:35:40.513341Z",
-      "fileCount": 1,
-      "fileSize": 934370
     },
     {
       "folderName": "CustomLoadingScreen-1.12.2-1.4.1.jar",
@@ -196,6 +256,36 @@
       "fileSize": 392908
     },
     {
+      "folderName": "EnderIO-1.12.2-5.2.59.jar",
+      "fingerprint": 2849332366,
+      "fileDateHash": 257810566,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2849332366
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:01:59.690915Z",
+      "lastWriteTimeUtc": "2020-08-17T21:01:55.7008862Z",
+      "queryTimestamp": "2020-08-17T21:01:59.9807686Z",
+      "fileCount": 1,
+      "fileSize": 8117810
+    },
+    {
+      "folderName": "Hwyla-1.8.26-B41_1.12.2.jar",
+      "fingerprint": 637705220,
+      "fileDateHash": 1020126258,
+      "sectionID": 8,
+      "individualFingerprints": [
+        637705220
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:04:13.6545948Z",
+      "lastWriteTimeUtc": "2020-08-17T21:04:08.2922826Z",
+      "queryTimestamp": "2020-08-17T21:04:13.844112Z",
+      "fileCount": 1,
+      "fileSize": 453778
+    },
+    {
       "folderName": "refinedstorage-1.6.16.jar",
       "fingerprint": 3949468729,
       "fileDateHash": 4218104739,
@@ -224,21 +314,6 @@
       "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
       "fileCount": 1,
       "fileSize": 89615
-    },
-    {
-      "folderName": "FTBQuests-1.9.0.12.jar",
-      "fingerprint": 2553775093,
-      "fileDateHash": 1254407977,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2553775093
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T20:33:25.7282609Z",
-      "lastWriteTimeUtc": "2020-08-17T20:33:22.540014Z",
-      "queryTimestamp": "2020-08-17T20:33:25.8682705Z",
-      "fileCount": 1,
-      "fileSize": 1084171
     },
     {
       "folderName": "cutepuppymod-2.5.jar",
@@ -271,6 +346,36 @@
       "fileSize": 108306
     },
     {
+      "folderName": "EnderCore-1.12.2-0.5.76.jar",
+      "fingerprint": 3431674564,
+      "fileDateHash": 2828813196,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3431674564
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T21:02:02.5061515Z",
+      "lastWriteTimeUtc": "2020-08-17T21:01:58.4299763Z",
+      "queryTimestamp": "2020-08-17T21:02:02.6890808Z",
+      "fileCount": 1,
+      "fileSize": 647959
+    },
+    {
+      "folderName": "BetterAdvancements-1.12.2-0.1.0.77.jar",
+      "fingerprint": 1663259258,
+      "fileDateHash": 3336652559,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1663259258
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T20:51:26.3648112Z",
+      "lastWriteTimeUtc": "2020-08-17T20:51:23.747669Z",
+      "queryTimestamp": "2020-08-17T20:51:26.5665857Z",
+      "fileCount": 1,
+      "fileSize": 62668
+    },
+    {
       "folderName": "MagicBees-1.12.2-3.1.10.jar",
       "fingerprint": 3030765590,
       "fileDateHash": 2700284183,
@@ -284,21 +389,6 @@
       "queryTimestamp": "2020-08-17T19:11:43.9308644Z",
       "fileCount": 1,
       "fileSize": 1035863
-    },
-    {
-      "folderName": "ItemFilters-1.0.4.2.jar",
-      "fingerprint": 771895873,
-      "fileDateHash": 2759388153,
-      "sectionID": 8,
-      "individualFingerprints": [
-        771895873
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T20:35:42.6354712Z",
-      "lastWriteTimeUtc": "2020-08-17T20:35:29.9863736Z",
-      "queryTimestamp": "2020-08-17T20:35:42.7877134Z",
-      "fileCount": 1,
-      "fileSize": 78935
     },
     {
       "folderName": "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
@@ -332,15 +422,16 @@
     },
     {
       "folderName": "Quest Test",
-      "fingerprint": 1835122303,
-      "fileDateHash": 3116806572,
+      "fingerprint": 472494810,
+      "fileDateHash": 893848548,
       "sectionID": 10,
       "individualFingerprints": [
+        40316464,
         107143064,
         158159545,
         224251200,
         224251200,
-        440195902,
+        300961890,
         489458212,
         489458212,
         584499092,
@@ -348,28 +439,27 @@
         758054953,
         758054953,
         758054953,
+        1216147066,
         1254400901,
         1282249443,
+        1383084033,
         1452862183,
-        1750966944,
         1803953797,
         1957606574,
-        1960345270,
-        1986221088,
-        3293243007,
-        3803101205,
+        2234829704,
+        2352370896,
+        3187581471,
         3820414998,
         3833284048,
-        3851981609,
-        4122504679,
+        4170812892,
         4213863462,
         4213863462,
         4213863462
       ],
       "status": 1,
-      "timestamp": "2020-08-17T19:29:50.8747748Z",
-      "lastWriteTimeUtc": "2020-08-17T19:27:00.8959385Z",
-      "queryTimestamp": "2020-08-17T19:29:51.1800416Z",
+      "timestamp": "2020-08-17T20:57:40.092208Z",
+      "lastWriteTimeUtc": "2020-08-17T20:54:08.5998902Z",
+      "queryTimestamp": "2020-08-17T20:57:40.4780226Z",
       "fileCount": 13,
       "fileSize": 0
     },
@@ -397,9 +487,9 @@
         1511850695
       ],
       "status": 1,
-      "timestamp": "2020-08-17T20:35:46.3598287Z",
+      "timestamp": "2020-08-17T20:51:32.718161Z",
       "lastWriteTimeUtc": "2020-08-17T20:35:27.934311Z",
-      "queryTimestamp": "2020-08-17T20:35:46.5891085Z",
+      "queryTimestamp": "2020-08-17T20:51:32.8674821Z",
       "fileCount": 1,
       "fileSize": 139568
     },
@@ -417,40 +507,10 @@
       "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
       "fileCount": 1,
       "fileSize": 135518
-    },
-    {
-      "folderName": "Triumph-1.12.2-3.19.2.jar",
-      "fingerprint": 3275259596,
-      "fileDateHash": 2920696394,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3275259596
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T20:33:18.3946643Z",
-      "lastWriteTimeUtc": "2020-08-17T20:33:15.2553177Z",
-      "queryTimestamp": "2020-08-17T20:33:18.5861903Z",
-      "fileCount": 1,
-      "fileSize": 367437
-    },
-    {
-      "folderName": "BetterQuesting-3.5.329.jar",
-      "fingerprint": 1334472196,
-      "fileDateHash": 549488802,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1334472196
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T19:21:22.4088328Z",
-      "lastWriteTimeUtc": "2020-08-17T19:21:19.4640006Z",
-      "queryTimestamp": "2020-08-17T19:21:22.5005933Z",
-      "fileCount": 1,
-      "fileSize": 1425671
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-08-17T20:06:09.6259347Z",
+  "lastPreviousMatchUpdate": "2020-08-17T20:44:28.766064Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -738,49 +798,49 @@
       "installedTargets": null
     },
     {
-      "addonID": 237167,
+      "addonID": 272515,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
-        "id": 2985811,
-        "displayName": "FTBLib-5.4.7.2.jar",
-        "fileName": "FTBLib-5.4.7.2.jar",
-        "fileDate": "2020-06-22T13:44:34.15Z",
-        "fileLength": 934370,
+        "id": 2685984,
+        "displayName": "BetterAdvancements-1.12.2-0.1.0.77",
+        "fileName": "BetterAdvancements-1.12.2-0.1.0.77.jar",
+        "fileDate": "2019-03-11T20:53:31.367Z",
+        "fileLength": 62668,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2985/811/FTBLib-5.4.7.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2685/984/BetterAdvancements-1.12.2-0.1.0.77.jar",
         "isAlternate": false,
-        "alternateFileId": 2985812,
+        "alternateFileId": 2685985,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2287248055,
+            "fingerprint": 1270984732,
             "type": 3
           },
           {
-            "foldername": "com",
-            "fingerprint": 296098662,
+            "foldername": "betteradvancements",
+            "fingerprint": 3341295667,
             "type": 3
           },
           {
             "foldername": "assets",
-            "fingerprint": 2120759837,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 1468686229,
+            "fingerprint": 2077765080,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1147509493,
+            "fingerprint": 3841018458,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3728515777,
             "type": 3
           }
         ],
-        "packageFingerprint": 957833589,
+        "packageFingerprint": 1663259258,
         "gameVersion": [
           "1.12.2"
         ],
@@ -797,18 +857,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1899698,
-        "projectId": 237167,
-        "packageFingerprintId": 476395092,
+        "renderCacheId": 1530096,
+        "projectId": 272515,
+        "packageFingerprintId": 299966681,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2280594,
+        "gameVersionMappingId": 1770504,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "FTBLib-5.4.7.2.jar"
+        "FileNameOnDisk": "BetterAdvancements-1.12.2-0.1.0.77.jar"
       },
-      "dateInstalled": "2020-08-17T20:35:40.7179601Z",
-      "dateUpdated": "2019-08-17T20:35:40.7179601Z",
+      "dateInstalled": "2020-08-17T20:51:26.8298026Z",
+      "dateUpdated": "2019-08-17T20:51:26.8298026Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -1375,49 +1435,182 @@
       "installedTargets": []
     },
     {
-      "addonID": 309674,
+      "addonID": 64578,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
-        "id": 3003364,
-        "displayName": "ItemFilters-1.0.4.2.jar",
-        "fileName": "ItemFilters-1.0.4.2.jar",
-        "fileDate": "2020-07-12T22:57:19.817Z",
-        "fileLength": 78935,
+        "id": 2989201,
+        "displayName": "Ender IO - 5.2.59",
+        "fileName": "EnderIO-1.12.2-5.2.59.jar",
+        "fileDate": "2020-06-26T08:19:27.82Z",
+        "fileLength": 8117810,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3003/364/ItemFilters-1.0.4.2.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2989/201/EnderIO-1.12.2-5.2.59.jar",
         "isAlternate": false,
-        "alternateFileId": 3003365,
-        "dependencies": [],
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 44100150,
+            "addonId": 225643,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100149,
+            "addonId": 238222,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100152,
+            "addonId": 250277,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100151,
+            "addonId": 306028,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100160,
+            "addonId": 267602,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100147,
+            "addonId": 228404,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100142,
+            "addonId": 220318,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100161,
+            "addonId": 61811,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100143,
+            "addonId": 223794,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100155,
+            "addonId": 245211,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100140,
+            "addonId": 74120,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100148,
+            "addonId": 235279,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100157,
+            "addonId": 222880,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100146,
+            "addonId": 231951,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100144,
+            "addonId": 74072,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100154,
+            "addonId": 242638,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100159,
+            "addonId": 59751,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100156,
+            "addonId": 223008,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100145,
+            "addonId": 227083,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100158,
+            "addonId": 231868,
+            "type": 3,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100153,
+            "addonId": 225561,
+            "type": 2,
+            "fileId": 2989201
+          },
+          {
+            "id": 44100141,
+            "addonId": 243076,
+            "type": 2,
+            "fileId": 2989201
+          }
+        ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2564698299,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 1642162172,
+            "fingerprint": 2738176957,
             "type": 3
           },
           {
             "foldername": "assets",
-            "fingerprint": 2252439893,
+            "fingerprint": 1855048548,
             "type": 3
           },
           {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2228728608,
+            "foldername": "crazypants",
+            "fingerprint": 3280256355,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1667646960,
+            "fingerprint": 1615738811,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 649772633,
             "type": 3
           }
         ],
-        "packageFingerprint": 771895873,
+        "packageFingerprint": 2849332366,
         "gameVersion": [
           "1.12.2"
         ],
@@ -1434,18 +1627,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1921274,
-        "projectId": 309674,
-        "packageFingerprintId": 487378420,
+        "renderCacheId": 1903898,
+        "projectId": 64578,
+        "packageFingerprintId": 478494462,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2318388,
+        "gameVersionMappingId": 2288308,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "ItemFilters-1.0.4.2.jar"
+        "FileNameOnDisk": "EnderIO-1.12.2-5.2.59.jar"
       },
-      "dateInstalled": "2020-08-17T20:35:42.9680071Z",
-      "dateUpdated": "2019-08-17T20:35:42.9680071Z",
+      "dateInstalled": "2020-08-17T21:02:00.1908044Z",
+      "dateUpdated": "2019-08-17T21:02:00.1908044Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -1555,6 +1748,90 @@
       "installedTargets": null
     },
     {
+      "addonID": 231868,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2972849,
+        "displayName": "EnderCore - 1.12.2-0.5.76",
+        "fileName": "EnderCore-1.12.2-0.5.76.jar",
+        "fileDate": "2020-06-05T07:33:28.397Z",
+        "fileLength": 647959,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2972/849/EnderCore-1.12.2-0.5.76.jar",
+        "isAlternate": false,
+        "alternateFileId": 2972850,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 310792042,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2758401751,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 819841487,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1148118730,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1160059302,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3431674564,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1883396,
+        "projectId": 231868,
+        "packageFingerprintId": 468119027,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2256967,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "EnderCore-1.12.2-0.5.76.jar"
+      },
+      "dateInstalled": "2020-08-17T21:02:02.9968712Z",
+      "dateUpdated": "2019-08-17T21:02:02.9968712Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 250363,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
@@ -1632,90 +1909,6 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": []
-    },
-    {
-      "addonID": 238856,
-      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
-      "installedFile": {
-        "id": 2950248,
-        "displayName": "BetterQuesting-3.5.329.jar",
-        "fileName": "BetterQuesting-3.5.329.jar",
-        "fileDate": "2020-05-07T00:54:37.177Z",
-        "fileLength": 1425671,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2950/248/BetterQuesting-3.5.329.jar",
-        "isAlternate": false,
-        "alternateFileId": 2950260,
-        "dependencies": [],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 547830645,
-            "type": 3
-          },
-          {
-            "foldername": "betterquesting",
-            "fingerprint": 966433935,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 607147053,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 955855833,
-            "type": 3
-          },
-          {
-            "foldername": "title.png",
-            "fingerprint": 716088397,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 1334472196,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1854491,
-        "projectId": 238856,
-        "packageFingerprintId": 453314592,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2215374,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "BetterQuesting-3.5.329.jar"
-      },
-      "dateInstalled": "2020-08-17T19:21:22.6989478Z",
-      "dateUpdated": "2019-08-17T19:21:22.6989478Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": null
     },
     {
       "addonID": 224472,
@@ -1882,171 +2075,8 @@
         "isServerPack": false,
         "FileNameOnDisk": "BNBGamingCore-1.12.2-0.12.0.jar"
       },
-      "dateInstalled": "2020-08-17T20:35:46.7901456Z",
-      "dateUpdated": "2019-08-17T20:35:46.7901456Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
-      "addonID": 289412,
-      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
-      "installedFile": {
-        "id": 3015063,
-        "displayName": "FTBQuests-1.9.0.12.jar",
-        "fileName": "FTBQuests-1.9.0.12.jar",
-        "fileDate": "2020-07-26T11:30:43.427Z",
-        "fileLength": 1084171,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/3015/63/FTBQuests-1.9.0.12.jar",
-        "isAlternate": false,
-        "alternateFileId": 3015064,
-        "dependencies": [
-          {
-            "id": 45653308,
-            "addonId": 268655,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653307,
-            "addonId": 238086,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653310,
-            "addonId": 227083,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653313,
-            "addonId": 231305,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653311,
-            "addonId": 238222,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653306,
-            "addonId": 309674,
-            "type": 3,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653314,
-            "addonId": 237167,
-            "type": 3,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653317,
-            "addonId": 278398,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653318,
-            "addonId": 237102,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653315,
-            "addonId": 226410,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653316,
-            "addonId": 242638,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653312,
-            "addonId": 225643,
-            "type": 2,
-            "fileId": 3015063
-          },
-          {
-            "id": 45653309,
-            "addonId": 221826,
-            "type": 2,
-            "fileId": 3015063
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1127185395,
-            "type": 3
-          },
-          {
-            "foldername": "com",
-            "fingerprint": 3545543030,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3568940792,
-            "type": 3
-          },
-          {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 2381346384,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 31854703,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 2553775093,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1935818,
-        "projectId": 289412,
-        "packageFingerprintId": 494699814,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2341195,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "FTBQuests-1.9.0.12.jar"
-      },
-      "dateInstalled": "2020-08-17T20:33:26.1248733Z",
-      "dateUpdated": "2019-08-17T20:33:26.1248733Z",
+      "dateInstalled": "2020-08-17T20:51:33.0338378Z",
+      "dateUpdated": "2019-08-17T20:51:33.0338378Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -2149,6 +2179,174 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 255308,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2698950,
+        "displayName": " Aether Legacy 1.12.2-v1.4.4",
+        "fileName": "aether_legacy-1.12.2-v1.4.4.jar",
+        "fileDate": "2019-04-14T03:51:12.49Z",
+        "fileLength": 14129163,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2698/950/aether_legacy-1.12.2-v1.4.4.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 316092740,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2128236192,
+            "type": 3
+          },
+          {
+            "foldername": "aether.png",
+            "fingerprint": 4276613703,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3186121577,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1673913846,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1887406433,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1545307,
+        "projectId": 255308,
+        "packageFingerprintId": 307816438,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1791387,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "aether_legacy-1.12.2-v1.4.4.jar"
+      },
+      "dateInstalled": "2020-08-17T20:57:40.7184308Z",
+      "dateUpdated": "2019-08-17T20:57:40.7184308Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 226406,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2857869,
+        "displayName": "CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+        "fileName": "CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+        "fileDate": "2020-01-10T17:57:03.183Z",
+        "fileLength": 91121,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2857/869/CustomMainMenu-MC1.12.2-2.0.9.1.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 611081551,
+            "type": 3
+          },
+          {
+            "foldername": "lumien",
+            "fingerprint": 3904034323,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1659821724,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2769122793,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 622526263,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3526146934,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1739611,
+        "projectId": 226406,
+        "packageFingerprintId": 396191713,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2057859,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "CustomMainMenu-MC1.12.2-2.0.9.1.jar"
+      },
+      "dateInstalled": "2020-08-17T20:59:31.8459004Z",
+      "dateUpdated": "2019-08-17T20:59:31.8459004Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 243121,
@@ -2520,14 +2718,98 @@
         "isServerPack": false,
         "FileNameOnDisk": "BNBGamingLib-1.12.2-2.17.6.jar"
       },
-      "dateInstalled": "2020-08-17T20:35:44.8805751Z",
-      "dateUpdated": "2019-08-17T20:35:44.8805751Z",
+      "dateInstalled": "2020-08-17T20:51:38.4248257Z",
+      "dateUpdated": "2019-08-17T20:51:38.4248257Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
       "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 238222,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2988828,
+        "displayName": "jei_1.12.2-4.15.0.296.jar",
+        "fileName": "jei_1.12.2-4.15.0.296.jar",
+        "fileDate": "2020-06-25T23:02:35.42Z",
+        "fileLength": 653115,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2988/828/jei_1.12.2-4.15.0.296.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 563183461,
+            "type": 3
+          },
+          {
+            "foldername": "mezz",
+            "fingerprint": 4148417974,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1488642189,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1738225156,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3724754525,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 2316325014,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1903471,
+        "projectId": 238222,
+        "packageFingerprintId": 478261453,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2287526,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "jei_1.12.2-4.15.0.296 (1).jar"
+      },
+      "dateInstalled": "2020-08-17T21:03:16.6717773Z",
+      "dateUpdated": "2019-08-17T21:03:16.6717773Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -2645,16 +2927,16 @@
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Triumph-1.12.2-3.19.2.jar"
+        "FileNameOnDisk": "Triumph-1.12.2-3.19.2 (1).jar"
       },
-      "dateInstalled": "2020-08-17T20:33:18.8071083Z",
-      "dateUpdated": "2019-08-17T20:33:18.8071083Z",
+      "dateInstalled": "2020-08-17T20:52:21.9704433Z",
+      "dateUpdated": "2019-08-17T20:52:21.9704433Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": false,
+      "isModified": true,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
@@ -2751,6 +3033,179 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 239197,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 3032663,
+        "displayName": "CraftTweaker2-1.12-4.1.20.583.jar",
+        "fileName": "CraftTweaker2-1.12-4.1.20.583.jar",
+        "fileDate": "2020-08-15T00:24:34.207Z",
+        "fileLength": 1437093,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/3032/663/CraftTweaker2-1.12-4.1.20.583.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4144250242,
+            "type": 3
+          },
+          {
+            "foldername": "stanhebben",
+            "fingerprint": 1139667142,
+            "type": 3
+          },
+          {
+            "foldername": "crafttweaker",
+            "fingerprint": 2852386653,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2249719731,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2458517208,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 253005423,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 386941905,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1957628,
+        "projectId": 239197,
+        "packageFingerprintId": 505695513,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 2377026,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "CraftTweaker2-1.12-4.1.20.583.jar"
+      },
+      "dateInstalled": "2020-08-17T20:44:31.4787727Z",
+      "dateUpdated": "2019-08-17T20:44:31.4787727Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
+      "addonID": 253449,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2568751,
+        "displayName": "Hwyla-1.8.26-B41_1.12.2.jar",
+        "fileName": "Hwyla-1.8.26-B41_1.12.2.jar",
+        "fileDate": "2018-06-02T22:55:49.297Z",
+        "fileLength": 453778,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2568/751/Hwyla-1.8.26-B41_1.12.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 2568752,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4216876035,
+            "type": 3
+          },
+          {
+            "foldername": "mcp",
+            "fingerprint": 109170074,
+            "type": 3
+          },
+          {
+            "foldername": "LICENSE.txt",
+            "fingerprint": 2985416683,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1803519354,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1894937175,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 637705220,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1391405,
+        "projectId": 253449,
+        "packageFingerprintId": 244750874,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1592770,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Hwyla-1.8.26-B41_1.12.2.jar"
+      },
+      "dateInstalled": "2020-08-17T21:04:14.1049737Z",
+      "dateUpdated": "2019-08-17T21:04:14.1049737Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     }
   ],
   "isMigrated": false,

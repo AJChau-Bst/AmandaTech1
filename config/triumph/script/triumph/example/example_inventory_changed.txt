@@ -12,7 +12,7 @@ setDescription("Acquire the The Stick of Truth")
 addParent("triumph:example/root")
 
 //Set the position
-setPos(149,41)
+setPos(149,42)
 
 //Hide the connection lines, so I can have a pretty shape
 hideLines()
