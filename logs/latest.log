@@ -1,507 +1,624 @@
-[16:06:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:06:18] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:06:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[16:06:18] [main/INFO]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
-[16:06:18] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 10:amd64:10.0, installed at C:\Users\danie\Twitch\Minecraft\Install\runtime\jre-x64
-[16:06:18] [main/INFO]: Searching C:\Users\danie\Twitch\Minecraft\Instances\New Greg\mods for mods
-[16:06:18] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[16:06:18] [main/WARN]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
-[16:06:18] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in CustomLoadingScreen-1.12.2-1.4.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[16:06:18] [main/WARN]: The coremod ClsPlugin (alexiil.mc.mod.load.coremod.ClsPlugin) is not signed!
-[16:06:18] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
-[16:06:18] [main/WARN]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
-[16:06:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:06:18] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:06:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:06:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[16:06:18] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:06:20] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[16:06:20] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
-[16:06:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:06:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[16:06:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:06:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:06:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[16:06:20] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:06:20] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[16:06:20] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[16:06:21] [main/INFO]: Transforming net.minecraft.entity.Entity
-[16:06:21] [main/INFO]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
-[16:06:21] [main/INFO]: Located Method, patching...
-[16:06:21] [main/INFO]: Patch result: true
-[16:06:21] [main/INFO]: Located Method, patching...
-[16:06:21] [main/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
-[16:06:21] [main/INFO]: Patch result: true
-[16:06:21] [main/INFO]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
-[16:06:21] [main/INFO]: Located Method, patching...
-[16:06:21] [main/INFO]: Patch result: true
-[16:06:21] [main/INFO]: Transforming net.minecraft.client.gui.inventory.GuiContainer
-[16:06:21] [main/INFO]: Applying Transformation to method (Names [drawScreen, func_73863_a] Descriptor (IIF)V)
-[16:06:21] [main/INFO]: Located Method, patching...
-[16:06:21] [main/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.func_146979_b (II)V
-[16:06:21] [main/INFO]: Patch result: true
-[16:06:21] [main/INFO]: Transforming net.minecraft.world.WorldServer
-[16:06:21] [main/INFO]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
-[16:06:21] [main/INFO]: Located Method, patching...
-[16:06:21] [main/INFO]: Patch result: true
-[16:06:21] [main/INFO]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
-[16:06:21] [main/INFO]: Located Method, patching...
-[16:06:21] [main/INFO]: Patch result: true
-[16:06:21] [Client thread/INFO]: Setting user: Nomlasalmon
-[16:06:22] [Client thread/INFO]: Transforming net.minecraft.enchantment.Enchantment
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node IRETURN
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Transforming net.minecraft.entity.item.EntityItem
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Transforming net.minecraft.item.ItemStack
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node ARETURN
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Transforming net.minecraft.block.BlockDynamicLiquid
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node IRETURN
-[16:06:22] [Client thread/INFO]: Located patch target node IRETURN
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Transforming net.minecraft.block.BlockPistonBase
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Transforming net.minecraft.tileentity.TileEntityPiston
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:22] [Client thread/INFO]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
-[16:06:22] [Client thread/INFO]: Located Method, patching...
-[16:06:22] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
-[16:06:22] [Client thread/INFO]: Patch result: true
-[16:06:23] [Client thread/INFO]: Transforming net.minecraft.enchantment.EnchantmentDamage
-[16:06:23] [Client thread/INFO]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
-[16:06:23] [Client thread/INFO]: Located Method, patching...
-[16:06:23] [Client thread/INFO]: Located patch target node IRETURN
-[16:06:23] [Client thread/INFO]: Located patch target node IRETURN
-[16:06:23] [Client thread/INFO]: Patch result: true
-[16:06:23] [Client thread/INFO]: Transforming net.minecraft.entity.item.EntityMinecart
-[16:06:23] [Client thread/INFO]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
-[16:06:23] [Client thread/INFO]: Located Method, patching...
-[16:06:23] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
-[16:06:23] [Client thread/INFO]: Patch result: true
-[16:06:23] [Client thread/INFO]: Transforming net.minecraft.entity.item.EntityBoat
-[16:06:23] [Client thread/INFO]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
-[16:06:23] [Client thread/INFO]: Located Method, patching...
-[16:06:23] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
-[16:06:23] [Client thread/INFO]: Patch result: true
-[16:06:23] [Client thread/INFO]: Transforming net.minecraft.item.ItemBanner
-[16:06:23] [Client thread/INFO]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
-[16:06:23] [Client thread/INFO]: Located Method, patching...
-[16:06:23] [Client thread/INFO]: Located patch target node BIPUSH 6
-[16:06:23] [Client thread/INFO]: Patch result: true
-[16:06:23] [Client thread/INFO]: Transforming net.minecraft.entity.ai.EntityAITarget
-[16:06:23] [Client thread/INFO]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
-[16:06:23] [Client thread/INFO]: Located Method, patching...
-[16:06:23] [Client thread/INFO]: Patch result: true
-[16:06:24] [Client thread/INFO]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
-[16:06:24] [Client thread/INFO]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
-[16:06:24] [Client thread/INFO]: Located Method, patching...
-[16:06:24] [Client thread/INFO]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
-[16:06:24] [Client thread/INFO]: Patch result: true
-[16:06:24] [Client thread/INFO]: Transforming net.minecraft.inventory.ContainerMerchant
-[16:06:24] [Client thread/INFO]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
-[16:06:24] [Client thread/INFO]: Located Method, patching...
-[16:06:24] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[16:06:24] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[16:06:24] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[16:06:24] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
-[16:06:24] [Client thread/INFO]: Patch result: true
-[16:06:24] [Client thread/WARN]: Skipping bad option: lastServer:
-[16:06:24] [Client thread/INFO]: LWJGL Version: 2.9.4
-[16:06:25] [Client thread/INFO]: -- System Details --
+[16:35:57] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:35:57] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:35:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[16:35:57] [main/INFO]: Forge Mod Loader version 14.23.5.2854 for Minecraft 1.12.2 loading
+[16:35:57] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_51, running on Windows 10:amd64:10.0, installed at C:\Users\danie\Twitch\Minecraft\Install\runtime\jre-x64
+[16:35:57] [main/INFO]: Searching C:\Users\danie\Twitch\Minecraft\Instances\New Greg\mods for mods
+[16:35:57] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in AppleCore-mc1.12.2-3.4.0.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:35:57] [main/WARN]: The coremod AppleCore (squeek.applecore.AppleCore) is not signed!
+[16:35:57] [main/WARN]: The coremod com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:35:57] [main/WARN]: The coremod BNBGamingCore (com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCorePlugin) is not signed!
+[16:35:57] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in CTM-MC1.12.2-1.0.2.31.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:35:57] [main/WARN]: The coremod team.chisel.ctm.client.asm.CTMCorePlugin does not have a MCVersion annotation, it may cause issues with this version of Minecraft
+[16:35:57] [main/WARN]: The coremod CTMCorePlugin (team.chisel.ctm.client.asm.CTMCorePlugin) is not signed!
+[16:35:57] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in CustomLoadingScreen-1.12.2-1.4.1.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:35:57] [main/WARN]: The coremod ClsPlugin (alexiil.mc.mod.load.coremod.ClsPlugin) is not signed!
+[16:35:57] [main/WARN]: Found FMLCorePluginContainsFMLMod marker in Quark-r1.6-179.jar. This is not recommended, @Mods should be in a separate jar from the coremod.
+[16:35:57] [main/WARN]: The coremod Quark Plugin (vazkii.quark.base.asm.LoadingPlugin) is not signed!
+[16:35:57] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:35:57] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:35:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:35:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:35:57] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:35:58] [main/INFO]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:35:58] [main/INFO]: Found valid fingerprint for Minecraft. Certificate fingerprint cd99959656f753dc28d863b46769f7f8fbaefcfc
+[16:35:58] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:35:58] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:35:59] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:35:59] [main/INFO]: Minecraft version is 1.12.2 and BNBGamingCore accepts versions 1.12, . It will be registered.
+[16:35:59] [main/INFO]: Minecraft version is 1.12.2 and BNBGamingCore accepts versions 1.12, . It will be registered.
+[16:35:59] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:35:59] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:35:59] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:35:59] [main/INFO]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:35:59] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:35:59] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:35:59] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[16:35:59] [main/INFO]: Transforming net.minecraft.entity.Entity
+[16:35:59] [main/INFO]: Applying Transformation to method (Names [move, func_70091_d] Descriptor (Lnet/minecraft/entity/MoverType;DDD)V)
+[16:35:59] [main/INFO]: Located Method, patching...
+[16:35:59] [main/INFO]: Patch result: true
+[16:35:59] [main/INFO]: Located Method, patching...
+[16:35:59] [main/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/Entity.func_145775_I ()V
+[16:35:59] [main/INFO]: Patch result: true
+[16:35:59] [main/INFO]: Applying Transformation to method (Names [onEntityUpdate, func_70030_z] Descriptor ()V)
+[16:35:59] [main/INFO]: Located Method, patching...
+[16:35:59] [main/INFO]: Patch result: true
+[16:35:59] [main/INFO]: Transforming net.minecraft.client.gui.inventory.GuiContainer
+[16:35:59] [main/INFO]: Applying Transformation to method (Names [drawScreen, func_73863_a] Descriptor (IIF)V)
+[16:35:59] [main/INFO]: Located Method, patching...
+[16:35:59] [main/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/client/gui/inventory/GuiContainer.func_146979_b (II)V
+[16:35:59] [main/INFO]: Patch result: true
+[16:36:00] [main/INFO]: Transforming net.minecraft.world.WorldServer
+[16:36:00] [main/INFO]: Applying Transformation to method (Names [areAllPlayersAsleep, func_73056_e] Descriptor ()Z)
+[16:36:00] [main/INFO]: Located Method, patching...
+[16:36:00] [main/INFO]: Patch result: true
+[16:36:00] [main/INFO]: Applying Transformation to method (Names [wakeAllPlayers, func_73053_d] Descriptor ()V)
+[16:36:00] [main/INFO]: Located Method, patching...
+[16:36:00] [main/INFO]: Patch result: true
+[16:36:00] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.ForgeHooksClient], Method [getDamageModel]
+[16:36:00] [main/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.ForgeHooksClient Finished.
+[16:36:00] [Client thread/INFO]: Setting user: Nomlasalmon
+[16:36:00] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.block.Block], Method [getExtendedState]
+[16:36:00] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.block.Block Finished.
+[16:36:00] [Client thread/INFO]: Transforming net.minecraft.enchantment.Enchantment
+[16:36:00] [Client thread/INFO]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[16:36:00] [Client thread/INFO]: Located Method, patching...
+[16:36:00] [Client thread/INFO]: Located patch target node IRETURN
+[16:36:00] [Client thread/INFO]: Patch result: true
+[16:36:00] [Client thread/INFO]: Transforming net.minecraft.entity.item.EntityItem
+[16:36:00] [Client thread/INFO]: Applying Transformation to method (Names [onUpdate, func_70071_h_] Descriptor ()V)
+[16:36:00] [Client thread/INFO]: Located Method, patching...
+[16:36:00] [Client thread/INFO]: Patch result: true
+[16:36:00] [Client thread/INFO]: Transforming net.minecraft.item.ItemStack
+[16:36:00] [Client thread/INFO]: Applying Transformation to method (Names [getTextComponent, func_151000_E] Descriptor ()Lnet/minecraft/util/text/ITextComponent;)
+[16:36:00] [Client thread/INFO]: Located Method, patching...
+[16:36:00] [Client thread/INFO]: Located patch target node ARETURN
+[16:36:00] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Transforming net.minecraft.block.BlockDynamicLiquid
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [isBlocked, func_176372_g] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)Z)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Located patch target node IRETURN
+[16:36:01] [Client thread/INFO]: Located patch target node IRETURN
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Transforming net.minecraft.block.BlockPistonBase
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [canPush, func_185646_a] Descriptor (Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;ZLnet/minecraft/util/EnumFacing;)Z)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/block/Block.hasTileEntity (Lnet/minecraft/block/state/IBlockState;)Z
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/block/state/BlockPistonStructureHelper.func_177254_c ()Ljava/util/List;
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [doMove, func_176319_a] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)Z)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [checkForMove, func_176316_e] Descriptor (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;)V)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Located patch target node INVOKESPECIAL net/minecraft/block/state/BlockPistonStructureHelper.<init> (Lnet/minecraft/world/World;Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/util/EnumFacing;Z)V
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Transforming net.minecraft.tileentity.TileEntityPiston
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [clearPistonTileEntity, func_145866_f] Descriptor ()V)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [update, func_73660_a] Descriptor ()V)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/world/World.func_180501_a (Lnet/minecraft/util/math/BlockPos;Lnet/minecraft/block/state/IBlockState;I)Z
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:01] [Client thread/INFO]: Transforming net.minecraft.enchantment.EnchantmentDamage
+[16:36:01] [Client thread/INFO]: Applying Transformation to method (Names [canApply, func_92089_a] Descriptor (Lnet/minecraft/item/ItemStack;)Z)
+[16:36:01] [Client thread/INFO]: Located Method, patching...
+[16:36:01] [Client thread/INFO]: Located patch target node IRETURN
+[16:36:01] [Client thread/INFO]: Located patch target node IRETURN
+[16:36:01] [Client thread/INFO]: Patch result: true
+[16:36:02] [Client thread/INFO]: Transforming net.minecraft.entity.item.EntityMinecart
+[16:36:02] [Client thread/INFO]: Applying Transformation to method (Names [killMinecart, func_94095_a] Descriptor (Lnet/minecraft/util/DamageSource;)V)
+[16:36:02] [Client thread/INFO]: Located Method, patching...
+[16:36:02] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityMinecart.func_70099_a (Lnet/minecraft/item/ItemStack;F)Lnet/minecraft/entity/item/EntityItem;
+[16:36:02] [Client thread/INFO]: Patch result: true
+[16:36:02] [Client thread/INFO]: Transforming net.minecraft.entity.item.EntityBoat
+[16:36:02] [Client thread/INFO]: Applying Transformation to method (Names [attackEntityFrom, func_70097_a] Descriptor (Lnet/minecraft/util/DamageSource;F)Z)
+[16:36:02] [Client thread/INFO]: Located Method, patching...
+[16:36:02] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/entity/item/EntityBoat.func_145778_a (Lnet/minecraft/item/Item;IF)Lnet/minecraft/entity/item/EntityItem;
+[16:36:02] [Client thread/INFO]: Patch result: true
+[16:36:02] [Client thread/INFO]: Transforming net.minecraft.item.ItemBanner
+[16:36:02] [Client thread/INFO]: Applying Transformation to method (Names [appendHoverTextFromTileEntityTag, func_185054_a] Descriptor (Lnet/minecraft/item/ItemStack;Ljava/util/List;)V)
+[16:36:02] [Client thread/INFO]: Located Method, patching...
+[16:36:02] [Client thread/INFO]: Located patch target node BIPUSH 6
+[16:36:02] [Client thread/INFO]: Patch result: true
+[16:36:02] [Client thread/INFO]: Transforming net.minecraft.entity.ai.EntityAITarget
+[16:36:02] [Client thread/INFO]: Applying Transformation to method (Names [isSuitableTarget, func_179445_a] Descriptor (Lnet/minecraft/entity/EntityLiving;Lnet/minecraft/entity/EntityLivingBase;ZZ)Z)
+[16:36:02] [Client thread/INFO]: Located Method, patching...
+[16:36:02] [Client thread/INFO]: Patch result: true
+[16:36:02] [Client thread/INFO]: Transforming net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern
+[16:36:02] [Client thread/INFO]: Applying Transformation to method (Names [matches, func_77569_a] Descriptor (Lnet/minecraft/inventory/InventoryCrafting;Lnet/minecraft/world/World;)Z)
+[16:36:02] [Client thread/INFO]: Located Method, patching...
+[16:36:02] [Client thread/INFO]: Located patch target node INVOKESTATIC net/minecraft/tileentity/TileEntityBanner.func_175113_c (Lnet/minecraft/item/ItemStack;)I
+[16:36:02] [Client thread/INFO]: Patch result: true
+[16:36:03] [Client thread/INFO]: Transforming net.minecraft.inventory.ContainerMerchant
+[16:36:03] [Client thread/INFO]: Applying Transformation to method (Names [transferStackInSlot, func_82846_b] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;I)Lnet/minecraft/item/ItemStack;)
+[16:36:03] [Client thread/INFO]: Located Method, patching...
+[16:36:03] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[16:36:03] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[16:36:03] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[16:36:03] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/inventory/ContainerMerchant.func_75135_a (Lnet/minecraft/item/ItemStack;IIZ)Z
+[16:36:03] [Client thread/INFO]: Patch result: true
+[16:36:03] [Client thread/WARN]: Skipping bad option: lastServer:
+[16:36:03] [Client thread/INFO]: LWJGL Version: 2.9.4
+[16:36:04] [Client thread/INFO]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_51, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 629468088 bytes (600 MB) / 759693312 bytes (724 MB) up to 3008888832 bytes (2869 MB)
+	Memory: 768377208 bytes (732 MB) / 894435328 bytes (853 MB) up to 3008888832 bytes (2869 MB)
 	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3228m -Xms256m -XX:PermSize=256m
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
+BNBGamingCore (BNBGamingCore-1.12.2-0.12.0.jar)
+  com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCoreClassTransformer
 Quark Plugin (Quark-r1.6-179.jar)
   vazkii.quark.base.asm.ClassTransformer
 AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
   squeek.applecore.asm.TransformerModuleHandler
 ClsPlugin (CustomLoadingScreen-1.12.2-1.4.1.jar)
   alexiil.mc.mod.load.coremod.ClsTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 442.23' Renderer: 'GeForce GTX 1650/PCIe/SSE2'
-[16:06:25] [Client thread/INFO]: MinecraftForge v14.23.5.2854 Initialized
-[16:06:26] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[16:06:26] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[16:06:26] [Client thread/INFO]: Replaced 1227 ore ingredients
-[16:06:26] [Thread-3/INFO]: Not loading compat for SplashAnimation, as we didn't find 'pl.asie.splashanimation.SplashAnimationRenderer'
-[16:06:26] [Client thread/INFO]: Searching C:\Users\danie\Twitch\Minecraft\Instances\New Greg\mods for mods
-[16:06:27] [Client thread/WARN]: Mod betterbuilderswands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.11.1
-[16:06:27] [Client thread/WARN]: Mod customloadingscreen is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-1.4.1
-[16:06:28] [Client thread/WARN]: Mod magicbees is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
-[16:06:28] [Client thread/INFO]: Forge Mod Loader has identified 19 mods to load
-[16:06:28] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, applecore, autoreglib, beebetteratbees, betterbuilderswands, betterquesting, carpentersblocks, customloadingscreen, cutepuppymod, forestry, hungeroverhaul, magicbees, harvestcraft, quark, refinedstorage, travelersbackpack] at CLIENT
-[16:06:28] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, applecore, autoreglib, beebetteratbees, betterbuilderswands, betterquesting, carpentersblocks, customloadingscreen, cutepuppymod, forestry, hungeroverhaul, magicbees, harvestcraft, quark, refinedstorage, travelersbackpack] at SERVER
-[16:06:28] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.Render
-[16:06:28] [Client thread/INFO]: Applying Transformation to method (Names [renderEntityOnFire, func_76977_a] Descriptor (Lnet/minecraft/entity/Entity;DDDF)V)
-[16:06:28] [Client thread/INFO]: Located Method, patching...
-[16:06:28] [Client thread/INFO]: Patch result: true
-[16:06:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Custom Loading Screen, FMLFileResourcePack:CutePuppyMod, FMLFileResourcePack:Forestry, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:MagicBees, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Quark, FMLFileResourcePack:Refined Storage, FMLFileResourcePack:Traveler's Backpack
-[16:06:29] [Client thread/INFO]: Transforming net.minecraft.client.renderer.RenderItem
-[16:06:29] [Client thread/INFO]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
-[16:06:29] [Client thread/INFO]: Located Method, patching...
-[16:06:29] [Client thread/INFO]: Patch result: true
-[16:06:29] [Client thread/INFO]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
-[16:06:29] [Client thread/INFO]: Located Method, patching...
-[16:06:29] [Client thread/INFO]: Located patch target node LDC -8372020
-[16:06:29] [Client thread/INFO]: Located patch target node LDC -8372020
-[16:06:29] [Client thread/INFO]: Patch result: true
-[16:06:29] [Client thread/INFO]: Transforming net.minecraft.client.renderer.EntityRenderer
-[16:06:29] [Client thread/INFO]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
-[16:06:29] [Client thread/INFO]: Located Method, patching...
-[16:06:29] [Client thread/INFO]: Located patch target node INVOKESPECIAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
-[16:06:29] [Client thread/INFO]: Patch result: true
-[16:06:29] [Client thread/INFO]: Getting sample/rotating_cakes as CONFIG
-[16:06:29] [Client thread/INFO]: Getting sample/rotating_cake_top_left as RENDERING_PART
-[16:06:29] [Client thread/INFO]: Getting sample/cake_top_left as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/cake as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/item as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/item_rotate_clockwise as INSTRUCTION
-[16:06:29] [Client thread/INFO]: Getting sample/rotating_cake_top_right as RENDERING_PART
-[16:06:29] [Client thread/INFO]: Getting sample/cake_top_right as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/cake as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/item as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/item_rotate_anti_clockwise as INSTRUCTION
-[16:06:29] [Client thread/INFO]: Getting sample/rotating_cake_bottom_left as RENDERING_PART
-[16:06:29] [Client thread/INFO]: Getting sample/cake_bottom_left as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/cake as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/item as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/item_rotate_clockwise as INSTRUCTION
-[16:06:29] [Client thread/INFO]: Getting sample/rotating_cake_bottom_right as RENDERING_PART
-[16:06:29] [Client thread/INFO]: Getting sample/cake_bottom_right as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/cake as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/item as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/item_rotate_anti_clockwise as INSTRUCTION
-[16:06:29] [Client thread/INFO]: Getting sample/block_cake_side_4_wide as RENDERING_PART
-[16:06:29] [Client thread/WARN]: Tried to get the resource but failed! (customloadingscreen:sample/imagemeta/block_cake_side_4_wide.json) because class java.io.FileNotFoundException
-[16:06:29] [Client thread/INFO]: Getting sample/block_cake_side_4_wide as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/block_4_wide as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/block_cake_inner_4_wide as RENDERING_PART
-[16:06:29] [Client thread/WARN]: Tried to get the resource but failed! (customloadingscreen:sample/imagemeta/block_cake_inner_4_wide.json) because class java.io.FileNotFoundException
-[16:06:29] [Client thread/INFO]: Getting sample/block_cake_inner_4_wide as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/block_4_wide_percentage as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/block_4_wide as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/text_status as RENDERING_PART
-[16:06:29] [Client thread/WARN]: Tried to get the resource but failed! (customloadingscreen:sample/imagemeta/text_status.json) because class java.io.FileNotFoundException
-[16:06:29] [Client thread/INFO]: Getting sample/text_status as IMAGE
-[16:06:29] [Client thread/INFO]: Getting sample/text_percentage as RENDERING_PART
-[16:06:29] [Client thread/WARN]: Tried to get the resource but failed! (customloadingscreen:sample/imagemeta/text_percentage.json) because class java.io.FileNotFoundException
-[16:06:29] [Client thread/INFO]: Getting sample/text_percentage as IMAGE
-[16:06:29] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Custom Loading Screen, FMLFileResourcePack:CutePuppyMod, FMLFileResourcePack:Forestry, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:MagicBees, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Quark, FMLFileResourcePack:Refined Storage, FMLFileResourcePack:Traveler's Backpack
-[16:06:29] [Client thread/INFO]: Transforming net.minecraft.util.DamageSource
-[16:06:29] [Client thread/INFO]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
-[16:06:29] [Client thread/INFO]: Located Method, patching...
-[16:06:29] [Client thread/INFO]: Patch result: true
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: java.io.IOException: 0 mods isn't right!
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.progress.LongTermProgressTracker.<init>(LongTermProgressTracker.java:84)
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.progress.LongTermProgressTracker.load(LongTermProgressTracker.java:35)
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.progress.SingleProgressBarTracker.update(SingleProgressBarTracker.java:69)
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.progress.SingleProgressBarTracker.lockUpdate(SingleProgressBarTracker.java:56)
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.ClsManager.renderFrame(ClsManager.java:128)
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.render.MainSplashRenderer.renderFrame(MainSplashRenderer.java:263)
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.render.MainSplashRenderer.run(MainSplashRenderer.java:212)
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at net.minecraftforge.fml.client.SplashProgress$2.run(SplashProgress.java:260)
-[16:06:29] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at java.lang.Thread.run(Thread.java:745)
-[16:06:30] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Custom Loading Screen, FMLFileResourcePack:CutePuppyMod, FMLFileResourcePack:Forestry, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:MagicBees, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Quark, FMLFileResourcePack:Refined Storage, FMLFileResourcePack:Traveler's Backpack
-[16:06:30] [Client thread/INFO]: Processing ObjectHolder annotations
-[16:06:30] [Client thread/INFO]: Found 1173 ObjectHolder annotations
-[16:06:30] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[16:06:30] [Client thread/INFO]: Found 2 ItemStackHolder annotations
-[16:06:30] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[16:06:30] [Forge Version Check/INFO]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
-[16:06:30] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.RenderManager
-[16:06:30] [Client thread/INFO]: Applying Transformation to method (Names [renderEntity, func_188391_a] Descriptor (Lnet/minecraft/entity/Entity;DDDFFZ)V)
-[16:06:30] [Client thread/INFO]: Located Method, patching...
-[16:06:30] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/entity/Render.func_76986_a (Lnet/minecraft/entity/Entity;DDDFF)V
-[16:06:30] [Client thread/INFO]: Patch result: true
-[16:06:31] [Forge Version Check/INFO]: [travelersbackpack] Found status: UP_TO_DATE Target: null
-[16:06:31] [Forge Version Check/INFO]: [refinedstorage] Starting version check at https://refinedstorage.raoulvdberge.com/update
-[16:06:31] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[16:06:31] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Target: null
-[16:06:31] [Client thread/INFO]: Module client is enabled
-[16:06:31] [Client thread/INFO]: Module misc is enabled
-[16:06:31] [Client thread/INFO]: Module experimental is enabled
-[16:06:31] [Client thread/INFO]: Module world is enabled
-[16:06:31] [Client thread/INFO]: Module tweaks is enabled
-[16:06:31] [Client thread/INFO]: Module vanity is enabled
-[16:06:31] [Client thread/INFO]: Module building is enabled
-[16:06:31] [Client thread/INFO]: Module automation is enabled
-[16:06:31] [Client thread/INFO]: Module decoration is enabled
-[16:06:31] [Client thread/INFO]: Module management is enabled
-[16:06:31] [Client thread/INFO]: Transforming net.minecraft.client.model.ModelBiped
-[16:06:31] [Client thread/INFO]: Applying Transformation to method (Names [setRotationAngles, func_78087_a] Descriptor (FFFFFFLnet/minecraft/entity/Entity;)V)
-[16:06:31] [Client thread/INFO]: Located Method, patching...
-[16:06:31] [Client thread/INFO]: Located patch target node RETURN
-[16:06:31] [Client thread/INFO]: Patch result: true
-[16:06:34] [Client thread/INFO]: Transforming net.minecraft.client.renderer.tileentity.TileEntityPistonRenderer
-[16:06:34] [Client thread/INFO]: Applying Transformation to method (Names [render, func_192841_a] Descriptor (Lnet/minecraft/tileentity/TileEntityPiston;DDDFIF)V)
-[16:06:34] [Client thread/INFO]: Located Method, patching...
-[16:06:34] [Client thread/INFO]: Patch result: true
-[16:06:34] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Custom Loading Screen, FMLFileResourcePack:CutePuppyMod, FMLFileResourcePack:Forestry, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:MagicBees, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Quark, FMLFileResourcePack:Refined Storage, FMLFileResourcePack:Traveler's Backpack, quark-texture-proxy, quark-emote-pack
-[16:06:34] [Client thread/INFO]: Module BuildCraft 6 Transport Module failed to load: buildcrafttransport not found
-[16:06:34] [Client thread/INFO]: Module Roots Module failed to load: Roots not found
-[16:06:34] [Client thread/INFO]: Module BuildCraft 6 Recipes Module failed to load: Compatible BuildCraftAPI|recipes version not found
-[16:06:34] [Client thread/INFO]: Module EnderIO Module failed to load: EnderIO not found
-[16:06:34] [Client thread/INFO]: Module Natura Module failed to load: Natura not found
-[16:06:34] [Client thread/INFO]: Module rustic Module failed to load: Rustic not found
-[16:06:34] [Client thread/INFO]: Module TechReborn Module failed to load: TechReborn not found
-[16:06:34] [Client thread/INFO]: Module BuildCraft 6 Fuels Module failed to load: Compatible BuildCraftAPI|fuels version not found
-[16:06:34] [Client thread/INFO]: Module ImmersiveEngineering Module failed to load: ImmersiveEngineering not found
-[16:06:34] [Client thread/INFO]: Module Actually Additions Module failed to load: Actually Additions not found
-[16:06:34] [Client thread/INFO]: Module Better With Mods Module failed to load: Better With Mods not found
-[16:06:34] [Client thread/INFO]: Module Mystical Agriculture Module failed to load: Mystical Agriculture not found
-[16:06:34] [Client thread/INFO]: Module Extra Utilities Module failed to load: Extra Utilities not found
-[16:06:34] [Client thread/INFO]: Module BuildCraft 6 Statements Module failed to load: Compatible BuildCraftAPI|statements version not found
-[16:06:34] [Client thread/INFO]: Module BiomesOPlenty Module failed to load: BiomesOPlenty not found
-[16:06:34] [Client thread/INFO]: Module IndustrialCraft2 Module failed to load: IndustrialCraft2 not found
-[16:06:36] [Client thread/INFO]: Access transform success createStackedBlock (func_180643_i).
-[16:06:38] [Client thread/INFO]: Designs found: Bed(6), Chisel(9), FlowerPot(18), Tile(13)
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitymagicbeeseffectjar`, expected `magicbees`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/INFO]: Mod appliedenergistics2 not detected, not activating module AE2 Integration
-[16:06:38] [Client thread/INFO]: Mod thermalexpansion not detected, not activating module ThermalExpansion Integration
-[16:06:38] [Client thread/INFO]: Mod botania not detected, not activating module Botania Integration
-[16:06:38] [Client thread/INFO]: Mod railcraft not detected, not activating module Railcraft Integration
-[16:06:38] [Client thread/INFO]: Mod redstonearsenal not detected, not activating module RedstoneArsenal Integration
-[16:06:38] [Client thread/INFO]: Preinitializing modules for mod magicbees...
-[16:06:38] [Client thread/INFO]:    Preinitializing module Vanilla Module
-[16:06:38] [Client thread/INFO]: Preinitialized 1 module for mod magicbees
-[16:06:38] [Client thread/INFO]: MagicBees has Pre-initialized in 184 ms
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `apple`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `carrot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `melon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `clownfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pufferfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `baked_potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:38] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:39] [Client thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectWater as a FluidEffect for water with the ID 0
-[16:06:39] [Client thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectLava as a FluidEffect for lava with the ID 1
-[16:06:39] [Client thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectMilk as a FluidEffect for milk with the ID 2
-[16:06:39] [Client thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectPotion as a FluidEffect for potion with the ID 3
-[16:06:39] [Client thread/INFO]: Starting the Integration Handler.
-[16:06:39] [Client thread/INFO]: Didn't find any possible mod integration(s)!
-[16:06:39] [Client thread/INFO]: Applying holder lookups
-[16:06:39] [Client thread/INFO]: Holder lookups applied
-[16:06:39] [Client thread/INFO]: Applying holder lookups
-[16:06:39] [Client thread/INFO]: Holder lookups applied
-[16:06:39] [Client thread/INFO]: Applying holder lookups
-[16:06:39] [Client thread/INFO]: Holder lookups applied
-[16:06:39] [Client thread/INFO]: OBJLoader: Domain magicbees has been added.
-[16:06:39] [Client thread/INFO]: Applying holder lookups
-[16:06:39] [Client thread/INFO]: Holder lookups applied
-[16:06:39] [Client thread/INFO]: Injecting itemstacks
-[16:06:39] [Client thread/INFO]: Itemstack injection complete
-[16:06:40] [Sound Library Loader/INFO]: Starting up SoundSystem...
-[16:06:40] [Thread-5/INFO]: Initializing LWJGL OpenAL
-[16:06:40] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[16:06:40] [Thread-5/INFO]: OpenAL initialized.
-[16:06:40] [Sound Library Loader/INFO]: Sound engine started
-[16:06:48] [Client thread/INFO]: Max texture size: 16384
-[16:06:50] [Client thread/INFO]: Created: 2048x1024 textures-atlas
-[16:06:50] [Client thread/INFO]: Transforming net.minecraftforge.client.model.pipeline.LightUtil
-[16:06:50] [Client thread/INFO]: Applying Transformation to method (Names [renderQuadColor, ] Descriptor (Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/block/model/BakedQuad;I)V)
-[16:06:50] [Client thread/INFO]: Located Method, patching...
-[16:06:50] [Client thread/INFO]: Patch result: true
-[16:06:56] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.layers.LayerArmorBase
-[16:06:56] [Client thread/INFO]: Applying Transformation to method (Names [renderArmorLayer, func_188361_a] Descriptor (Lnet/minecraft/entity/EntityLivingBase;FFFFFFFLnet/minecraft/inventory/EntityEquipmentSlot;)V)
-[16:06:56] [Client thread/INFO]: Located Method, patching...
-[16:06:56] [Client thread/INFO]: Patch result: true
-[16:06:56] [Client thread/INFO]: Applying Transformation to method (Names [renderEnchantedGlint, func_188364_a] Descriptor (Lnet/minecraft/client/renderer/entity/RenderLivingBase;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/client/model/ModelBase;FFFFFFF)V)
-[16:06:56] [Client thread/INFO]: Located Method, patching...
-[16:06:56] [Client thread/INFO]: Located patch target node INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179131_c (FFFF)V
-[16:06:56] [Client thread/INFO]: Located patch target node INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179131_c (FFFF)V
-[16:06:56] [Client thread/INFO]: Patch result: true
-[16:06:56] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.RenderBoat
-[16:06:56] [Client thread/INFO]: Applying Transformation to method (Names [doRender, func_188300_b] Descriptor (Lnet/minecraft/entity/item/EntityBoat;DDDFF)V)
-[16:06:56] [Client thread/INFO]: Located Method, patching...
-[16:06:56] [Client thread/INFO]: Located patch target node INVOKEINTERFACE net/minecraft/client/model/IMultipassModel.func_187054_b (Lnet/minecraft/entity/Entity;FFFFFF)V
-[16:06:56] [Client thread/INFO]: Patch result: true
-[16:06:56] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.layers.LayerEntityOnShoulder
-[16:06:56] [Client thread/INFO]: Applying Transformation to method (Names [renderEntityOnShoulder, func_192864_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/UUID;Lnet/minecraft/nbt/NBTTagCompound;Lnet/minecraft/client/renderer/entity/RenderLivingBase;Lnet/minecraft/client/model/ModelBase;Lnet/minecraft/util/ResourceLocation;Ljava/lang/Class;FFFFFFFZ)Lnet/minecraft/client/renderer/entity/layers/LayerEntityOnShoulder$DataHolder;)
-[16:06:56] [Client thread/INFO]: Located Method, patching...
-[16:06:56] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/entity/RenderLivingBase.func_110776_a (Lnet/minecraft/util/ResourceLocation;)V
-[16:06:56] [Client thread/INFO]: Patch result: true
-[16:06:57] [Client thread/INFO]: Transforming net.minecraft.client.renderer.BlockModelRenderer
-[16:06:57] [Client thread/INFO]: Applying Transformation to method (Names [renderQuadsFlat, func_187496_a] Descriptor (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;IZLnet/minecraft/client/renderer/BufferBuilder;Ljava/util/List;Ljava/util/BitSet;)V)
-[16:06:57] [Client thread/INFO]: Located Method, patching...
-[16:06:57] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_178987_a (DDD)V
-[16:06:57] [Client thread/INFO]: Patch result: true
-[16:06:57] [Client thread/INFO]: Transforming net.minecraft.enchantment.EnchantmentHelper
-[16:06:57] [Client thread/INFO]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
-[16:06:57] [Client thread/INFO]: Located Method, patching...
-[16:06:57] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
-[16:06:57] [Client thread/INFO]: Patch result: true
-[16:06:59] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:59] [Client thread/WARN]: Unable to find recipe for minecraft:rabbit_stew
-[16:06:59] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:59] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:59] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:59] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:06:59] [Client thread/WARN]: Unable to find recipe for minecraft:baked_potato
-[16:06:59] [Client thread/INFO]: Applying holder lookups
-[16:06:59] [Client thread/INFO]: Holder lookups applied
-[16:06:59] [Client thread/INFO]: Created: 256x128 textures-atlas
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitycarpentersblock`, expected `carpentersblocks`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:01] [Client thread/INFO]: Initializing modules for mod magicbees...
-[16:07:01] [Client thread/INFO]:    Initializing module Vanilla Module
-[16:07:01] [Client thread/INFO]: Initialized 1 module for mod magicbees
-[16:07:01] [Client thread/INFO]: Registering 96 new bee species!
-[16:07:01] [Client thread/INFO]: MagicBees has Initialized in 46 ms
-[16:07:01] [Client thread/INFO]: minecraft:ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
-[16:07:01] [Client thread/INFO]: minecraft:plains;MEDIUM;0.8;false;false;false;[PLAINS]
-[16:07:01] [Client thread/INFO]: minecraft:desert;WARM;2.0;false;false;false;[HOT, SANDY, DRY]
-[16:07:01] [Client thread/INFO]: minecraft:extreme_hills;MEDIUM;0.2;false;false;false;[HILLS, MOUNTAIN]
-[16:07:01] [Client thread/INFO]: minecraft:forest;MEDIUM;0.7;false;false;false;[FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:taiga;MEDIUM;0.25;false;false;false;[FOREST, CONIFEROUS, COLD]
-[16:07:01] [Client thread/INFO]: minecraft:swampland;MEDIUM;0.8;true;false;false;[SWAMP, WET]
-[16:07:01] [Client thread/INFO]: minecraft:river;MEDIUM;0.5;false;false;false;[RIVER, WATER]
-[16:07:01] [Client thread/INFO]: minecraft:hell;WARM;2.0;false;false;false;[HOT, DRY, NETHER]
-[16:07:01] [Client thread/INFO]: minecraft:sky;MEDIUM;0.5;false;false;false;[DRY, END, COLD]
-[16:07:01] [Client thread/INFO]: minecraft:frozen_ocean;OCEAN;0.0;false;false;true;[WATER, COLD, OCEAN, SNOWY]
-[16:07:01] [Client thread/INFO]: minecraft:frozen_river;COLD;0.0;false;false;true;[RIVER, WATER, COLD, SNOWY]
-[16:07:01] [Client thread/INFO]: minecraft:ice_flats;COLD;0.0;false;false;true;[COLD, WASTELAND, SNOWY]
-[16:07:01] [Client thread/INFO]: minecraft:ice_mountains;COLD;0.0;false;false;true;[MOUNTAIN, COLD, SNOWY]
-[16:07:01] [Client thread/INFO]: minecraft:mushroom_island;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM]
-[16:07:01] [Client thread/INFO]: minecraft:mushroom_island_shore;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM, BEACH]
-[16:07:01] [Client thread/INFO]: minecraft:beaches;MEDIUM;0.8;false;false;false;[BEACH]
-[16:07:01] [Client thread/INFO]: minecraft:desert_hills;WARM;2.0;false;false;false;[HOT, SANDY, DRY, HILLS]
-[16:07:01] [Client thread/INFO]: minecraft:forest_hills;MEDIUM;0.7;false;false;false;[HILLS, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:taiga_hills;MEDIUM;0.25;false;false;false;[HILLS, FOREST, CONIFEROUS, COLD]
-[16:07:01] [Client thread/INFO]: minecraft:smaller_extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN]
-[16:07:01] [Client thread/INFO]: minecraft:jungle;MEDIUM;0.95;true;false;false;[HOT, DENSE, JUNGLE, WET]
-[16:07:01] [Client thread/INFO]: minecraft:jungle_hills;MEDIUM;0.95;true;false;false;[HOT, HILLS, DENSE, JUNGLE, WET]
-[16:07:01] [Client thread/INFO]: minecraft:jungle_edge;MEDIUM;0.95;false;false;false;[HOT, RARE, FOREST, JUNGLE, WET]
-[16:07:01] [Client thread/INFO]: minecraft:deep_ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
-[16:07:01] [Client thread/INFO]: minecraft:stone_beach;MEDIUM;0.2;false;false;false;[BEACH]
-[16:07:01] [Client thread/INFO]: minecraft:cold_beach;COLD;0.05;false;false;true;[COLD, SNOWY, BEACH]
-[16:07:01] [Client thread/INFO]: minecraft:birch_forest;MEDIUM;0.6;false;false;false;[FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:birch_forest_hills;MEDIUM;0.6;false;false;false;[HILLS, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:roofed_forest;MEDIUM;0.7;false;false;false;[DENSE, SPOOKY, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:taiga_cold;COLD;-0.5;false;false;true;[FOREST, CONIFEROUS, COLD, SNOWY]
-[16:07:01] [Client thread/INFO]: minecraft:taiga_cold_hills;COLD;-0.5;false;false;true;[HILLS, FOREST, CONIFEROUS, COLD, SNOWY]
-[16:07:01] [Client thread/INFO]: minecraft:redwood_taiga;MEDIUM;0.3;false;false;false;[FOREST, CONIFEROUS, COLD]
-[16:07:01] [Client thread/INFO]: minecraft:redwood_taiga_hills;MEDIUM;0.3;false;false;false;[HILLS, FOREST, CONIFEROUS, COLD]
-[16:07:01] [Client thread/INFO]: minecraft:extreme_hills_with_trees;MEDIUM;0.2;false;false;false;[MOUNTAIN, SPARSE, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:savanna;WARM;1.2;false;false;false;[HOT, PLAINS, SPARSE, SAVANNA]
-[16:07:01] [Client thread/INFO]: minecraft:savanna_rock;WARM;1.0;false;false;false;[HOT, PLAINS, RARE, SPARSE, SAVANNA]
-[16:07:01] [Client thread/INFO]: minecraft:mesa;WARM;2.0;false;false;false;[SANDY, DRY, MESA]
-[16:07:01] [Client thread/INFO]: minecraft:mesa_rock;WARM;2.0;false;false;false;[SANDY, DRY, SPARSE, MESA]
-[16:07:01] [Client thread/INFO]: minecraft:mesa_clear_rock;WARM;2.0;false;false;false;[SANDY, DRY, MESA]
-[16:07:01] [Client thread/INFO]: minecraft:void;MEDIUM;0.5;false;false;false;[VOID]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_plains;MEDIUM;0.8;false;true;false;[PLAINS, RARE]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_desert;WARM;2.0;false;true;false;[HOT, SANDY, DRY, RARE]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_extreme_hills;MEDIUM;0.2;false;true;false;[RARE, MOUNTAIN, SPARSE]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_forest;MEDIUM;0.7;false;true;false;[HILLS, RARE, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_taiga;MEDIUM;0.25;false;true;false;[RARE, MOUNTAIN, FOREST, CONIFEROUS, COLD]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_swampland;MEDIUM;0.8;true;true;false;[SWAMP, HILLS, RARE, WET]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_ice_flats;COLD;0.0;false;true;true;[HILLS, RARE, COLD, SNOWY]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_jungle;MEDIUM;0.95;true;true;false;[HOT, RARE, MOUNTAIN, DENSE, JUNGLE, WET]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_jungle_edge;MEDIUM;0.95;false;true;false;[HOT, HILLS, RARE, SPARSE, JUNGLE]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_birch_forest;MEDIUM;0.6;false;true;false;[HILLS, RARE, DENSE, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_birch_forest_hills;MEDIUM;0.6;false;true;false;[RARE, MOUNTAIN, DENSE, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_roofed_forest;MEDIUM;0.7;false;true;false;[RARE, MOUNTAIN, DENSE, SPOOKY, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_taiga_cold;COLD;-0.5;false;true;true;[RARE, MOUNTAIN, FOREST, CONIFEROUS, COLD, SNOWY]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_redwood_taiga;MEDIUM;0.25;false;true;false;[RARE, DENSE, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_redwood_taiga_hills;MEDIUM;0.25;false;true;false;[HILLS, RARE, DENSE, FOREST]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_extreme_hills_with_trees;MEDIUM;0.2;false;true;false;[RARE, MOUNTAIN, SPARSE]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_savanna;WARM;1.1;false;true;false;[HOT, DRY, RARE, MOUNTAIN, SPARSE, SAVANNA]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_savanna_rock;WARM;1.0;false;true;false;[HOT, DRY, HILLS, RARE, SPARSE, SAVANNA]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_mesa;WARM;2.0;false;true;false;[HOT, DRY, RARE, MOUNTAIN, SPARSE]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_mesa_rock;WARM;2.0;false;true;false;[HOT, DRY, HILLS, RARE, SPARSE]
-[16:07:01] [Client thread/INFO]: minecraft:mutated_mesa_clear_rock;WARM;2.0;false;true;false;[HOT, DRY, RARE, MOUNTAIN, SPARSE]
-[16:07:01] [Client thread/INFO]: Registering drops for shadedGarden.
-[16:07:01] [Client thread/INFO]: Registering drops for tropicalGarden.
-[16:07:01] [Client thread/INFO]: Registering drops for windyGarden.
-[16:07:01] [Client thread/INFO]: Registering drops for frostGarden.
-[16:07:01] [Client thread/INFO]: Registering drops for aridGarden.
-[16:07:01] [Client thread/INFO]: Registering drops for soggyGarden.
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamapiary`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pammarket`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamshippingbin`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pampresser`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamgroundtrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamwatertrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamwaterfilter`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:01] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamgrinder`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
-[16:07:02] [Client thread/INFO]: Loading JSON Files
-[16:07:02] [Client thread/INFO]: Loading data from json
-[16:07:02] [Client thread/INFO]: Loaded all data from JSON
-[16:07:02] [Client thread/INFO]: Injecting itemstacks
-[16:07:02] [Client thread/INFO]: Itemstack injection complete
-[16:07:02] [Client thread/INFO]: Added 'minecraft:lapis_ore/0=>1*minecraft:lapis_ore/4=>minecraft:lapis_ore/0' to mapping
-[16:07:02] [Client thread/INFO]: Added 'minecraft:lit_redstone_ore/0=>1*minecraft:redstone_ore/0=>minecraft:lit_redstone_ore/0' to mapping
-[16:07:02] [Client thread/INFO]: Added 'minecraft:grass/0=>1*minecraft:grass/0=>minecraft:grass/0' to mapping
-[16:07:02] [Client thread/INFO]: Added 'minecraft:grass/0=>1*minecraft:dirt/0=>minecraft:dirt/0' to mapping
-[16:07:02] [Client thread/INFO]: Added 'minecraft:dirt/1=>1*minecraft:dirt/1=>minecraft:dirt/1' to mapping
-[16:07:02] [Client thread/INFO]: Added 'minecraft:dirt/1=>1*minecraft:dirt/0=>minecraft:dirt/0' to mapping
-[16:07:02] [Client thread/INFO]: Added 'minecraft:dirt/2=>1*minecraft:dirt/2=>minecraft:dirt/2' to mapping
-[16:07:02] [Client thread/INFO]: Added 'minecraft:dirt/2=>1*minecraft:dirt/0=>minecraft:dirt/0' to mapping
-[16:07:02] [Client thread/INFO]: [cutepuppymod]:[INFO]:Lets hope it does not shoot fire and blow up
-[16:07:02] [Client thread/INFO]: [cutepuppymod]:[INFO]:-iChun 2015
-[16:07:02] [Client thread/INFO]: [cutepuppymod]:[INFO]:yes that is in evey mod manmaed makes!
-[16:07:02] [Client thread/INFO]: Postinitializing modules for mod magicbees...
-[16:07:02] [Client thread/INFO]:    Postinitializing module Vanilla Module
-[16:07:02] [Client thread/INFO]: Postinitialized 1 module for mod magicbees
-[16:07:02] [Client thread/INFO]: MagicBees has Post-initialized in 8 ms
-[16:07:03] [Client thread/INFO]: Forge Mod Loader has successfully loaded 19 mods
-[16:07:03] [Client thread/WARN]: Skipping bad option: lastServer:
-[16:07:03] [Client thread/INFO]: Narrator library for x64 successfully loaded
-[16:07:47] [Client thread/INFO]: Stopping!
-[16:07:47] [Client thread/INFO]: SoundSystem shutting down...
-[16:07:47] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
+[16:36:04] [Client thread/INFO]: MinecraftForge v14.23.5.2854 Initialized
+[16:36:04] [Client thread/INFO]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:36:04] [Client thread/INFO]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[16:36:04] [Client thread/INFO]: Replaced 1227 ore ingredients
+[16:36:04] [Thread-3/INFO]: Not loading compat for SplashAnimation, as we didn't find 'pl.asie.splashanimation.SplashAnimationRenderer'
+[16:36:05] [Client thread/INFO]: Searching C:\Users\danie\Twitch\Minecraft\Instances\New Greg\mods for mods
+[16:36:05] [Client thread/WARN]: Mod betterbuilderswands is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.11.1
+[16:36:06] [Client thread/WARN]: Mod customloadingscreen is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.12.2-1.4.1
+[16:36:06] [Client thread/WARN]: Mod magicbees is missing the required element 'version' and no fallback can be found. Substituting '1.0'.
+[16:36:06] [Client thread/INFO]: Forge Mod Loader has identified 28 mods to load
+[16:36:07] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bnbgamingcore, applecore, autoreglib, beebetteratbees, betterbuilderswands, betterquesting, biomesoplenty, bnbgaminglib, carpentersblocks, chisel, ctm, customloadingscreen, cutepuppymod, forestry, ftblib, ftbquests, hungeroverhaul, itemfilters, magicbees, harvestcraft, quark, refinedstorage, travelersbackpack, triumph] at CLIENT
+[16:36:07] [Client thread/INFO]: Attempting connection with missing mods [minecraft, mcp, FML, forge, bnbgamingcore, applecore, autoreglib, beebetteratbees, betterbuilderswands, betterquesting, biomesoplenty, bnbgaminglib, carpentersblocks, chisel, ctm, customloadingscreen, cutepuppymod, forestry, ftblib, ftbquests, hungeroverhaul, itemfilters, magicbees, harvestcraft, quark, refinedstorage, travelersbackpack, triumph] at SERVER
+[16:36:07] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.Render
+[16:36:07] [Client thread/INFO]: Applying Transformation to method (Names [renderEntityOnFire, func_76977_a] Descriptor (Lnet/minecraft/entity/Entity;DDDF)V)
+[16:36:07] [Client thread/INFO]: Located Method, patching...
+[16:36:07] [Client thread/INFO]: Patch result: true
+[16:36:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Biomes O' Plenty, FMLFileResourcePack:BNBGamingLib, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Chisel, FMLFileResourcePack:CTM, FMLFileResourcePack:Custom Loading Screen, FMLFileResourcePack:CutePuppyMod, FMLFileResourcePack:Forestry, FMLFileResourcePack:FTB Library, FMLFileResourcePack:FTB Quests, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:Item Filters, FMLFileResourcePack:MagicBees, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Quark, FMLFileResourcePack:Refined Storage, FMLFileResourcePack:Traveler's Backpack, FMLFileResourcePack:Triumph
+[16:36:08] [Client thread/INFO]: Transforming net.minecraft.client.renderer.RenderItem
+[16:36:08] [Client thread/INFO]: Applying Transformation to method (Names [renderItem, func_180454_a] Descriptor (Lnet/minecraft/item/ItemStack;Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[16:36:08] [Client thread/INFO]: Located Method, patching...
+[16:36:08] [Client thread/INFO]: Patch result: true
+[16:36:08] [Client thread/INFO]: Applying Transformation to method (Names [renderEffect, func_191966_a] Descriptor (Lnet/minecraft/client/renderer/block/model/IBakedModel;)V)
+[16:36:08] [Client thread/INFO]: Located Method, patching...
+[16:36:08] [Client thread/INFO]: Located patch target node LDC -8372020
+[16:36:08] [Client thread/INFO]: Located patch target node LDC -8372020
+[16:36:08] [Client thread/INFO]: Patch result: true
+[16:36:08] [Client thread/INFO]: Transforming net.minecraft.client.renderer.EntityRenderer
+[16:36:08] [Client thread/INFO]: Applying Transformation to method (Names [renderWorldPass, func_175068_a] Descriptor (IFJ)V)
+[16:36:08] [Client thread/INFO]: Located Method, patching...
+[16:36:08] [Client thread/INFO]: Located patch target node INVOKESPECIAL net/minecraft/client/renderer/EntityRenderer.func_78479_a (FI)V
+[16:36:08] [Client thread/INFO]: Patch result: true
+[16:36:08] [Client thread/INFO]: Getting sample/rotating_cakes as CONFIG
+[16:36:08] [Client thread/INFO]: Getting sample/rotating_cake_top_left as RENDERING_PART
+[16:36:08] [Client thread/INFO]: Getting sample/cake_top_left as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/cake as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/item as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/item_rotate_clockwise as INSTRUCTION
+[16:36:08] [Client thread/INFO]: Getting sample/rotating_cake_top_right as RENDERING_PART
+[16:36:08] [Client thread/INFO]: Getting sample/cake_top_right as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/cake as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/item as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/item_rotate_anti_clockwise as INSTRUCTION
+[16:36:08] [Client thread/INFO]: Getting sample/rotating_cake_bottom_left as RENDERING_PART
+[16:36:08] [Client thread/INFO]: Getting sample/cake_bottom_left as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/cake as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/item as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/item_rotate_clockwise as INSTRUCTION
+[16:36:08] [Client thread/INFO]: Getting sample/rotating_cake_bottom_right as RENDERING_PART
+[16:36:08] [Client thread/INFO]: Getting sample/cake_bottom_right as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/cake as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/item as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/item_rotate_anti_clockwise as INSTRUCTION
+[16:36:08] [Client thread/INFO]: Getting sample/block_cake_side_4_wide as RENDERING_PART
+[16:36:08] [Client thread/WARN]: Tried to get the resource but failed! (customloadingscreen:sample/imagemeta/block_cake_side_4_wide.json) because class java.io.FileNotFoundException
+[16:36:08] [Client thread/INFO]: Getting sample/block_cake_side_4_wide as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/block_4_wide as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/block_cake_inner_4_wide as RENDERING_PART
+[16:36:08] [Client thread/WARN]: Tried to get the resource but failed! (customloadingscreen:sample/imagemeta/block_cake_inner_4_wide.json) because class java.io.FileNotFoundException
+[16:36:08] [Client thread/INFO]: Getting sample/block_cake_inner_4_wide as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/block_4_wide_percentage as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/block_4_wide as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/text_status as RENDERING_PART
+[16:36:08] [Client thread/WARN]: Tried to get the resource but failed! (customloadingscreen:sample/imagemeta/text_status.json) because class java.io.FileNotFoundException
+[16:36:08] [Client thread/INFO]: Getting sample/text_status as IMAGE
+[16:36:08] [Client thread/INFO]: Getting sample/text_percentage as RENDERING_PART
+[16:36:08] [Client thread/WARN]: Tried to get the resource but failed! (customloadingscreen:sample/imagemeta/text_percentage.json) because class java.io.FileNotFoundException
+[16:36:08] [Client thread/INFO]: Getting sample/text_percentage as IMAGE
+[16:36:08] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Biomes O' Plenty, FMLFileResourcePack:BNBGamingLib, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Chisel, FMLFileResourcePack:CTM, FMLFileResourcePack:Custom Loading Screen, FMLFileResourcePack:CutePuppyMod, FMLFileResourcePack:Forestry, FMLFileResourcePack:FTB Library, FMLFileResourcePack:FTB Quests, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:Item Filters, FMLFileResourcePack:MagicBees, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Quark, FMLFileResourcePack:Refined Storage, FMLFileResourcePack:Traveler's Backpack, FMLFileResourcePack:Triumph
+[16:36:08] [Client thread/INFO]: Transforming net.minecraft.util.DamageSource
+[16:36:08] [Client thread/INFO]: Applying Transformation to method (Names [causePlayerDamage, func_76365_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;)Lnet/minecraft/util/DamageSource;)
+[16:36:08] [Client thread/INFO]: Located Method, patching...
+[16:36:08] [Client thread/INFO]: Patch result: true
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: java.io.IOException: 0 mods isn't right!
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.progress.LongTermProgressTracker.<init>(LongTermProgressTracker.java:84)
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.progress.LongTermProgressTracker.load(LongTermProgressTracker.java:35)
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.progress.SingleProgressBarTracker.update(SingleProgressBarTracker.java:69)
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.progress.SingleProgressBarTracker.lockUpdate(SingleProgressBarTracker.java:56)
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.ClsManager.renderFrame(ClsManager.java:128)
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.render.MainSplashRenderer.renderFrame(MainSplashRenderer.java:263)
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at alexiil.mc.mod.load.render.MainSplashRenderer.run(MainSplashRenderer.java:212)
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at net.minecraftforge.fml.client.SplashProgress$2.run(SplashProgress.java:260)
+[16:36:08] [Thread-3/INFO]: [alexiil.mc.mod.load.progress.LongTermProgressTracker:load:37]: 	at java.lang.Thread.run(Thread.java:745)
+[16:36:09] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureMap], Method [registerSprite]
+[16:36:09] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureMap Finished.
+[16:36:09] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Biomes O' Plenty, FMLFileResourcePack:BNBGamingLib, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Chisel, FMLFileResourcePack:CTM, FMLFileResourcePack:Custom Loading Screen, FMLFileResourcePack:CutePuppyMod, FMLFileResourcePack:Forestry, FMLFileResourcePack:FTB Library, FMLFileResourcePack:FTB Quests, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:Item Filters, FMLFileResourcePack:MagicBees, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Quark, FMLFileResourcePack:Refined Storage, FMLFileResourcePack:Traveler's Backpack, FMLFileResourcePack:Triumph
+[16:36:09] [Client thread/INFO]: Processing ObjectHolder annotations
+[16:36:09] [Client thread/INFO]: Found 1269 ObjectHolder annotations
+[16:36:09] [Client thread/INFO]: Identifying ItemStackHolder annotations
+[16:36:09] [Client thread/INFO]: Found 2 ItemStackHolder annotations
+[16:36:09] [Client thread/INFO]: Configured a dormant chunk cache size of 0
+[16:36:09] [Forge Version Check/INFO]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[16:36:09] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.RenderManager
+[16:36:09] [Client thread/INFO]: Applying Transformation to method (Names [renderEntity, func_188391_a] Descriptor (Lnet/minecraft/entity/Entity;DDDFFZ)V)
+[16:36:09] [Client thread/INFO]: Located Method, patching...
+[16:36:09] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/entity/Render.func_76986_a (Lnet/minecraft/entity/Entity;DDDFF)V
+[16:36:09] [Client thread/INFO]: Patch result: true
+[16:36:10] [Forge Version Check/INFO]: [travelersbackpack] Found status: UP_TO_DATE Target: null
+[16:36:10] [Forge Version Check/INFO]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:36:10] [Forge Version Check/INFO]: [forge] Found status: UP_TO_DATE Target: null
+[16:36:10] [Forge Version Check/INFO]: [refinedstorage] Starting version check at https://refinedstorage.raoulvdberge.com/update
+[16:36:10] [Client thread/INFO]: Module experimental is enabled
+[16:36:10] [Client thread/INFO]: Module tweaks is enabled
+[16:36:10] [Client thread/INFO]: Module client is enabled
+[16:36:10] [Client thread/INFO]: Module world is enabled
+[16:36:10] [Client thread/INFO]: Module building is enabled
+[16:36:10] [Client thread/INFO]: Module management is enabled
+[16:36:10] [Client thread/INFO]: Module vanity is enabled
+[16:36:10] [Client thread/INFO]: Module misc is enabled
+[16:36:10] [Client thread/INFO]: Module automation is enabled
+[16:36:10] [Client thread/INFO]: Module decoration is enabled
+[16:36:10] [Client thread/INFO]: Transforming net.minecraft.client.model.ModelBiped
+[16:36:10] [Client thread/INFO]: Applying Transformation to method (Names [setRotationAngles, func_78087_a] Descriptor (FFFFFFLnet/minecraft/entity/Entity;)V)
+[16:36:10] [Client thread/INFO]: Located Method, patching...
+[16:36:10] [Client thread/INFO]: Located patch target node RETURN
+[16:36:10] [Client thread/INFO]: Patch result: true
+[16:36:13] [Client thread/INFO]: Transforming net.minecraft.client.renderer.tileentity.TileEntityPistonRenderer
+[16:36:13] [Client thread/INFO]: Applying Transformation to method (Names [render, func_192841_a] Descriptor (Lnet/minecraft/tileentity/TileEntityPiston;DDDFIF)V)
+[16:36:13] [Client thread/INFO]: Located Method, patching...
+[16:36:13] [Client thread/INFO]: Patch result: true
+[16:36:13] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:AppleCore, FMLFileResourcePack:AutoRegLib, FMLFileResourcePack:Bee Better at Bees, FMLFileResourcePack:Better Builder's Wands, FMLFileResourcePack:Better Questing, FMLFileResourcePack:Biomes O' Plenty, FMLFileResourcePack:BNBGamingLib, FMLFileResourcePack:Carpenter's Blocks, FMLFileResourcePack:Chisel, FMLFileResourcePack:CTM, FMLFileResourcePack:Custom Loading Screen, FMLFileResourcePack:CutePuppyMod, FMLFileResourcePack:Forestry, FMLFileResourcePack:FTB Library, FMLFileResourcePack:FTB Quests, FMLFileResourcePack:Hunger Overhaul, FMLFileResourcePack:Item Filters, FMLFileResourcePack:MagicBees, FMLFileResourcePack:Pam's HarvestCraft, FMLFileResourcePack:Quark, FMLFileResourcePack:Refined Storage, FMLFileResourcePack:Traveler's Backpack, FMLFileResourcePack:Triumph, quark-texture-proxy, quark-emote-pack
+[16:36:13] [Client thread/INFO]: Module Natura Module failed to load: Natura not found
+[16:36:13] [Client thread/INFO]: Module BuildCraft 6 Transport Module failed to load: buildcrafttransport not found
+[16:36:13] [Client thread/INFO]: Module IndustrialCraft2 Module failed to load: IndustrialCraft2 not found
+[16:36:13] [Client thread/INFO]: Module TechReborn Module failed to load: TechReborn not found
+[16:36:13] [Client thread/INFO]: Module EnderIO Module failed to load: EnderIO not found
+[16:36:13] [Client thread/INFO]: Module Extra Utilities Module failed to load: Extra Utilities not found
+[16:36:13] [Client thread/INFO]: Module BuildCraft 6 Recipes Module failed to load: Compatible BuildCraftAPI|recipes version not found
+[16:36:13] [Client thread/INFO]: Module BuildCraft 6 Fuels Module failed to load: Compatible BuildCraftAPI|fuels version not found
+[16:36:13] [Client thread/INFO]: Module Better With Mods Module failed to load: Better With Mods not found
+[16:36:13] [Client thread/INFO]: Module rustic Module failed to load: Rustic not found
+[16:36:13] [Client thread/INFO]: Module BuildCraft 6 Statements Module failed to load: Compatible BuildCraftAPI|statements version not found
+[16:36:13] [Client thread/INFO]: Module Mystical Agriculture Module failed to load: Mystical Agriculture not found
+[16:36:13] [Client thread/INFO]: Module ImmersiveEngineering Module failed to load: ImmersiveEngineering not found
+[16:36:13] [Client thread/INFO]: Module Actually Additions Module failed to load: Actually Additions not found
+[16:36:13] [Client thread/INFO]: Module Roots Module failed to load: Roots not found
+[16:36:13] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraft.client.renderer.texture.TextureAtlasSprite], Method [updateAnimationInterpolated]
+[16:36:13] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraft.client.renderer.texture.TextureAtlasSprite Finished.
+[16:36:16] [Client thread/INFO]: Access transform success createStackedBlock (func_180643_i).
+[16:36:17] [Client thread/INFO]: Designs found: Bed(6), Chisel(9), FlowerPot(18), Tile(13)
+[16:36:17] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:preTransform:230]: Transforming Class [net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper], Method [getTextures]
+[16:36:17] [Client thread/INFO]: [team.chisel.ctm.client.asm.CTMTransformer:finishTransform:242]: Transforming net.minecraftforge.client.model.ModelLoader$VanillaModelWrapper Finished.
+[16:36:17] [Client thread/INFO]: Applying holder lookups
+[16:36:17] [Client thread/INFO]: Holder lookups applied
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitymagicbeeseffectjar`, expected `magicbees`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/INFO]: Mod redstonearsenal not detected, not activating module RedstoneArsenal Integration
+[16:36:18] [Client thread/INFO]: Mod botania not detected, not activating module Botania Integration
+[16:36:18] [Client thread/INFO]: Mod railcraft not detected, not activating module Railcraft Integration
+[16:36:18] [Client thread/INFO]: Mod thermalexpansion not detected, not activating module ThermalExpansion Integration
+[16:36:18] [Client thread/INFO]: Mod appliedenergistics2 not detected, not activating module AE2 Integration
+[16:36:18] [Client thread/INFO]: Preinitializing modules for mod magicbees...
+[16:36:18] [Client thread/INFO]:    Preinitializing module Vanilla Module
+[16:36:18] [Client thread/INFO]: Preinitialized 1 module for mod magicbees
+[16:36:18] [Client thread/INFO]: MagicBees has Pre-initialized in 172 ms
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `apple`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `wheat`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `carrot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `melon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_beef`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_chicken`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_porkchop`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_rabbit`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_mutton`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_cod`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cooked_salmon`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `clownfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pufferfish`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `baked_potato`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `rabbit_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:18] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:19] [Client thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectWater as a FluidEffect for water with the ID 0
+[16:36:19] [Client thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectLava as a FluidEffect for lava with the ID 1
+[16:36:19] [Client thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectMilk as a FluidEffect for milk with the ID 2
+[16:36:19] [Client thread/INFO]: Registered the class com.tiviacz.travelersbackpack.fluids.effects.EffectPotion as a FluidEffect for potion with the ID 3
+[16:36:19] [Client thread/INFO]: Starting the Integration Handler.
+[16:36:19] [Client thread/INFO]: Didn't find any possible mod integration(s)!
+[16:36:19] [Client thread/INFO]: Loading blocks...
+[16:36:19] [Client thread/INFO]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[16:36:19] [Client thread/INFO]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[16:36:19] [Client thread/INFO]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[16:36:19] [Client thread/INFO]: 72 Feature's blocks loaded.
+[16:36:19] [Client thread/INFO]: Loading Tile Entities...
+[16:36:19] [Client thread/INFO]: Tile Entities loaded.
+[16:36:20] [Client thread/INFO]: Applying holder lookups
+[16:36:20] [Client thread/INFO]: Holder lookups applied
+[16:36:20] [Client thread/INFO]: Loading items...
+[16:36:20] [Client thread/INFO]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[16:36:20] [Client thread/INFO]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[16:36:20] [Client thread/INFO]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[16:36:20] [Client thread/INFO]: 72 Feature's items loaded.
+[16:36:20] [Client thread/WARN]: Missing block: sandstone
+[16:36:20] [Client thread/INFO]: Applying holder lookups
+[16:36:20] [Client thread/INFO]: Holder lookups applied
+[16:36:20] [Client thread/INFO]: Applying holder lookups
+[16:36:20] [Client thread/INFO]: Holder lookups applied
+[16:36:20] [Client thread/INFO]: OBJLoader: Domain magicbees has been added.
+[16:36:20] [Client thread/INFO]: Applying holder lookups
+[16:36:20] [Client thread/INFO]: Holder lookups applied
+[16:36:20] [Client thread/INFO]: Injecting itemstacks
+[16:36:20] [Client thread/INFO]: Itemstack injection complete
+[16:36:20] [Sound Library Loader/INFO]: Starting up SoundSystem...
+[16:36:20] [Thread-5/INFO]: Initializing LWJGL OpenAL
+[16:36:20] [Thread-5/INFO]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[16:36:21] [Thread-5/INFO]: OpenAL initialized.
+[16:36:21] [Sound Library Loader/INFO]: Sound engine started
+[16:36:31] [Client thread/INFO]: Max texture size: 16384
+[16:36:34] [Client thread/INFO]: Created: 2048x2048 textures-atlas
+[16:36:34] [Client thread/INFO]: Transforming net.minecraftforge.client.model.pipeline.LightUtil
+[16:36:34] [Client thread/INFO]: Applying Transformation to method (Names [renderQuadColor, ] Descriptor (Lnet/minecraft/client/renderer/BufferBuilder;Lnet/minecraft/client/renderer/block/model/BakedQuad;I)V)
+[16:36:34] [Client thread/INFO]: Located Method, patching...
+[16:36:34] [Client thread/INFO]: Patch result: true
+[16:36:38] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.layers.LayerArmorBase
+[16:36:38] [Client thread/INFO]: Applying Transformation to method (Names [renderArmorLayer, func_188361_a] Descriptor (Lnet/minecraft/entity/EntityLivingBase;FFFFFFFLnet/minecraft/inventory/EntityEquipmentSlot;)V)
+[16:36:38] [Client thread/INFO]: Located Method, patching...
+[16:36:38] [Client thread/INFO]: Patch result: true
+[16:36:38] [Client thread/INFO]: Applying Transformation to method (Names [renderEnchantedGlint, func_188364_a] Descriptor (Lnet/minecraft/client/renderer/entity/RenderLivingBase;Lnet/minecraft/entity/EntityLivingBase;Lnet/minecraft/client/model/ModelBase;FFFFFFF)V)
+[16:36:38] [Client thread/INFO]: Located Method, patching...
+[16:36:38] [Client thread/INFO]: Located patch target node INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179131_c (FFFF)V
+[16:36:38] [Client thread/INFO]: Located patch target node INVOKESTATIC net/minecraft/client/renderer/GlStateManager.func_179131_c (FFFF)V
+[16:36:38] [Client thread/INFO]: Patch result: true
+[16:36:38] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.RenderBoat
+[16:36:38] [Client thread/INFO]: Applying Transformation to method (Names [doRender, func_188300_b] Descriptor (Lnet/minecraft/entity/item/EntityBoat;DDDFF)V)
+[16:36:38] [Client thread/INFO]: Located Method, patching...
+[16:36:38] [Client thread/INFO]: Located patch target node INVOKEINTERFACE net/minecraft/client/model/IMultipassModel.func_187054_b (Lnet/minecraft/entity/Entity;FFFFFF)V
+[16:36:38] [Client thread/INFO]: Patch result: true
+[16:36:38] [Client thread/INFO]: Transforming net.minecraft.client.renderer.entity.layers.LayerEntityOnShoulder
+[16:36:38] [Client thread/INFO]: Applying Transformation to method (Names [renderEntityOnShoulder, func_192864_a] Descriptor (Lnet/minecraft/entity/player/EntityPlayer;Ljava/util/UUID;Lnet/minecraft/nbt/NBTTagCompound;Lnet/minecraft/client/renderer/entity/RenderLivingBase;Lnet/minecraft/client/model/ModelBase;Lnet/minecraft/util/ResourceLocation;Ljava/lang/Class;FFFFFFFZ)Lnet/minecraft/client/renderer/entity/layers/LayerEntityOnShoulder$DataHolder;)
+[16:36:38] [Client thread/INFO]: Located Method, patching...
+[16:36:38] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/entity/RenderLivingBase.func_110776_a (Lnet/minecraft/util/ResourceLocation;)V
+[16:36:38] [Client thread/INFO]: Patch result: true
+[16:36:38] [Client thread/INFO]: Transforming net.minecraft.client.renderer.BlockModelRenderer
+[16:36:38] [Client thread/INFO]: Applying Transformation to method (Names [renderQuadsFlat, func_187496_a] Descriptor (Lnet/minecraft/world/IBlockAccess;Lnet/minecraft/block/state/IBlockState;Lnet/minecraft/util/math/BlockPos;IZLnet/minecraft/client/renderer/BufferBuilder;Ljava/util/List;Ljava/util/BitSet;)V)
+[16:36:38] [Client thread/INFO]: Located Method, patching...
+[16:36:38] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/client/renderer/BufferBuilder.func_178987_a (DDD)V
+[16:36:38] [Client thread/INFO]: Patch result: true
+[16:36:38] [Client thread/INFO]: Transforming net.minecraft.enchantment.EnchantmentHelper
+[16:36:38] [Client thread/INFO]: Applying Transformation to method (Names [getEnchantments, func_82781_a] Descriptor (Lnet/minecraft/item/ItemStack;)Ljava/util/Map;)
+[16:36:38] [Client thread/INFO]: Located Method, patching...
+[16:36:38] [Client thread/INFO]: Located patch target node INVOKEVIRTUAL net/minecraft/item/ItemStack.func_77986_q ()Lnet/minecraft/nbt/NBTTagList;
+[16:36:38] [Client thread/INFO]: Patch result: true
+[16:36:40] [Client thread/INFO]: Loading recipes...
+[16:36:40] [Client thread/INFO]: Skipping feature arcaneStone as its required mod thaumcraft was missing.
+[16:36:40] [Client thread/INFO]: Skipping feature bloodMagic as its required mod bloodmagic was missing.
+[16:36:40] [Client thread/INFO]: Skipping feature certus as its required mod appliedenergistics2 was missing.
+[16:36:40] [Client thread/INFO]: 72 Feature's recipes loaded.
+[16:36:40] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `bread`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:40] [Client thread/WARN]: Unable to find recipe for minecraft:rabbit_stew
+[16:36:40] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `beetroot_soup`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:40] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `mushroom_stew`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:40] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `cookie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:40] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pumpkin_pie`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:40] [Client thread/WARN]: Unable to find recipe for minecraft:baked_potato
+[16:36:40] [Client thread/INFO]: Applying holder lookups
+[16:36:40] [Client thread/INFO]: Holder lookups applied
+[16:36:40] [Client thread/INFO]: Created: 256x128 textures-atlas
+[16:36:40] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `tileentitycarpentersblock`, expected `carpentersblocks`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/INFO]: Initializing modules for mod magicbees...
+[16:36:41] [Client thread/INFO]:    Initializing module Vanilla Module
+[16:36:41] [Client thread/INFO]: Initialized 1 module for mod magicbees
+[16:36:41] [Client thread/INFO]: Registering 96 new bee species!
+[16:36:41] [Client thread/INFO]: MagicBees has Initialized in 37 ms
+[16:36:41] [Client thread/INFO]: minecraft:ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
+[16:36:41] [Client thread/INFO]: minecraft:plains;MEDIUM;0.8;false;false;false;[PLAINS]
+[16:36:41] [Client thread/INFO]: minecraft:desert;WARM;2.0;false;false;false;[HOT, SANDY, DRY]
+[16:36:41] [Client thread/INFO]: minecraft:extreme_hills;MEDIUM;0.2;false;false;false;[HILLS, MOUNTAIN]
+[16:36:41] [Client thread/INFO]: minecraft:forest;MEDIUM;0.7;false;false;false;[FOREST]
+[16:36:41] [Client thread/INFO]: minecraft:taiga;MEDIUM;0.25;false;false;false;[FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:swampland;MEDIUM;0.8;true;false;false;[WET, SWAMP]
+[16:36:41] [Client thread/INFO]: minecraft:river;MEDIUM;0.5;false;false;false;[WATER, RIVER]
+[16:36:41] [Client thread/INFO]: minecraft:hell;WARM;2.0;false;false;false;[HOT, NETHER, DRY]
+[16:36:41] [Client thread/INFO]: minecraft:sky;MEDIUM;0.5;false;false;false;[END, COLD, DRY]
+[16:36:41] [Client thread/INFO]: minecraft:frozen_ocean;OCEAN;0.0;false;false;true;[SNOWY, WATER, COLD, OCEAN]
+[16:36:41] [Client thread/INFO]: minecraft:frozen_river;COLD;0.0;false;false;true;[SNOWY, WATER, COLD, RIVER]
+[16:36:41] [Client thread/INFO]: minecraft:ice_flats;COLD;0.0;false;false;true;[SNOWY, WASTELAND, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:ice_mountains;COLD;0.0;false;false;true;[SNOWY, MOUNTAIN, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:mushroom_island;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM]
+[16:36:41] [Client thread/INFO]: minecraft:mushroom_island_shore;MEDIUM;0.9;true;false;false;[RARE, MUSHROOM, BEACH]
+[16:36:41] [Client thread/INFO]: minecraft:beaches;MEDIUM;0.8;false;false;false;[BEACH]
+[16:36:41] [Client thread/INFO]: minecraft:desert_hills;WARM;2.0;false;false;false;[HOT, HILLS, SANDY, DRY]
+[16:36:41] [Client thread/INFO]: minecraft:forest_hills;MEDIUM;0.7;false;false;false;[HILLS, FOREST]
+[16:36:41] [Client thread/INFO]: minecraft:taiga_hills;MEDIUM;0.25;false;false;false;[HILLS, FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:smaller_extreme_hills;MEDIUM;0.2;false;false;false;[MOUNTAIN]
+[16:36:41] [Client thread/INFO]: minecraft:jungle;MEDIUM;0.95;true;false;false;[HOT, DENSE, JUNGLE, WET]
+[16:36:41] [Client thread/INFO]: minecraft:jungle_hills;MEDIUM;0.95;true;false;false;[HOT, HILLS, DENSE, JUNGLE, WET]
+[16:36:41] [Client thread/INFO]: minecraft:jungle_edge;MEDIUM;0.95;false;false;false;[HOT, FOREST, JUNGLE, WET, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:deep_ocean;OCEAN;0.5;false;false;false;[WATER, OCEAN]
+[16:36:41] [Client thread/INFO]: minecraft:stone_beach;MEDIUM;0.2;false;false;false;[BEACH]
+[16:36:41] [Client thread/INFO]: minecraft:cold_beach;COLD;0.05;false;false;true;[SNOWY, COLD, BEACH]
+[16:36:41] [Client thread/INFO]: minecraft:birch_forest;MEDIUM;0.6;false;false;false;[FOREST]
+[16:36:41] [Client thread/INFO]: minecraft:birch_forest_hills;MEDIUM;0.6;false;false;false;[HILLS, FOREST]
+[16:36:41] [Client thread/INFO]: minecraft:roofed_forest;MEDIUM;0.7;false;false;false;[DENSE, FOREST, SPOOKY]
+[16:36:41] [Client thread/INFO]: minecraft:taiga_cold;COLD;-0.5;false;false;true;[SNOWY, FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:taiga_cold_hills;COLD;-0.5;false;false;true;[HILLS, SNOWY, FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:redwood_taiga;MEDIUM;0.3;false;false;false;[FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:redwood_taiga_hills;MEDIUM;0.3;false;false;false;[HILLS, FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:extreme_hills_with_trees;MEDIUM;0.2;false;false;false;[MOUNTAIN, FOREST, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:savanna;WARM;1.2;false;false;false;[HOT, SAVANNA, PLAINS, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:savanna_rock;WARM;1.0;false;false;false;[HOT, SAVANNA, PLAINS, RARE, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mesa;WARM;2.0;false;false;false;[MESA, SANDY, DRY]
+[16:36:41] [Client thread/INFO]: minecraft:mesa_rock;WARM;2.0;false;false;false;[MESA, SANDY, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mesa_clear_rock;WARM;2.0;false;false;false;[MESA, SANDY, DRY]
+[16:36:41] [Client thread/INFO]: minecraft:void;MEDIUM;0.5;false;false;false;[VOID]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_plains;MEDIUM;0.8;false;true;false;[PLAINS, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_desert;WARM;2.0;false;true;false;[HOT, SANDY, RARE, DRY]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_extreme_hills;MEDIUM;0.2;false;true;false;[MOUNTAIN, RARE, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_forest;MEDIUM;0.7;false;true;false;[HILLS, FOREST, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_taiga;MEDIUM;0.25;false;true;false;[MOUNTAIN, FOREST, CONIFEROUS, RARE, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_swampland;MEDIUM;0.8;true;true;false;[HILLS, WET, RARE, SWAMP]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_ice_flats;COLD;0.0;false;true;true;[HILLS, SNOWY, RARE, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_jungle;MEDIUM;0.95;true;true;false;[HOT, DENSE, MOUNTAIN, JUNGLE, WET, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_jungle_edge;MEDIUM;0.95;false;true;false;[HOT, HILLS, JUNGLE, RARE, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_birch_forest;MEDIUM;0.6;false;true;false;[HILLS, DENSE, FOREST, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_birch_forest_hills;MEDIUM;0.6;false;true;false;[DENSE, MOUNTAIN, FOREST, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_roofed_forest;MEDIUM;0.7;false;true;false;[DENSE, MOUNTAIN, FOREST, SPOOKY, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_taiga_cold;COLD;-0.5;false;true;true;[SNOWY, MOUNTAIN, FOREST, CONIFEROUS, RARE, COLD]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_redwood_taiga;MEDIUM;0.25;false;true;false;[DENSE, FOREST, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_redwood_taiga_hills;MEDIUM;0.25;false;true;false;[HILLS, DENSE, FOREST, RARE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_extreme_hills_with_trees;MEDIUM;0.2;false;true;false;[MOUNTAIN, RARE, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_savanna;WARM;1.1;false;true;false;[HOT, MOUNTAIN, SAVANNA, RARE, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_savanna_rock;WARM;1.0;false;true;false;[HOT, HILLS, SAVANNA, RARE, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_mesa;WARM;2.0;false;true;false;[HOT, MOUNTAIN, RARE, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_mesa_rock;WARM;2.0;false;true;false;[HOT, HILLS, RARE, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: minecraft:mutated_mesa_clear_rock;WARM;2.0;false;true;false;[HOT, MOUNTAIN, RARE, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:gravel_beach;MEDIUM;0.6;false;false;false;[BEACH]
+[16:36:41] [Client thread/INFO]: biomesoplenty:white_beach;WARM;1.0;true;false;false;[BEACH]
+[16:36:41] [Client thread/INFO]: biomesoplenty:origin_beach;MEDIUM;0.6;false;false;false;[RARE, BEACH]
+[16:36:41] [Client thread/INFO]: biomesoplenty:alps;COLD;-0.25;false;false;true;[SNOWY, MOUNTAIN, COLD, DRY]
+[16:36:41] [Client thread/INFO]: biomesoplenty:bamboo_forest;MEDIUM;0.9;false;false;false;[DENSE, FOREST, JUNGLE, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:bayou;MEDIUM;0.95;true;false;false;[HOT, DENSE, WET, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:bog;MEDIUM;0.5;true;false;false;[FOREST, WET, COLD, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:boreal_forest;MEDIUM;0.3;false;false;false;[HILLS, DENSE, FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:brushland;WARM;1.5;false;false;false;[HOT, SAVANNA, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:chaparral;MEDIUM;0.8;false;false;false;[PLAINS, DRY]
+[16:36:41] [Client thread/INFO]: biomesoplenty:cherry_blossom_grove;MEDIUM;0.55;false;false;false;[MAGICAL, LUSH, DENSE, FOREST, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:cold_desert;MEDIUM;0.2;false;false;false;[SNOWY, DRY, COLD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:coniferous_forest;MEDIUM;0.45;false;false;false;[DENSE, FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:crag;MEDIUM;0.5;false;false;false;[MAGICAL, HILLS, MOUNTAIN, WASTELAND, COLD, DRY]
+[16:36:41] [Client thread/INFO]: biomesoplenty:dead_forest;MEDIUM;0.3;false;false;false;[FOREST, COLD, DRY, DEAD, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:dead_swamp;MEDIUM;0.6;true;false;false;[SPOOKY, WET, COLD, DEAD, SWAMP, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:eucalyptus_forest;MEDIUM;0.95;true;false;false;[LUSH, DENSE, FOREST, JUNGLE, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:fen;MEDIUM;0.4;false;false;false;[DENSE, FOREST, WET, COLD, DEAD, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:flower_field;MEDIUM;0.7;false;false;false;[LUSH, PLAINS]
+[16:36:41] [Client thread/INFO]: biomesoplenty:grassland;MEDIUM;0.6;false;false;false;[HILLS, PLAINS, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:grove;MEDIUM;0.6;false;false;false;[LUSH, FOREST, PLAINS, WET, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:highland;MEDIUM;0.6;false;false;false;[HILLS, MOUNTAIN, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:land_of_lakes;MEDIUM;0.5;true;false;false;[DENSE, FOREST, WET, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:lavender_fields;MEDIUM;0.7;false;false;false;[MAGICAL, LUSH, PLAINS]
+[16:36:41] [Client thread/INFO]: biomesoplenty:lush_desert;WARM;1.2;false;false;false;[HOT, LUSH, SAVANNA, SANDY, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:lush_swamp;MEDIUM;0.7;true;false;false;[LUSH, DENSE, WET, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:mangrove;MEDIUM;0.85;false;false;false;[LUSH, DENSE, WATER, WET, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:maple_woods;MEDIUM;0.25;false;false;false;[DENSE, FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:marsh;MEDIUM;0.6;false;false;false;[LUSH, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:meadow;MEDIUM;0.4;false;false;false;[LUSH, FOREST, PLAINS, WET, COLD, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:moor;MEDIUM;0.6;true;false;false;[HILLS, WET, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:mountain;MEDIUM;0.5;false;false;false;[MOUNTAIN, FOREST, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:mystic_grove;MEDIUM;0.7;false;false;false;[MAGICAL, LUSH, DENSE, FOREST, WET, RARE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:ominous_woods;MEDIUM;0.6;false;false;false;[MAGICAL, DENSE, FOREST, SPOOKY, WET, RARE, DEAD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:orchard;MEDIUM;0.7;false;false;false;[LUSH, DENSE, FOREST, PLAINS]
+[16:36:41] [Client thread/INFO]: biomesoplenty:outback;WARM;2.0;false;false;false;[HOT, SAVANNA, SANDY, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:overgrown_cliffs;MEDIUM;0.95;false;false;false;[HILLS, LUSH, MOUNTAIN, DENSE, JUNGLE, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:prairie;MEDIUM;0.8;false;false;false;[PLAINS, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:quagmire;MEDIUM;0.6;true;false;false;[WASTELAND, WET, DEAD, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:rainforest;MEDIUM;0.95;true;false;false;[LUSH, HILLS, DENSE, FOREST, JUNGLE, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:redwood_forest;MEDIUM;0.7;false;false;false;[DENSE, FOREST]
+[16:36:41] [Client thread/INFO]: biomesoplenty:sacred_springs;MEDIUM;0.85;true;false;false;[MAGICAL, LUSH, DENSE, FOREST, JUNGLE, WET, RARE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:seasonal_forest;MEDIUM;0.4;false;false;false;[DENSE, FOREST, COLD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:shield;MEDIUM;0.4;false;false;false;[DENSE, FOREST, WET, COLD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:shrubland;MEDIUM;0.6;false;false;false;[PLAINS, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:snowy_coniferous_forest;COLD;-0.25;false;false;true;[SNOWY, DENSE, FOREST, CONIFEROUS, COLD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:snowy_forest;COLD;-0.25;false;false;true;[SNOWY, FOREST, WET, COLD, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:steppe;MEDIUM;0.75;false;false;false;[SANDY, PLAINS, DRY]
+[16:36:41] [Client thread/INFO]: biomesoplenty:temperate_rainforest;MEDIUM;0.75;true;false;false;[LUSH, DENSE, FOREST, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:tropical_rainforest;WARM;1.0;true;false;false;[LUSH, HOT, DENSE, JUNGLE, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:tundra;MEDIUM;0.2;false;false;false;[WASTELAND, WET, COLD, DEAD, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:wasteland;WARM;2.0;false;false;false;[WASTELAND, DRY, DEAD, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:wetland;MEDIUM;0.6;false;false;false;[LUSH, DENSE, FOREST, WET, SWAMP]
+[16:36:41] [Client thread/INFO]: biomesoplenty:woodland;MEDIUM;0.7;false;false;false;[DENSE, FOREST, DRY]
+[16:36:41] [Client thread/INFO]: biomesoplenty:xeric_shrubland;WARM;1.75;false;false;false;[LUSH, HOT, SAVANNA, SANDY, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:alps_foothills;COLD;-0.25;false;false;true;[SNOWY, MOUNTAIN, FOREST, COLD, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:mountain_foothills;MEDIUM;0.5;false;false;false;[HILLS, MOUNTAIN, FOREST, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:redwood_forest_edge;MEDIUM;0.7;false;false;false;[DENSE, FOREST]
+[16:36:41] [Client thread/INFO]: biomesoplenty:pasture;MEDIUM;0.8;false;false;false;[PLAINS, DRY, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:glacier;COLD;-0.5;false;false;false;[SNOWY, WASTELAND, COLD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:oasis;WARM;2.0;false;false;false;[LUSH, HOT, JUNGLE, SANDY, WET, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:snowy_tundra;COLD;0.0;false;false;false;[SNOWY, WASTELAND, WET, COLD, DEAD, SPARSE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:coral_reef;MEDIUM;0.5;false;false;false;[WATER, OCEAN]
+[16:36:41] [Client thread/INFO]: biomesoplenty:kelp_forest;MEDIUM;0.5;false;false;false;[WATER, OCEAN]
+[16:36:41] [Client thread/INFO]: biomesoplenty:origin_island;MEDIUM;0.6;false;false;false;[FOREST, WATER, RARE]
+[16:36:41] [Client thread/INFO]: biomesoplenty:tropical_island;MEDIUM;0.95;true;false;false;[LUSH, DENSE, JUNGLE, WATER, WET]
+[16:36:41] [Client thread/INFO]: biomesoplenty:volcanic_island;WARM;1.2;false;false;false;[HOT, MOUNTAIN, WATER, WASTELAND, DRY, DEAD]
+[16:36:41] [Client thread/INFO]: biomesoplenty:flower_island;MEDIUM;0.8;false;false;false;[MAGICAL, LUSH, DENSE, WATER, PLAINS]
+[16:36:41] [Client thread/INFO]: biomesoplenty:corrupted_sands;WARM;2.0;false;false;false;[HOT, NETHER, DENSE, SANDY, DRY]
+[16:36:41] [Client thread/INFO]: biomesoplenty:fungi_forest;WARM;2.0;false;false;false;[HOT, NETHER, DENSE, MUSHROOM]
+[16:36:41] [Client thread/INFO]: biomesoplenty:phantasmagoric_inferno;WARM;2.0;false;false;false;[MAGICAL, HOT, NETHER, SPOOKY, WASTELAND, DRY]
+[16:36:41] [Client thread/INFO]: biomesoplenty:undergarden;WARM;2.0;false;false;false;[HOT, LUSH, NETHER]
+[16:36:41] [Client thread/INFO]: biomesoplenty:visceral_heap;WARM;2.0;false;false;false;[HOT, NETHER, WET]
+[16:36:41] [Client thread/INFO]: Registering drops for shadedGarden.
+[16:36:41] [Client thread/INFO]: Registering drops for tropicalGarden.
+[16:36:41] [Client thread/INFO]: Registering drops for windyGarden.
+[16:36:41] [Client thread/INFO]: Registering drops for frostGarden.
+[16:36:41] [Client thread/INFO]: Registering drops for aridGarden.
+[16:36:41] [Client thread/INFO]: Registering drops for soggyGarden.
+[16:36:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamapiary`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pammarket`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamshippingbin`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pampresser`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamgroundtrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamwatertrap`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamwaterfilter`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/WARN]: Potentially Dangerous alternative prefix `minecraft` for name `pamgrinder`, expected `harvestcraft`. This could be a intended override, but in most cases indicates a broken mod.
+[16:36:41] [Client thread/INFO]: Loading JSON Files
+[16:36:41] [Client thread/INFO]: Loading data from json
+[16:36:41] [Client thread/INFO]: Loaded all data from JSON
+[16:36:41] [Client thread/INFO]: Received 18 IMC messages from mod quark.
+[16:36:41] [Client thread/INFO]: Injecting itemstacks
+[16:36:41] [Client thread/INFO]: Itemstack injection complete
+[16:36:41] [Client thread/INFO]: Added 'minecraft:lapis_ore/0=>1*minecraft:lapis_ore/4=>minecraft:lapis_ore/0' to mapping
+[16:36:41] [Client thread/INFO]: Added 'minecraft:lit_redstone_ore/0=>1*minecraft:redstone_ore/0=>minecraft:lit_redstone_ore/0' to mapping
+[16:36:41] [Client thread/INFO]: Added 'minecraft:grass/0=>1*minecraft:grass/0=>minecraft:grass/0' to mapping
+[16:36:41] [Client thread/INFO]: Added 'minecraft:grass/0=>1*minecraft:dirt/0=>minecraft:dirt/0' to mapping
+[16:36:41] [Client thread/INFO]: Added 'minecraft:dirt/1=>1*minecraft:dirt/1=>minecraft:dirt/1' to mapping
+[16:36:41] [Client thread/INFO]: Added 'minecraft:dirt/1=>1*minecraft:dirt/0=>minecraft:dirt/0' to mapping
+[16:36:41] [Client thread/INFO]: Added 'minecraft:dirt/2=>1*minecraft:dirt/2=>minecraft:dirt/2' to mapping
+[16:36:41] [Client thread/INFO]: Added 'minecraft:dirt/2=>1*minecraft:dirt/0=>minecraft:dirt/0' to mapping
+[16:36:41] [Client thread/INFO]: [cutepuppymod]:[INFO]:Lets hope it does not shoot fire and blow up
+[16:36:41] [Client thread/INFO]: [cutepuppymod]:[INFO]:-iChun 2015
+[16:36:41] [Client thread/INFO]: [cutepuppymod]:[INFO]:yes that is in evey mod manmaed makes!
+[16:36:42] [Client thread/INFO]: Postinitializing modules for mod magicbees...
+[16:36:42] [Client thread/INFO]:    Postinitializing module Vanilla Module
+[16:36:42] [Client thread/INFO]: Postinitialized 1 module for mod magicbees
+[16:36:42] [Client thread/INFO]: MagicBees has Post-initialized in 9 ms
+[16:36:42] [Client thread/INFO]: FML mod loading complete. There appear to be 2 BNBGaming mods present.
+[16:36:45] [Client thread/INFO]: Forge Mod Loader has successfully loaded 28 mods
+[16:36:45] [Client thread/WARN]: Skipping bad option: lastServer:
+[16:36:45] [Client thread/INFO]: Narrator library for x64 successfully loaded
+[16:36:49] [Client thread/INFO]: Stopping!
+[16:36:49] [Client thread/INFO]: SoundSystem shutting down...
+[16:36:50] [Client thread/WARN]: Author: Paul Lamb, www.paulscode.com
