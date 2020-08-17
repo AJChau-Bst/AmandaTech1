@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-17T19:22:09.9836354Z",
+  "lastPlayed": "2020-08-17T20:06:17.9669719Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -46,109 +46,49 @@
   "name": "New Greg",
   "cachedScans": [
     {
-      "folderName": "TravelersBackpack-1.12.2-1.0.33.jar",
-      "fingerprint": 2640402891,
-      "fileDateHash": 3844268061,
+      "folderName": "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
+      "fingerprint": 3073248050,
+      "fileDateHash": 1364004231,
       "sectionID": 8,
       "individualFingerprints": [
-        2640402891
+        3073248050
       ],
       "status": 1,
-      "timestamp": "2020-08-17T19:05:59.667149Z",
-      "lastWriteTimeUtc": "2020-08-17T18:10:44.3776775Z",
-      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
+      "timestamp": "2020-08-17T19:49:30.0296524Z",
+      "lastWriteTimeUtc": "2020-08-17T19:29:47.5712125Z",
+      "queryTimestamp": "2020-08-17T19:49:30.2076052Z",
       "fileCount": 1,
-      "fileSize": 392908
+      "fileSize": 75709
     },
     {
-      "folderName": "MagicBees-1.12.2-3.1.10.jar",
-      "fingerprint": 3030765590,
-      "fileDateHash": 2700284183,
+      "folderName": "beebetteratbees-1.12.2-2.0.3.jar",
+      "fingerprint": 1947786579,
+      "fileDateHash": 1321293048,
       "sectionID": 8,
       "individualFingerprints": [
-        3030765590
+        1947786579
       ],
       "status": 1,
-      "timestamp": "2020-08-17T19:11:43.7275439Z",
-      "lastWriteTimeUtc": "2020-08-17T19:10:49.0998658Z",
-      "queryTimestamp": "2020-08-17T19:11:43.9308644Z",
+      "timestamp": "2020-08-17T19:21:19.8370894Z",
+      "lastWriteTimeUtc": "2020-08-17T19:13:39.2276763Z",
+      "queryTimestamp": "2020-08-17T19:21:20.0971378Z",
       "fileCount": 1,
-      "fileSize": 1035863
+      "fileSize": 44806
     },
     {
-      "folderName": "AppleCore-mc1.12.2-3.4.0.jar",
-      "fingerprint": 3756462991,
-      "fileDateHash": 2677287807,
+      "folderName": "AutoRegLib-1.3-32.jar",
+      "fingerprint": 69589181,
+      "fileDateHash": 2398694243,
       "sectionID": 8,
       "individualFingerprints": [
-        3756462991
+        69589181
       ],
       "status": 1,
-      "timestamp": "2020-08-17T19:05:59.5398409Z",
-      "lastWriteTimeUtc": "2020-08-17T18:49:16.2783648Z",
-      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
+      "timestamp": "2020-08-17T20:06:09.1624114Z",
+      "lastWriteTimeUtc": "2020-08-17T20:06:01.742333Z",
+      "queryTimestamp": "2020-08-17T20:06:09.4379164Z",
       "fileCount": 1,
-      "fileSize": 89615
-    },
-    {
-      "folderName": "forestry_1.12.2-5.8.2.387.jar",
-      "fingerprint": 2560357833,
-      "fileDateHash": 2253364629,
-      "sectionID": 8,
-      "individualFingerprints": [
-        2560357833
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T19:05:59.5987111Z",
-      "lastWriteTimeUtc": "2020-08-17T19:02:04.8284203Z",
-      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
-      "fileCount": 1,
-      "fileSize": 5232265
-    },
-    {
-      "folderName": "refinedstorage-1.6.16.jar",
-      "fingerprint": 3949468729,
-      "fileDateHash": 4218104739,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3949468729
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T19:05:59.657133Z",
-      "lastWriteTimeUtc": "2020-08-17T18:34:09.9799438Z",
-      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
-      "fileCount": 1,
-      "fileSize": 1912377
-    },
-    {
-      "folderName": "Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar",
-      "fingerprint": 188584303,
-      "fileDateHash": 3432445286,
-      "sectionID": 8,
-      "individualFingerprints": [
-        188584303
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T19:11:43.7251448Z",
-      "lastWriteTimeUtc": "2020-08-17T17:51:43.3770382Z",
-      "queryTimestamp": "2020-08-17T19:11:43.9308644Z",
-      "fileCount": 1,
-      "fileSize": 312457
-    },
-    {
-      "folderName": "HungerOverhaul-1.12.2-1.3.3.jenkins148.jar",
-      "fingerprint": 4152259938,
-      "fileDateHash": 1342896240,
-      "sectionID": 8,
-      "individualFingerprints": [
-        4152259938
-      ],
-      "status": 1,
-      "timestamp": "2020-08-17T19:05:59.6280537Z",
-      "lastWriteTimeUtc": "2020-08-17T18:50:05.047237Z",
-      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
-      "fileCount": 1,
-      "fileSize": 135518
+      "fileSize": 108306
     },
     {
       "folderName": "Pam's+HarvestCraft+1.12.2zg.jar",
@@ -166,6 +106,139 @@
       "fileSize": 4912890
     },
     {
+      "folderName": "HungerOverhaul-1.12.2-1.3.3.jenkins148.jar",
+      "fingerprint": 4152259938,
+      "fileDateHash": 1342896240,
+      "sectionID": 8,
+      "individualFingerprints": [
+        4152259938
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:05:59.6280537Z",
+      "lastWriteTimeUtc": "2020-08-17T18:50:05.047237Z",
+      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
+      "fileCount": 1,
+      "fileSize": 135518
+    },
+    {
+      "folderName": "forestry_1.12.2-5.8.2.387.jar",
+      "fingerprint": 2560357833,
+      "fileDateHash": 2253364629,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2560357833
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:05:59.5987111Z",
+      "lastWriteTimeUtc": "2020-08-17T19:02:04.8284203Z",
+      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
+      "fileCount": 1,
+      "fileSize": 5232265
+    },
+    {
+      "folderName": "MagicBees-1.12.2-3.1.10.jar",
+      "fingerprint": 3030765590,
+      "fileDateHash": 2700284183,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3030765590
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:11:43.7275439Z",
+      "lastWriteTimeUtc": "2020-08-17T19:10:49.0998658Z",
+      "queryTimestamp": "2020-08-17T19:11:43.9308644Z",
+      "fileCount": 1,
+      "fileSize": 1035863
+    },
+    {
+      "folderName": "TravelersBackpack-1.12.2-1.0.33.jar",
+      "fingerprint": 2640402891,
+      "fileDateHash": 3844268061,
+      "sectionID": 8,
+      "individualFingerprints": [
+        2640402891
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:05:59.667149Z",
+      "lastWriteTimeUtc": "2020-08-17T18:10:44.3776775Z",
+      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
+      "fileCount": 1,
+      "fileSize": 392908
+    },
+    {
+      "folderName": "Quest Test",
+      "fingerprint": 1835122303,
+      "fileDateHash": 3116806572,
+      "sectionID": 10,
+      "individualFingerprints": [
+        107143064,
+        158159545,
+        224251200,
+        224251200,
+        440195902,
+        489458212,
+        489458212,
+        584499092,
+        682895157,
+        758054953,
+        758054953,
+        758054953,
+        1254400901,
+        1282249443,
+        1452862183,
+        1750966944,
+        1803953797,
+        1957606574,
+        1960345270,
+        1986221088,
+        3293243007,
+        3803101205,
+        3820414998,
+        3833284048,
+        3851981609,
+        4122504679,
+        4213863462,
+        4213863462,
+        4213863462
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:29:50.8747748Z",
+      "lastWriteTimeUtc": "2020-08-17T19:27:00.8959385Z",
+      "queryTimestamp": "2020-08-17T19:29:51.1800416Z",
+      "fileCount": 13,
+      "fileSize": 0
+    },
+    {
+      "folderName": "CustomLoadingScreen-1.12.2-1.4.1.jar",
+      "fingerprint": 1751499308,
+      "fileDateHash": 1466320105,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1751499308
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:48:56.3486216Z",
+      "lastWriteTimeUtc": "2020-08-17T19:31:05.7527119Z",
+      "queryTimestamp": "2020-08-17T19:48:56.4968962Z",
+      "fileCount": 1,
+      "fileSize": 521135
+    },
+    {
+      "folderName": "AppleCore-mc1.12.2-3.4.0.jar",
+      "fingerprint": 3756462991,
+      "fileDateHash": 2677287807,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3756462991
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:05:59.5398409Z",
+      "lastWriteTimeUtc": "2020-08-17T18:49:16.2783648Z",
+      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
+      "fileCount": 1,
+      "fileSize": 89615
+    },
+    {
       "folderName": "BetterQuesting-3.5.329.jar",
       "fingerprint": 1334472196,
       "fileDateHash": 549488802,
@@ -181,23 +254,68 @@
       "fileSize": 1425671
     },
     {
-      "folderName": "beebetteratbees-1.12.2-2.0.3.jar",
-      "fingerprint": 1947786579,
-      "fileDateHash": 1321293048,
+      "folderName": "Quark-r1.6-179.jar",
+      "fingerprint": 2910837341,
+      "fileDateHash": 4092537291,
       "sectionID": 8,
       "individualFingerprints": [
-        1947786579
+        2910837341
       ],
       "status": 1,
-      "timestamp": "2020-08-17T19:21:19.8370894Z",
-      "lastWriteTimeUtc": "2020-08-17T19:13:39.2276763Z",
-      "queryTimestamp": "2020-08-17T19:21:20.0971378Z",
+      "timestamp": "2020-08-17T19:47:31.8266334Z",
+      "lastWriteTimeUtc": "2020-08-17T19:34:24.5174506Z",
+      "queryTimestamp": "2020-08-17T19:47:32.0095047Z",
       "fileCount": 1,
-      "fileSize": 44806
+      "fileSize": 3877577
+    },
+    {
+      "folderName": "cutepuppymod-2.5.jar",
+      "fingerprint": 910672649,
+      "fileDateHash": 1947624986,
+      "sectionID": 8,
+      "individualFingerprints": [
+        910672649
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:47:58.1589642Z",
+      "lastWriteTimeUtc": "2020-08-17T19:36:53.495566Z",
+      "queryTimestamp": "2020-08-17T19:47:58.4708217Z",
+      "fileCount": 1,
+      "fileSize": 360442
+    },
+    {
+      "folderName": "Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar",
+      "fingerprint": 188584303,
+      "fileDateHash": 3432445286,
+      "sectionID": 8,
+      "individualFingerprints": [
+        188584303
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:11:43.7251448Z",
+      "lastWriteTimeUtc": "2020-08-17T17:51:43.3770382Z",
+      "queryTimestamp": "2020-08-17T19:11:43.9308644Z",
+      "fileCount": 1,
+      "fileSize": 312457
+    },
+    {
+      "folderName": "refinedstorage-1.6.16.jar",
+      "fingerprint": 3949468729,
+      "fileDateHash": 4218104739,
+      "sectionID": 8,
+      "individualFingerprints": [
+        3949468729
+      ],
+      "status": 1,
+      "timestamp": "2020-08-17T19:05:59.657133Z",
+      "lastWriteTimeUtc": "2020-08-17T18:34:09.9799438Z",
+      "queryTimestamp": "2020-08-17T19:05:59.8971374Z",
+      "fileCount": 1,
+      "fileSize": 1912377
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-08-17T19:06:00.2107255Z",
+  "lastPreviousMatchUpdate": "2020-08-17T20:06:09.6259347Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -220,6 +338,97 @@
   "preferenceShowAddOnInfo": true,
   "installDate": "2020-08-17T17:42:51.5369088Z",
   "installedAddons": [
+    {
+      "addonID": 243076,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2940914,
+        "displayName": "Refined Storage 1.6.16",
+        "fileName": "refinedstorage-1.6.16.jar",
+        "fileDate": "2020-04-26T10:32:58.997Z",
+        "fileLength": 1912377,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2940/914/refinedstorage-1.6.16.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2037727742,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3499274742,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 1122391749,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 3726678046,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3287265263,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3949468729,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1842488,
+        "projectId": 243076,
+        "packageFingerprintId": 447626897,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2197448,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "refinedstorage-1.6.16.jar"
+      },
+      "dateInstalled": "2020-08-17T19:06:00.2047226Z",
+      "dateUpdated": "2019-08-17T19:06:00.2047226Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
     {
       "addonID": 238856,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
@@ -302,7 +511,206 @@
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
       "manifestName": null,
-      "installedTargets": []
+      "installedTargets": null
+    },
+    {
+      "addonID": 238403,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2443194,
+        "displayName": "Better Builder's Wands 0.11.1 [MC1.12; rev 245]",
+        "fileName": "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
+        "fileDate": "2017-06-29T11:16:40.93Z",
+        "fileLength": 75709,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2443/194/BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar",
+        "isAlternate": false,
+        "alternateFileId": 2443195,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2464251221,
+            "type": 3
+          },
+          {
+            "foldername": "portablejim",
+            "fingerprint": 3909244492,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3320786684,
+            "type": 3
+          },
+          {
+            "foldername": "version.properties",
+            "fingerprint": 2013650893,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4044244605,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 59981550,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3073248050,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": true,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 79301,
+        "projectId": 238403,
+        "packageFingerprintId": 185850258,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1372310,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar"
+      },
+      "dateInstalled": "2020-08-17T19:49:30.3748219Z",
+      "dateUpdated": "2019-08-17T19:49:30.3748219Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 221857,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2904825,
+        "displayName": "Pam's HarvestCraft 1.12.2zg.jar",
+        "fileName": "Pam's HarvestCraft 1.12.2zg.jar",
+        "fileDate": "2020-03-18T20:32:21.123Z",
+        "fileLength": 4912890,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2904/825/Pam's HarvestCraft 1.12.2zg.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "assets",
+            "fingerprint": 3977051875,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 775495382,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1853251317,
+            "type": 3
+          },
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2793332575,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 3
+          },
+          {
+            "foldername": "Pam's HarvestCraft 1.12 Changelog.txt",
+            "fingerprint": 2119039367,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1735713960,
+        "gameVersion": [
+          "Forge",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1796746,
+        "projectId": 221857,
+        "packageFingerprintId": 425256671,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 2136716,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "Pam's+HarvestCraft+1.12.2zg.jar"
+      },
+      "dateInstalled": "2020-08-17T19:06:00.205715Z",
+      "dateUpdated": "2019-08-17T19:06:00.205715Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": true,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
     },
     {
       "addonID": 224472,
@@ -482,17 +890,17 @@
       "installedTargets": null
     },
     {
-      "addonID": 243076,
+      "addonID": 229302,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
-        "id": 2940914,
-        "displayName": "Refined Storage 1.6.16",
-        "fileName": "refinedstorage-1.6.16.jar",
-        "fileDate": "2020-04-26T10:32:58.997Z",
-        "fileLength": 1912377,
+        "id": 2783190,
+        "displayName": "[1.12.2] 1.4.1",
+        "fileName": "CustomLoadingScreen-1.12.2-1.4.1.jar",
+        "fileDate": "2019-09-11T19:05:59.277Z",
+        "fileLength": 521135,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2940/914/refinedstorage-1.6.16.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2783/190/CustomLoadingScreen-1.12.2-1.4.1.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
@@ -500,31 +908,36 @@
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2037727742,
+            "fingerprint": 4287176933,
+            "type": 3
+          },
+          {
+            "foldername": "alexiil",
+            "fingerprint": 3253620097,
             "type": 3
           },
           {
             "foldername": "assets",
-            "fingerprint": 3499274742,
+            "fingerprint": 3959885281,
             "type": 3
           },
           {
-            "foldername": "com",
-            "fingerprint": 1122391749,
+            "foldername": "changelog",
+            "fingerprint": 4191501810,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 3726678046,
+            "fingerprint": 3514929039,
             "type": 3
           },
           {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3287265263,
+            "foldername": "LICENSE",
+            "fingerprint": 2980605036,
             "type": 3
           }
         ],
-        "packageFingerprint": 3949468729,
+        "packageFingerprint": 1751499308,
         "gameVersion": [
           "Forge",
           "1.12.2"
@@ -548,18 +961,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1842488,
-        "projectId": 243076,
-        "packageFingerprintId": 447626897,
+        "renderCacheId": 1650151,
+        "projectId": 229302,
+        "packageFingerprintId": 355339538,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 2197448,
+        "gameVersionMappingId": 1930512,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "refinedstorage-1.6.16.jar"
+        "FileNameOnDisk": "CustomLoadingScreen-1.12.2-1.4.1.jar"
       },
-      "dateInstalled": "2020-08-17T19:06:00.2047226Z",
-      "dateUpdated": "2019-08-17T19:06:00.2047226Z",
+      "dateInstalled": "2020-08-17T19:48:56.7002097Z",
+      "dateUpdated": "2019-08-17T19:48:56.7002097Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -644,6 +1057,98 @@
       },
       "dateInstalled": "2020-08-17T19:11:44.2107483Z",
       "dateUpdated": "2019-08-17T19:11:44.2107483Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 244516,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2627215,
+        "displayName": "BeeBetterAtBees-1.12.2-2.0.3.jar",
+        "fileName": "beebetteratbees-1.12.2-2.0.3.jar",
+        "fileDate": "2018-10-12T22:26:12.423Z",
+        "fileLength": 44806,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2627/215/beebetteratbees-1.12.2-2.0.3.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 20493737,
+            "addonId": 238222,
+            "type": 3,
+            "fileId": 2627215
+          },
+          {
+            "id": 20493736,
+            "addonId": 59751,
+            "type": 3,
+            "fileId": 2627215
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2098754414,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 2144641834,
+            "type": 3
+          },
+          {
+            "foldername": "hellfirepvp",
+            "fingerprint": 3126794076,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 1302871222,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1947786579,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1458978,
+        "projectId": 244516,
+        "packageFingerprintId": 269819092,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1681803,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "beebetteratbees-1.12.2-2.0.3.jar"
+      },
+      "dateInstalled": "2020-08-17T19:21:20.2597851Z",
+      "dateUpdated": "2019-08-17T19:21:20.2597851Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -743,63 +1248,67 @@
       "installedTargets": null
     },
     {
-      "addonID": 59751,
+      "addonID": 243121,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
-        "id": 2684780,
-        "displayName": "forestry_1.12.2-5.8.2.387.jar",
-        "fileName": "forestry_1.12.2-5.8.2.387.jar",
-        "fileDate": "2019-03-08T17:52:33.56Z",
-        "fileLength": 5232265,
+        "id": 2924091,
+        "displayName": "Quark-r1.6-179.jar",
+        "fileName": "Quark-r1.6-179.jar",
+        "fileDate": "2020-04-08T04:49:50.967Z",
+        "fileLength": 3877577,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2684/780/forestry_1.12.2-5.8.2.387.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2924/91/Quark-r1.6-179.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [],
+        "dependencies": [
+          {
+            "id": 39533118,
+            "addonId": 250363,
+            "type": 3,
+            "fileId": 2924091
+          }
+        ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2092301135,
+            "fingerprint": 3236539367,
             "type": 3
           },
           {
-            "foldername": "forestry",
-            "fingerprint": 721977217,
+            "foldername": "vazkii",
+            "fingerprint": 1445870801,
             "type": 3
           },
           {
             "foldername": "assets",
-            "fingerprint": 3703223763,
-            "type": 3
-          },
-          {
-            "foldername": "config",
-            "fingerprint": 3641535214,
-            "type": 3
-          },
-          {
-            "foldername": "CREDITS.txt",
-            "fingerprint": 2738042887,
+            "fingerprint": 3613315758,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 2555935752,
+            "fingerprint": 3433932295,
             "type": 3
           },
           {
-            "foldername": "pack.mcmeta",
-            "fingerprint": 3213175927,
+            "foldername": "proxypack.mcmeta",
+            "fingerprint": 3313685099,
             "type": 3
           }
         ],
-        "packageFingerprint": 2560357833,
+        "packageFingerprint": 2910837341,
         "gameVersion": [
+          "Forge",
           "1.12.2"
         ],
         "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0",
+            "gameVersion": "",
+            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
+            "gameVersionName": "Forge"
+          },
           {
             "gameVersionPadded": "0000000001.0000000012.0000000002",
             "gameVersion": "1.12.2",
@@ -812,18 +1321,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1528670,
-        "projectId": 59751,
-        "packageFingerprintId": 299173114,
+        "renderCacheId": 1820959,
+        "projectId": 243121,
+        "packageFingerprintId": 436615647,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1768396,
+        "gameVersionMappingId": 2168495,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "forestry_1.12.2-5.8.2.387.jar"
+        "FileNameOnDisk": "Quark-r1.6-179.jar"
       },
-      "dateInstalled": "2020-08-17T19:06:00.2047226Z",
-      "dateUpdated": "2019-08-17T19:06:00.2047226Z",
+      "dateInstalled": "2020-08-17T19:47:32.2084595Z",
+      "dateUpdated": "2019-08-17T19:47:32.2084595Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -837,57 +1346,44 @@
       "installedTargets": null
     },
     {
-      "addonID": 244516,
+      "addonID": 229525,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
-        "id": 2627215,
-        "displayName": "BeeBetterAtBees-1.12.2-2.0.3.jar",
-        "fileName": "beebetteratbees-1.12.2-2.0.3.jar",
-        "fileDate": "2018-10-12T22:26:12.423Z",
-        "fileLength": 44806,
+        "id": 2578498,
+        "displayName": "CutePuppyMod 1.12.2 2.5",
+        "fileName": "cutepuppymod-2.5.jar",
+        "fileDate": "2018-07-02T08:42:00.03Z",
+        "fileLength": 360442,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2627/215/beebetteratbees-1.12.2-2.0.3.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2578/498/cutepuppymod-2.5.jar",
         "isAlternate": false,
         "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 20493737,
-            "addonId": 238222,
-            "type": 3,
-            "fileId": 2627215
-          },
-          {
-            "id": 20493736,
-            "addonId": 59751,
-            "type": 3,
-            "fileId": 2627215
-          }
-        ],
+        "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2098754414,
+            "fingerprint": 2506794171,
             "type": 3
           },
           {
             "foldername": "assets",
-            "fingerprint": 2144641834,
+            "fingerprint": 3795746083,
             "type": 3
           },
           {
-            "foldername": "hellfirepvp",
-            "fingerprint": 3126794076,
+            "foldername": "manmaed",
+            "fingerprint": 2885116170,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1302871222,
+            "fingerprint": 3214798867,
             "type": 3
           }
         ],
-        "packageFingerprint": 1947786579,
+        "packageFingerprint": 910672649,
         "gameVersion": [
           "1.12.2"
         ],
@@ -904,18 +1400,97 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1458978,
-        "projectId": 244516,
-        "packageFingerprintId": 269819092,
+        "renderCacheId": 1403207,
+        "projectId": 229525,
+        "packageFingerprintId": 250099486,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1608862,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "cutepuppymod-2.5.jar"
+      },
+      "dateInstalled": "2020-08-17T19:47:58.6845927Z",
+      "dateUpdated": "2019-08-17T19:47:58.6845927Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": null
+    },
+    {
+      "addonID": 250363,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2746011,
+        "displayName": "AutoRegLib-1.3-32.jar",
+        "fileName": "AutoRegLib-1.3-32.jar",
+        "fileDate": "2019-07-22T11:42:20Z",
+        "fileLength": 108306,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2746/11/AutoRegLib-1.3-32.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 2909822131,
+            "type": 3
+          },
+          {
+            "foldername": "vazkii",
+            "fingerprint": 2108119070,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1346084177,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2714767204,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 69589181,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1604528,
+        "projectId": 250363,
+        "packageFingerprintId": 335552710,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1681803,
+        "gameVersionMappingId": 1868233,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "beebetteratbees-1.12.2-2.0.3.jar"
+        "FileNameOnDisk": "AutoRegLib-1.3-32.jar"
       },
-      "dateInstalled": "2020-08-17T19:21:20.2597851Z",
-      "dateUpdated": "2019-08-17T19:21:20.2597851Z",
+      "dateInstalled": "2020-08-17T20:06:09.6200547Z",
+      "dateUpdated": "2019-08-17T20:06:09.6200547Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -1020,65 +1595,63 @@
       "installedTargets": null
     },
     {
-      "addonID": 221857,
+      "addonID": 59751,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
-        "id": 2904825,
-        "displayName": "Pam's HarvestCraft 1.12.2zg.jar",
-        "fileName": "Pam's HarvestCraft 1.12.2zg.jar",
-        "fileDate": "2020-03-18T20:32:21.123Z",
-        "fileLength": 4912890,
+        "id": 2684780,
+        "displayName": "forestry_1.12.2-5.8.2.387.jar",
+        "fileName": "forestry_1.12.2-5.8.2.387.jar",
+        "fileDate": "2019-03-08T17:52:33.56Z",
+        "fileLength": 5232265,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2904/825/Pam's HarvestCraft 1.12.2zg.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2684/780/forestry_1.12.2-5.8.2.387.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [],
         "isAvailable": true,
         "modules": [
           {
-            "foldername": "assets",
-            "fingerprint": 3977051875,
+            "foldername": "META-INF",
+            "fingerprint": 2092301135,
             "type": 3
           },
           {
-            "foldername": "com",
-            "fingerprint": 775495382,
+            "foldername": "forestry",
+            "fingerprint": 721977217,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3703223763,
+            "type": 3
+          },
+          {
+            "foldername": "config",
+            "fingerprint": 3641535214,
+            "type": 3
+          },
+          {
+            "foldername": "CREDITS.txt",
+            "fingerprint": 2738042887,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1853251317,
-            "type": 3
-          },
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2793332575,
+            "fingerprint": 2555935752,
             "type": 3
           },
           {
             "foldername": "pack.mcmeta",
-            "fingerprint": 3273911401,
-            "type": 3
-          },
-          {
-            "foldername": "Pam's HarvestCraft 1.12 Changelog.txt",
-            "fingerprint": 2119039367,
+            "fingerprint": 3213175927,
             "type": 3
           }
         ],
-        "packageFingerprint": 1735713960,
+        "packageFingerprint": 2560357833,
         "gameVersion": [
-          "Forge",
           "1.12.2"
         ],
         "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0",
-            "gameVersion": "",
-            "gameVersionReleaseDate": "2019-08-01T00:00:00Z",
-            "gameVersionName": "Forge"
-          },
           {
             "gameVersionPadded": "0000000001.0000000012.0000000002",
             "gameVersion": "1.12.2",
@@ -1091,24 +1664,24 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1796746,
-        "projectId": 221857,
-        "packageFingerprintId": 425256671,
-        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
-        "gameVersionMappingId": 2136716,
-        "gameVersionId": 6756,
+        "renderCacheId": 1528670,
+        "projectId": 59751,
+        "packageFingerprintId": 299173114,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1768396,
+        "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "Pam's+HarvestCraft+1.12.2zg.jar"
+        "FileNameOnDisk": "forestry_1.12.2-5.8.2.387.jar"
       },
-      "dateInstalled": "2020-08-17T19:06:00.205715Z",
-      "dateUpdated": "2019-08-17T19:06:00.205715Z",
+      "dateInstalled": "2020-08-17T19:06:00.2047226Z",
+      "dateUpdated": "2019-08-17T19:06:00.2047226Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
       "preferenceAlternateFile": false,
       "preferenceIsIgnored": false,
-      "isModified": true,
+      "isModified": false,
       "isWorkingCopy": false,
       "isFuzzyMatch": false,
       "preferenceReleaseType": null,
