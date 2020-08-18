@@ -1,12 +1,12 @@
 
 //Set the icon item
-setIcon(<minecraft:flint>)
+setIcon(<minecraft:wooden_button>)
 
 //Set the title String
-setTitle("eek!")
+setTitle("Pretty Colors!")
 
 //Set the description String
-setDescription("nuuuuuuuuu")
+setDescription("Craft a wooden button")
 
 //Set Better Advancements icon/title/line colors. Supports single color int, 3 rgb ints, and hex.
 setUncompletedIconColor(16744448)
@@ -16,6 +16,8 @@ setCompletedTitleColor(#00FF80)
 setUncompletedLineColor(#ff0000)
 setCompletedLineColor(#ff00ff)
 
+//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
+addParent("triumph:example/root")
 
 //Set the position
 setPos(34,17)
@@ -27,4 +29,4 @@ hideLines()
 criteria = addCriteria("crafted", "triumph:player_crafted_item")
 
 //Sets the required item for the criteria. This is the item that needs to be crafted.
-criteria.setItem(<minecraft:crafting_table>)
+criteria.setItem(<minecraft:wooden_button>)
