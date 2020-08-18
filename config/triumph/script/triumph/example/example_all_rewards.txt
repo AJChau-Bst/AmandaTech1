@@ -8,6 +8,14 @@ setTitle("Starting Off")
 //Set description String
 setDescription("Crafting Tableeeeee!")
 
+//Set Better Advancements icon/title/line colors. Supports single color int, 3 rgb ints, and hex.
+setUncompletedIconColor(16744448)
+setCompletedIconColor(128, 0, 255)
+setUncompletedTitleColor(65535)
+setCompletedTitleColor(#00FF80)
+setUncompletedLineColor(#ff0000)
+setCompletedLineColor(#ff00ff)
+
 //Set the position
 setPos(80,65)
 
