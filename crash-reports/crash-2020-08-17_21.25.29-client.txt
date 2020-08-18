@@ -1,0 +1,186 @@
+---- Minecraft Crash Report ----
+
+WARNING: coremods are present:
+  BNBGamingCore (BNBGamingCore-1.12.2-0.12.0.jar)
+  IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+  MicdoodlePlugin (MicdoodleCore-1.12.2 (1).jar)
+  Quark Plugin (Quark-r1.6-179.jar)
+  AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  ClsPlugin (CustomLoadingScreen-1.12.2-1.4.1.jar)
+  CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  AstralCore (astralsorcery-1.12.2-1.10.25.jar)
+Contact their authors BEFORE contacting forge
+
+// I let you down. Sorry :(
+
+Time: 8/17/20 9:25 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from GalaxySpace (galaxyspace)
+Caused by: java.lang.NoClassDefFoundError: asmodeuscore/core/astronomy/BodiesHelper
+	at galaxyspace.GalaxySpace.preInit(GalaxySpace.java:153)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraftforge.fml.common.FMLModContainer.handleModStateEvent(FMLModContainer.java:637)
+	at sun.reflect.GeneratedMethodAccessor2.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.preinitializeMods(Loader.java:629)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:252)
+	at net.minecraft.client.Minecraft.func_71384_a(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.func_99999_d(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(SourceFile:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:497)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+Caused by: java.lang.ClassNotFoundException: asmodeuscore.core.astronomy.BodiesHelper
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	... 41 more
+Caused by: java.lang.NullPointerException
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_51, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 794800648 bytes (757 MB) / 1736441856 bytes (1656 MB) up to 3008888832 bytes (2869 MB)
+	JVM Flags: 4 total; -XX:HeapDumpPath=MojangTricksIntelDriversForPerformance_javaw.exe_minecraft.exe.heapdump -Xmx3228m -Xms256m -XX:PermSize=256m
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2854 70 mods loaded, 70 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                                | Version                 | Source                                          | Signature                                |
+	|:----- |:--------------------------------- |:----------------------- |:----------------------------------------------- |:---------------------------------------- |
+	| LCH   | minecraft                         | 1.12.2                  | minecraft.jar                                   | None                                     |
+	| LCH   | mcp                               | 9.42                    | minecraft.jar                                   | None                                     |
+	| LCH   | FML                               | 8.0.99.99               | forge-1.12.2-14.23.5.2854.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | forge                             | 14.23.5.2854            | forge-1.12.2-14.23.5.2854.jar                   | e3c3d50c7c986df74c645c0ac54639741c90a557 |
+	| LCH   | micdoodlecore                     |                         | minecraft.jar                                   | None                                     |
+	| LCH   | bnbgamingcore                     | 0.12.0                  | minecraft.jar                                   | None                                     |
+	| LCH   | aether_legacy                     | 1.4.4                   | aether_legacy-1.12.2-v1.4.4.jar                 | None                                     |
+	| LCH   | applecore                         | 3.4.0                   | AppleCore-mc1.12.2-3.4.0.jar                    | None                                     |
+	| LCH   | asmodeuscore                      | 0.0.18                  | AsmodeusCore-1.12.2-0.0.18.jar                  | None                                     |
+	| LCH   | baubles                           | 1.5.2                   | Baubles-1.12-1.5.2.jar                          | None                                     |
+	| LCH   | crafttweaker                      | 4.1.20                  | CraftTweaker2-1.12-4.1.20.583.jar               | None                                     |
+	| LCH   | astralsorcery                     | 1.10.25                 | astralsorcery-1.12.2-1.10.25.jar                | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LCH   | jei                               | 4.15.0.296              | jei_1.12.2-4.15.0.296 (1).jar                   | None                                     |
+	| LCH   | quark                             | r1.6-179                | Quark-r1.6-179.jar                              | None                                     |
+	| LCH   | autoreglib                        | 1.3-32                  | AutoRegLib-1.3-32.jar                           | None                                     |
+	| LCH   | forestry                          | 5.8.2.387               | forestry_1.12.2-5.8.2.387.jar                   | None                                     |
+	| LCH   | beebetteratbees                   | 2.0.3                   | beebetteratbees-1.12.2-2.0.3.jar                | a0f0b759d895c15ceb3e3bcb5f3c2db7c582edf0 |
+	| LCH   | betteradvancements                | 0.1.0.77                | BetterAdvancements-1.12.2-0.1.0.77.jar          | None                                     |
+	| LCH   | betterbuilderswands               | 0.11.1                  | BetterBuildersWands-1.12-0.11.1.245+69d0d70.jar | None                                     |
+	| LCH   | biomesoplenty                     | 7.0.1.2444              | BiomesOPlenty-1.12.2-7.0.1.2444-universal.jar   | None                                     |
+	| LCH   | bnbgaminglib                      | 2.17.6                  | BNBGamingLib-1.12.2-2.17.6.jar                  | None                                     |
+	| LCH   | carpentersblocks                  | 3.4.0-poc.6             | Carpenter's Blocks v3.4.0-poc.6 - MC 1.12.2.jar | None                                     |
+	| LCH   | ctm                               | MC1.12.2-1.0.2.31       | CTM-MC1.12.2-1.0.2.31.jar                       | None                                     |
+	| LCH   | chisel                            | MC1.12.2-1.0.2.45       | Chisel-MC1.12.2-1.0.2.45.jar                    | None                                     |
+	| LCH   | cathedral                         | 1.12.2-1.9.9            | Cathedral-1.12.2-1.9.9.jar                      | None                                     |
+	| LCH   | codechickenlib                    | 3.2.3.358               | CodeChickenLib-1.12.2-3.2.3.358-universal.jar   | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | cosmeticarmorreworked             | 1.12.2-v5a              | CosmeticArmorReworked-1.12.2-v5a.jar            | aaaf83332a11df02406e9f266b1b65c1306f0f76 |
+	| LCH   | ctgui                             | 1.0.0                   | CraftTweaker2-1.12-4.1.20.583.jar               | None                                     |
+	| LCH   | crafttweakerjei                   | 2.0.3                   | CraftTweaker2-1.12-4.1.20.583.jar               | None                                     |
+	| LCH   | customloadingscreen               | 1.12.2-1.4.1            | CustomLoadingScreen-1.12.2-1.4.1.jar            | None                                     |
+	| LCH   | custommainmenu                    | 2.0.9.1                 | CustomMainMenu-MC1.12.2-2.0.9.1.jar             | None                                     |
+	| LCH   | cutepuppymod                      | 2.5                     | cutepuppymod-2.5.jar                            | ac38a3286ab9f4777b0023f0f6280caa9369d575 |
+	| LCH   | doggytalents                      | 1.15.1.5                | DoggyTalents-1.12.2-1.15.1.5.jar                | None                                     |
+	| LCH   | endercore                         | 1.12.2-0.5.76           | EnderCore-1.12.2-0.5.76.jar                     | None                                     |
+	| LCH   | enderio                           | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderiointegrationtic             | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderiobase                       | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderioconduits                   | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderioconduitsappliedenergistics | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderioconduitsopencomputers      | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | refinedstorage                    | 1.6.16                  | refinedstorage-1.6.16.jar                       | 57893d5b90a7336e8c63fe1c1e1ce472c3d59578 |
+	| LCH   | enderioconduitsrefinedstorage     | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderiointegrationforestry        | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderiointegrationticlate         | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderiomachines                   | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderiopowertools                 | 5.2.59                  | EnderIO-1.12.2-5.2.59.jar                       | None                                     |
+	| LCH   | enderstorage                      | 2.4.6.137               | EnderStorage-1.12.2-2.4.6.137-universal.jar     | f1850c39b2516232a2108a7bd84d1cb5df93b261 |
+	| LCH   | valkyrielib                       | 1.12.2-2.0.20.1         | valkyrielib-1.12.2-2.0.20.1.jar                 | None                                     |
+	| LCH   | environmentaltech                 | 1.12.2-2.0.20.1         | environmentaltech-1.12.2-2.0.20.1.jar           | None                                     |
+	| LCH   | extrautils2                       | 1.0                     | extrautils2-1.12-1.9.9.jar                      | None                                     |
+	| LCH   | fastleafdecay                     | v14                     | FastLeafDecay-v14.jar                           | None                                     |
+	| LCH   | floodlights                       | 1.4.4-22                | FloodLights-1.12.2-1.4.4-22.jar                 | None                                     |
+	| LCH   | cfm                               | 6.3.1                   | furniture-6.3.1-1.12.2.jar                      | None                                     |
+	| LCH   | galacticraftcore                  | 4.0.2.238               | GalacticraftCore-1.12.2-4.0.2.238.jar           | None                                     |
+	| LCH   | galacticraftplanets               | 4.0.2.220               | Galacticraft-Planets-Mod-1.12.2.jar             | None                                     |
+	| LCE   | galaxyspace                       | 2.0.6                   | Galaxy-Space-Mod-1.12.2.jar                     | None                                     |
+	| LC    | waila                             | 1.8.26                  | Hwyla-1.8.26-B41_1.12.2.jar                     | None                                     |
+	| LC    | immersiveengineering              | 0.12-98                 | ImmersiveEngineering-0.12-98.jar                | None                                     |
+	| LC    | immersivecables                   | 1.3.2                   | ImmersiveCables-1.12.2-1.3.2.jar                | None                                     |
+	| LC    | lootbags                          | 2.5.8.5                 | LootBags-1.12.2-2.5.8.5.jar                     | None                                     |
+	| LC    | magicbees                         | 1.0                     | MagicBees-1.12.2-3.1.10.jar                     | None                                     |
+	| LC    | mjrlegendslib                     | 1.12.2-1.2.0            | MJRLegendsLib-1.12.2-1.2.0.jar                  | b02331787272ec3515ebe63ecdeea0d746653468 |
+	| LC    | harvestcraft                      | 1.12.2zb                | Pam's+HarvestCraft+1.12.2zg.jar                 | None                                     |
+	| LC    | reborncore                        | 3.19.4.529              | RebornCore-1.12.2-3.19.4.529-universal.jar      | 8727a3141c8ec7f173b87aa78b9b9807867c4e6b |
+	| LC    | rebornstorage                     | 1.0.0                   | RebornStorage-1.12.2-3.3.4.1.jar                | None                                     |
+	| LC    | refinedstorageaddons              | 0.4.5                   | refinedstorageaddons-0.4.5.jar                  | None                                     |
+	| LC    | travelersbackpack                 | 1.0.33                  | TravelersBackpack-1.12.2-1.0.33.jar             | None                                     |
+	| LC    | triumph                           | 3.19.2                  | Triumph-1.12.2-3.19.2 (1).jar                   | None                                     |
+	| LC    | universalmodifiers                | 1.12.2-1.0.16.1         | valkyrielib-1.12.2-2.0.20.1.jar                 | None                                     |
+	| LC    | hungeroverhaul                    | 1.12.2-1.3.3.jenkins148 | HungerOverhaul-1.12.2-1.3.3.jenkins148.jar      | None                                     |
+
+	Loaded coremods (and transformers): 
+BNBGamingCore (BNBGamingCore-1.12.2-0.12.0.jar)
+  com.bloodnbonesgaming.bnbgamingcore.core.BNBGamingCoreClassTransformer
+IELoadingPlugin (ImmersiveEngineering-core-0.12-98.jar)
+  blusunrize.immersiveengineering.common.asm.IEClassTransformer
+EnderCorePlugin (EnderCore-1.12.2-0.5.76-core.jar)
+  com.enderio.core.common.transform.EnderCoreTransformer
+  com.enderio.core.common.transform.SimpleMixinPatcher
+MicdoodlePlugin (MicdoodleCore-1.12.2 (1).jar)
+  micdoodle8.mods.miccore.MicdoodleTransformer
+Quark Plugin (Quark-r1.6-179.jar)
+  vazkii.quark.base.asm.ClassTransformer
+AppleCore (AppleCore-mc1.12.2-3.4.0.jar)
+  squeek.applecore.asm.TransformerModuleHandler
+ClsPlugin (CustomLoadingScreen-1.12.2-1.4.1.jar)
+  alexiil.mc.mod.load.coremod.ClsTransformer
+CTMCorePlugin (CTM-MC1.12.2-1.0.2.31.jar)
+  team.chisel.ctm.client.asm.CTMTransformer
+AstralCore (astralsorcery-1.12.2-1.10.25.jar)
+  
+	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 442.23' Renderer: 'GeForce GTX 1650/PCIe/SSE2'
+	Ender IO: No known problems detected.
+	Authlib is : /C:/Users/danie/Twitch/Minecraft/Install/libraries/com/mojang/authlib/1.5.25/authlib-1.5.25.jar
+
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+	!!!You are looking at the diagnostics information, not at the crash.       !!!
+	!!!Scroll up until you see the line with '---- Minecraft Crash Report ----'!!!
+	!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
