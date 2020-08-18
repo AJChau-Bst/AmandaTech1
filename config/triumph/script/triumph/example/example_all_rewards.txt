@@ -1,15 +1,12 @@
 
 //Set icon item
-setIcon(<minecraft:flint>)
+setIcon(<minecraft:apple>)
 
 //Set title String
-setTitle("All Rewards")
+setTitle("Crafting Tableeeeee")
 
 //Set description String
-setDescription("Acquire flint")
-
-//Add a parent advancement. The syntax is "modid:folder/path/to/the/advancement/then/filename"
-addParent("triumph:example/root")
+setDescription("Make one ya dumb")
 
 //Set Better Advancements icon/title/line colors. Supports single color int, 3 rgb ints, and hex.
 setUncompletedIconColor(16744448)
