@@ -30,7 +30,7 @@
   "isUnlocked": true,
   "javaArgsOverride": null,
   "javaDirOverride": null,
-  "lastPlayed": "2020-08-19T01:25:06.5988405Z",
+  "lastPlayed": "2020-08-19T01:58:22.0349581Z",
   "manifest": null,
   "fileDate": "0001-01-01T00:00:00",
   "installedModpack": null,
@@ -391,6 +391,21 @@
       "fileSize": 4702147
     },
     {
+      "folderName": "tinkersjei-1.2.jar",
+      "fingerprint": 556888099,
+      "fileDateHash": 3008504661,
+      "sectionID": 8,
+      "individualFingerprints": [
+        556888099
+      ],
+      "status": 1,
+      "timestamp": "2020-08-19T01:50:41.578915Z",
+      "lastWriteTimeUtc": "2020-08-19T01:50:39.8069087Z",
+      "queryTimestamp": "2020-08-19T01:50:41.8885582Z",
+      "fileCount": 1,
+      "fileSize": 12255
+    },
+    {
       "folderName": "EnderStorage-1.12.2-2.4.6.137-universal.jar",
       "fingerprint": 3887579715,
       "fileDateHash": 4167162285,
@@ -421,6 +436,21 @@
       "fileSize": 1035863
     },
     {
+      "folderName": "moartinkers-0.6.0.jar",
+      "fingerprint": 883535324,
+      "fileDateHash": 1372571184,
+      "sectionID": 8,
+      "individualFingerprints": [
+        883535324
+      ],
+      "status": 1,
+      "timestamp": "2020-08-19T01:58:09.7859788Z",
+      "lastWriteTimeUtc": "2020-08-19T01:58:06.4508811Z",
+      "queryTimestamp": "2020-08-19T01:58:09.9982311Z",
+      "fileCount": 1,
+      "fileSize": 70754
+    },
+    {
       "folderName": "CustomMainMenu-MC1.12.2-2.0.9.1.jar",
       "fingerprint": 3526146934,
       "fileDateHash": 742460120,
@@ -442,7 +472,7 @@
       "sectionID": 10,
       "individualFingerprints": null,
       "status": 3,
-      "timestamp": "2020-08-19T01:24:40.4266172Z",
+      "timestamp": "2020-08-19T01:58:09.7909667Z",
       "lastWriteTimeUtc": "2020-08-19T00:36:20.3140218Z",
       "queryTimestamp": "0001-01-01T00:00:00",
       "fileCount": 12,
@@ -495,19 +525,24 @@
     },
     {
       "folderName": "Quest Test",
-      "fingerprint": 400419347,
-      "fileDateHash": 1086893498,
+      "fingerprint": 3395295320,
+      "fileDateHash": 1446537507,
       "sectionID": 10,
       "individualFingerprints": [
+        106590489,
         107143064,
+        107207367,
         224251200,
         224251200,
+        316587758,
         322988789,
+        487596909,
         489458212,
         489458212,
         489458212,
         489458212,
         584499092,
+        585542234,
         682895157,
         758054953,
         758054953,
@@ -515,12 +550,12 @@
         758054953,
         758054953,
         758054953,
+        844120299,
         1254400901,
         1256504604,
         1282249443,
         1349454912,
         1414093815,
-        1438764922,
         1441842433,
         1441842433,
         1441842433,
@@ -528,32 +563,33 @@
         1441842433,
         1441842433,
         1452862183,
-        1772415125,
         1803953797,
         1857968560,
         1957606574,
-        1989387718,
-        2056236292,
-        2385353537,
+        2066292750,
         2643933950,
-        2748669612,
-        2904076932,
+        2736040964,
+        2736040964,
+        2736040964,
+        2736040964,
+        3011772173,
+        3032894785,
         3101394404,
         3134755400,
-        3248607523,
-        3404681115,
-        3708932107,
+        3600598993,
+        3677270877,
         3820414998,
         3833284048,
         3954123295,
         3954123295,
-        3998258255
+        3995027898,
+        4271512608
       ],
       "status": 1,
-      "timestamp": "2020-08-19T01:21:57.3782946Z",
-      "lastWriteTimeUtc": "2020-08-19T01:20:02.2542961Z",
-      "queryTimestamp": "2020-08-19T01:21:58.0043225Z",
-      "fileCount": 20,
+      "timestamp": "2020-08-19T01:47:41.1466163Z",
+      "lastWriteTimeUtc": "2020-08-19T01:31:54.0881446Z",
+      "queryTimestamp": "2020-08-19T01:47:41.6607502Z",
+      "fileCount": 21,
       "fileSize": 0
     },
     {
@@ -647,21 +683,6 @@
       "fileSize": 1001848
     },
     {
-      "folderName": "ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
-      "fingerprint": 3090990458,
-      "fileDateHash": 2540361318,
-      "sectionID": 8,
-      "individualFingerprints": [
-        3090990458
-      ],
-      "status": 1,
-      "timestamp": "2020-08-19T01:21:57.3563774Z",
-      "lastWriteTimeUtc": "2020-08-19T01:21:41.6274681Z",
-      "queryTimestamp": "2020-08-19T01:21:58.0053199Z",
-      "fileCount": 1,
-      "fileSize": 1304958
-    },
-    {
       "folderName": "MatterOverdrive-1.12.2-0.7.1.0-universal.jar",
       "fingerprint": 3368764801,
       "fileDateHash": 995107441,
@@ -698,7 +719,7 @@
       "sectionID": 10,
       "individualFingerprints": null,
       "status": 3,
-      "timestamp": "2020-08-19T01:24:40.4216596Z",
+      "timestamp": "2020-08-19T01:58:09.7859788Z",
       "lastWriteTimeUtc": "2020-08-19T00:36:20.1135585Z",
       "queryTimestamp": "0001-01-01T00:00:00",
       "fileCount": 13,
@@ -915,21 +936,6 @@
       "fileSize": 132644
     },
     {
-      "folderName": "ProjectRed-1.12.2-4.9.4.120-integration.jar",
-      "fingerprint": 1782350993,
-      "fileDateHash": 513555474,
-      "sectionID": 8,
-      "individualFingerprints": [
-        1782350993
-      ],
-      "status": 1,
-      "timestamp": "2020-08-19T01:24:40.4026791Z",
-      "lastWriteTimeUtc": "2020-08-19T01:23:18.9627837Z",
-      "queryTimestamp": "2020-08-19T01:24:40.9388359Z",
-      "fileCount": 1,
-      "fileSize": 3923751
-    },
-    {
       "folderName": "Mantle-1.12-1.3.3.55.jar",
       "fingerprint": 2810798110,
       "fileDateHash": 4218838166,
@@ -988,6 +994,21 @@
       "queryTimestamp": "2020-08-19T00:36:22.5394619Z",
       "fileCount": 1,
       "fileSize": 5232265
+    },
+    {
+      "folderName": "oreberries-1.12.x-0.5.0.jar",
+      "fingerprint": 1814015962,
+      "fileDateHash": 1796588545,
+      "sectionID": 8,
+      "individualFingerprints": [
+        1814015962
+      ],
+      "status": 1,
+      "timestamp": "2020-08-19T01:57:35.0380191Z",
+      "lastWriteTimeUtc": "2020-08-19T01:57:33.2183137Z",
+      "queryTimestamp": "2020-08-19T01:57:35.3950655Z",
+      "fileCount": 1,
+      "fileSize": 60516
     },
     {
       "folderName": "jeiintegration_1.12.2-1.6.0.jar",
@@ -1080,19 +1101,19 @@
       "fileSize": 192840
     },
     {
-      "folderName": "MrTJPCore-1.12.2-2.1.4.43-universal.jar",
-      "fingerprint": 4068050300,
-      "fileDateHash": 3028006325,
+      "folderName": "TConstruct-1.12.2-2.13.0.183.jar",
+      "fingerprint": 3094578446,
+      "fileDateHash": 1851768814,
       "sectionID": 8,
       "individualFingerprints": [
-        4068050300
+        3094578446
       ],
       "status": 1,
-      "timestamp": "2020-08-19T01:21:59.0196507Z",
-      "lastWriteTimeUtc": "2020-08-19T01:21:54.0633089Z",
-      "queryTimestamp": "2020-08-19T01:21:59.2656Z",
+      "timestamp": "2020-08-19T01:47:41.1097155Z",
+      "lastWriteTimeUtc": "2020-08-19T01:47:39.0253199Z",
+      "queryTimestamp": "2020-08-19T01:47:41.6687289Z",
       "fileCount": 1,
-      "fileSize": 803400
+      "fileSize": 4023372
     },
     {
       "folderName": "Baubles-1.12-1.5.2.jar",
@@ -1125,19 +1146,19 @@
       "fileSize": 14129163
     },
     {
-      "folderName": "ProjectRed-1.12.2-4.9.4.120-Base.jar",
-      "fingerprint": 2117407503,
-      "fileDateHash": 4287896703,
+      "folderName": "TinkerToolLeveling-1.12.2-1.1.0.jar",
+      "fingerprint": 1563429384,
+      "fileDateHash": 2838729286,
       "sectionID": 8,
       "individualFingerprints": [
-        2117407503
+        1563429384
       ],
       "status": 1,
-      "timestamp": "2020-08-19T01:24:36.8629204Z",
-      "lastWriteTimeUtc": "2020-08-19T01:21:03.2221676Z",
-      "queryTimestamp": "2020-08-19T01:24:37.2092794Z",
+      "timestamp": "2020-08-19T01:50:26.8854234Z",
+      "lastWriteTimeUtc": "2020-08-19T01:50:25.0867438Z",
+      "queryTimestamp": "2020-08-19T01:50:27.2696175Z",
       "fileCount": 1,
-      "fileSize": 2036136
+      "fileSize": 95850
     },
     {
       "folderName": "refinedstorage-1.6.16.jar",
@@ -1236,7 +1257,7 @@
       "sectionID": 10,
       "individualFingerprints": null,
       "status": 3,
-      "timestamp": "2020-08-19T01:24:40.4246514Z",
+      "timestamp": "2020-08-19T01:58:09.7890016Z",
       "lastWriteTimeUtc": "2020-08-19T00:36:20.2172802Z",
       "queryTimestamp": "0001-01-01T00:00:00",
       "fileCount": 12,
@@ -1319,7 +1340,7 @@
     }
   ],
   "isValid": true,
-  "lastPreviousMatchUpdate": "2020-08-19T01:08:54.2237254Z",
+  "lastPreviousMatchUpdate": "2020-08-19T01:47:41.9515362Z",
   "isEnabled": true,
   "isPinned": false,
   "gameVersion": "1.12.2",
@@ -2910,6 +2931,104 @@
       "installedTargets": null
     },
     {
+      "addonID": 275408,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2578045,
+        "displayName": "0.5.0 for 1.12.x",
+        "fileName": "oreberries-1.12.x-0.5.0.jar",
+        "fileDate": "2018-06-30T19:27:40.6Z",
+        "fileLength": 60516,
+        "releaseType": 2,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2578/45/oreberries-1.12.x-0.5.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 349226732,
+            "type": 3
+          },
+          {
+            "foldername": "josephcsible",
+            "fingerprint": 2574046056,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 3871476609,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 1183491804,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2402973063,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1814015962,
+        "gameVersion": [
+          "1.12",
+          "1.12.1",
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012",
+            "gameVersion": "1.12",
+            "gameVersionReleaseDate": "2017-06-07T05:00:00Z",
+            "gameVersionName": "1.12"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000001",
+            "gameVersion": "1.12.1",
+            "gameVersionReleaseDate": "2017-08-03T05:00:00Z",
+            "gameVersionName": "1.12.1"
+          },
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1402645,
+        "projectId": 275408,
+        "packageFingerprintId": 249944215,
+        "gameVersionDateReleased": "2017-06-07T05:00:00Z",
+        "gameVersionMappingId": 1607988,
+        "gameVersionId": 6580,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "oreberries-1.12.x-0.5.0.jar"
+      },
+      "dateInstalled": "2020-08-19T01:57:35.7784122Z",
+      "dateUpdated": "2019-08-19T01:57:35.7784122Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 321117,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
@@ -3960,6 +4079,103 @@
       "installedTargets": null
     },
     {
+      "addonID": 291786,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2701203,
+        "displayName": "tinkersjei-1.2.jar",
+        "fileName": "tinkersjei-1.2.jar",
+        "fileDate": "2019-04-19T19:11:50.337Z",
+        "fileLength": 12255,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2701/203/tinkersjei-1.2.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 25444031,
+            "addonId": 74072,
+            "type": 3,
+            "fileId": 2701203
+          },
+          {
+            "id": 25444032,
+            "addonId": 238222,
+            "type": 3,
+            "fileId": 2701203
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 1587606678,
+            "type": 3
+          },
+          {
+            "foldername": "com",
+            "fingerprint": 2538705935,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 1041904559,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 2913713636,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 556888099,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1547928,
+        "projectId": 291786,
+        "packageFingerprintId": 309045086,
+        "gameVersionDateReleased": "2017-09-18T05:00:00Z",
+        "gameVersionMappingId": 1795262,
+        "gameVersionId": 6756,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "tinkersjei-1.2.jar"
+      },
+      "dateInstalled": "2020-08-19T01:50:42.3051046Z",
+      "dateUpdated": "2019-08-19T01:50:42.3051046Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
+    },
+    {
       "addonID": 224476,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
@@ -4339,6 +4555,102 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 74072,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2902483,
+        "displayName": "TConstruct-1.12.2-2.13.0.183.jar",
+        "fileName": "TConstruct-1.12.2-2.13.0.183.jar",
+        "fileDate": "2020-03-15T17:02:37.37Z",
+        "fileLength": 4023372,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2902/483/TConstruct-1.12.2-2.13.0.183.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 38077224,
+            "addonId": 74924,
+            "type": 3,
+            "fileId": 2902483
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 4217453615,
+            "type": 3
+          },
+          {
+            "foldername": "slimeknights",
+            "fingerprint": 65780644,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 219889385,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 4039906649,
+            "type": 3
+          },
+          {
+            "foldername": "logo.png",
+            "fingerprint": 3056415901,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 341838363,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 3094578446,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1793676,
+        "projectId": 74072,
+        "packageFingerprintId": 423558351,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 2132724,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "TConstruct-1.12.2-2.13.0.183.jar"
+      },
+      "dateInstalled": "2020-08-19T01:47:41.9495267Z",
+      "dateUpdated": "2019-08-19T01:47:41.9495267Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 65764,
@@ -5719,109 +6031,6 @@
       "installedTargets": null
     },
     {
-      "addonID": 228702,
-      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
-      "installedFile": {
-        "id": 2745545,
-        "displayName": "ProjectRed-1.12.2-4.9.4.120-Base",
-        "fileName": "ProjectRed-1.12.2-4.9.4.120-Base.jar",
-        "fileDate": "2019-07-21T17:56:41.103Z",
-        "fileLength": 2036136,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2745/545/ProjectRed-1.12.2-4.9.4.120-Base.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 28487755,
-            "addonId": 229002,
-            "type": 3,
-            "fileId": 2745545
-          },
-          {
-            "id": 28487756,
-            "addonId": 242818,
-            "type": 3,
-            "fileId": 2745545
-          },
-          {
-            "id": 28487757,
-            "addonId": 258426,
-            "type": 3,
-            "fileId": 2745545
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 1718450795,
-            "type": 3
-          },
-          {
-            "foldername": "Changelog",
-            "fingerprint": 4224024262,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 3050910480,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 4219091070,
-            "type": 3
-          },
-          {
-            "foldername": "mrtjp",
-            "fingerprint": 2344955152,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 2117407503,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1603959,
-        "projectId": 228702,
-        "packageFingerprintId": 335221782,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1867488,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "ProjectRed-1.12.2-4.9.4.120-Base.jar"
-      },
-      "dateInstalled": "2020-08-19T01:24:37.4289137Z",
-      "dateUpdated": "2019-08-19T01:24:37.4289137Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 241721,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
@@ -6656,56 +6865,104 @@
       "installedTargets": null
     },
     {
-      "addonID": 229002,
+      "addonID": 263624,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
-        "id": 2735197,
-        "displayName": "MrTJPCore-1.12.2-2.1.4.43-universal.jar",
-        "fileName": "MrTJPCore-1.12.2-2.1.4.43-universal.jar",
-        "fileDate": "2019-07-04T00:12:13.943Z",
-        "fileLength": 803400,
+        "id": 2579934,
+        "displayName": "moartinkers-0.6.0.jar",
+        "fileName": "moartinkers-0.6.0.jar",
+        "fileDate": "2018-07-06T01:04:05.2Z",
+        "fileLength": 70754,
         "releaseType": 1,
         "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2735/197/MrTJPCore-1.12.2-2.1.4.43-universal.jar",
+        "downloadUrl": "https://edge.forgecdn.net/files/2579/934/moartinkers-0.6.0.jar",
         "isAlternate": false,
         "alternateFileId": 0,
         "dependencies": [
           {
-            "id": 27828638,
-            "addonId": 242818,
+            "id": 18255441,
+            "addonId": 233564,
+            "type": 2,
+            "fileId": 2579934
+          },
+          {
+            "id": 18255435,
+            "addonId": 223794,
+            "type": 2,
+            "fileId": 2579934
+          },
+          {
+            "id": 18255434,
+            "addonId": 225643,
+            "type": 2,
+            "fileId": 2579934
+          },
+          {
+            "id": 18255438,
+            "addonId": 250277,
+            "type": 2,
+            "fileId": 2579934
+          },
+          {
+            "id": 18255437,
+            "addonId": 64578,
+            "type": 2,
+            "fileId": 2579934
+          },
+          {
+            "id": 18255440,
+            "addonId": 243076,
+            "type": 2,
+            "fileId": 2579934
+          },
+          {
+            "id": 18255436,
+            "addonId": 223565,
+            "type": 2,
+            "fileId": 2579934
+          },
+          {
+            "id": 18255442,
+            "addonId": 74072,
             "type": 3,
-            "fileId": 2735197
+            "fileId": 2579934
+          },
+          {
+            "id": 18255439,
+            "addonId": 241665,
+            "type": 2,
+            "fileId": 2579934
           }
         ],
         "isAvailable": true,
         "modules": [
           {
             "foldername": "META-INF",
-            "fingerprint": 2768922478,
+            "fingerprint": 851917931,
             "type": 3
           },
           {
-            "foldername": "mrtjp",
-            "fingerprint": 2347380327,
+            "foldername": "com",
+            "fingerprint": 2106159469,
             "type": 3
           },
           {
             "foldername": "assets",
-            "fingerprint": 963349118,
+            "fingerprint": 1431551676,
             "type": 3
           },
           {
             "foldername": "mcmod.info",
-            "fingerprint": 1849455686,
+            "fingerprint": 4152209712,
             "type": 3
           },
           {
-            "foldername": "Changelog",
-            "fingerprint": 513525721,
+            "foldername": "pack.mcmeta",
+            "fingerprint": 3273911401,
             "type": 3
           }
         ],
-        "packageFingerprint": 4068050300,
+        "packageFingerprint": 883535324,
         "gameVersion": [
           "1.12.2"
         ],
@@ -6722,18 +6979,18 @@
         "categorySectionPackageType": 6,
         "restrictProjectFileAccess": 1,
         "projectStatus": 4,
-        "renderCacheId": 1588197,
-        "projectId": 229002,
-        "packageFingerprintId": 329742954,
+        "renderCacheId": 1404861,
+        "projectId": 263624,
+        "packageFingerprintId": 250658830,
         "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1851283,
+        "gameVersionMappingId": 1611273,
         "gameVersionId": 4458,
         "gameId": 432,
         "isServerPack": false,
-        "FileNameOnDisk": "MrTJPCore-1.12.2-2.1.4.43-universal.jar"
+        "FileNameOnDisk": "moartinkers-0.6.0.jar"
       },
-      "dateInstalled": "2020-08-19T01:21:59.4915008Z",
-      "dateUpdated": "2019-08-19T01:21:59.4915008Z",
+      "dateInstalled": "2020-08-19T01:58:10.3330471Z",
+      "dateUpdated": "2019-08-19T01:58:10.3330471Z",
       "dateLastUpdateAttempted": "0001-01-01T00:00:00",
       "status": 5,
       "preferenceAutoInstallUpdates": false,
@@ -7795,92 +8052,6 @@
       "installedTargets": []
     },
     {
-      "addonID": 229045,
-      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
-      "installedFile": {
-        "id": 2745548,
-        "displayName": "ProjectRed-1.12.2-4.9.4.120-integration",
-        "fileName": "ProjectRed-1.12.2-4.9.4.120-integration.jar",
-        "fileDate": "2019-07-21T17:56:53.117Z",
-        "fileLength": 3923751,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2745/548/ProjectRed-1.12.2-4.9.4.120-integration.jar",
-        "isAlternate": false,
-        "alternateFileId": 0,
-        "dependencies": [
-          {
-            "id": 28487762,
-            "addonId": 228702,
-            "type": 3,
-            "fileId": 2745548
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 2464251221,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 2915154455,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 2852150257,
-            "type": 3
-          },
-          {
-            "foldername": "mrtjp",
-            "fingerprint": 2581945488,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 1782350993,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1603962,
-        "projectId": 229045,
-        "packageFingerprintId": 335223037,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1867494,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "ProjectRed-1.12.2-4.9.4.120-integration.jar"
-      },
-      "dateInstalled": "2020-08-19T01:24:41.2006009Z",
-      "dateUpdated": "2019-08-19T01:24:41.2006009Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 229876,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
@@ -8442,102 +8613,6 @@
       "installedTargets": []
     },
     {
-      "addonID": 258426,
-      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
-      "installedFile": {
-        "id": 2755790,
-        "displayName": "ForgeMultipart 1.12.2-2.6.2.83-universal",
-        "fileName": "ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
-        "fileDate": "2019-08-06T08:47:59.433Z",
-        "fileLength": 1304958,
-        "releaseType": 1,
-        "fileStatus": 4,
-        "downloadUrl": "https://edge.forgecdn.net/files/2755/790/ForgeMultipart-1.12.2-2.6.2.83-universal.jar",
-        "isAlternate": false,
-        "alternateFileId": 2755791,
-        "dependencies": [
-          {
-            "id": 29183934,
-            "addonId": 242818,
-            "type": 3,
-            "fileId": 2755790
-          }
-        ],
-        "isAvailable": true,
-        "modules": [
-          {
-            "foldername": "META-INF",
-            "fingerprint": 3891823189,
-            "type": 3
-          },
-          {
-            "foldername": "ChickenASM-1.12-1.0.2.7.jar",
-            "fingerprint": 1918344602,
-            "type": 3
-          },
-          {
-            "foldername": "assets",
-            "fingerprint": 1520330629,
-            "type": 3
-          },
-          {
-            "foldername": "codechicken",
-            "fingerprint": 1494326866,
-            "type": 3
-          },
-          {
-            "foldername": "dependencies.info",
-            "fingerprint": 3184481455,
-            "type": 3
-          },
-          {
-            "foldername": "mcmod.info",
-            "fingerprint": 232249196,
-            "type": 3
-          }
-        ],
-        "packageFingerprint": 3090990458,
-        "gameVersion": [
-          "1.12.2"
-        ],
-        "sortableGameVersion": [
-          {
-            "gameVersionPadded": "0000000001.0000000012.0000000002",
-            "gameVersion": "1.12.2",
-            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
-            "gameVersionName": "1.12.2"
-          }
-        ],
-        "hasInstallScript": false,
-        "isCompatibleWithClient": false,
-        "categorySectionPackageType": 6,
-        "restrictProjectFileAccess": 1,
-        "projectStatus": 4,
-        "renderCacheId": 1616686,
-        "projectId": 258426,
-        "packageFingerprintId": 341328789,
-        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
-        "gameVersionMappingId": 1886019,
-        "gameVersionId": 4458,
-        "gameId": 432,
-        "isServerPack": false,
-        "FileNameOnDisk": "ForgeMultipart-1.12.2-2.6.2.83-universal.jar"
-      },
-      "dateInstalled": "2020-08-19T01:21:58.3354388Z",
-      "dateUpdated": "2019-08-19T01:21:58.3354388Z",
-      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
-      "status": 5,
-      "preferenceAutoInstallUpdates": false,
-      "preferenceAlternateFile": false,
-      "preferenceIsIgnored": false,
-      "isModified": false,
-      "isWorkingCopy": false,
-      "isFuzzyMatch": false,
-      "preferenceReleaseType": null,
-      "manifestName": null,
-      "installedTargets": []
-    },
-    {
       "addonID": 253449,
       "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
       "installedFile": {
@@ -8620,6 +8695,103 @@
       "preferenceReleaseType": null,
       "manifestName": null,
       "installedTargets": null
+    },
+    {
+      "addonID": 250957,
+      "gameInstanceID": "8679f708-2bc7-46ef-923c-8f5d210b6a2c",
+      "installedFile": {
+        "id": 2630860,
+        "displayName": "TinkerToolLeveling-1.12.2-1.1.0.jar",
+        "fileName": "TinkerToolLeveling-1.12.2-1.1.0.jar",
+        "fileDate": "2018-10-23T17:43:40.243Z",
+        "fileLength": 95850,
+        "releaseType": 1,
+        "fileStatus": 4,
+        "downloadUrl": "https://edge.forgecdn.net/files/2630/860/TinkerToolLeveling-1.12.2-1.1.0.jar",
+        "isAlternate": false,
+        "alternateFileId": 0,
+        "dependencies": [
+          {
+            "id": 20720169,
+            "addonId": 74924,
+            "type": 3,
+            "fileId": 2630860
+          },
+          {
+            "id": 20720170,
+            "addonId": 74072,
+            "type": 3,
+            "fileId": 2630860
+          }
+        ],
+        "isAvailable": true,
+        "modules": [
+          {
+            "foldername": "META-INF",
+            "fingerprint": 3869564845,
+            "type": 3
+          },
+          {
+            "foldername": "slimeknights",
+            "fingerprint": 3257431995,
+            "type": 3
+          },
+          {
+            "foldername": "assets",
+            "fingerprint": 881944842,
+            "type": 3
+          },
+          {
+            "foldername": "mcmod.info",
+            "fingerprint": 61804168,
+            "type": 3
+          },
+          {
+            "foldername": "pack.mcmeta",
+            "fingerprint": 15427281,
+            "type": 3
+          }
+        ],
+        "packageFingerprint": 1563429384,
+        "gameVersion": [
+          "1.12.2"
+        ],
+        "sortableGameVersion": [
+          {
+            "gameVersionPadded": "0000000001.0000000012.0000000002",
+            "gameVersion": "1.12.2",
+            "gameVersionReleaseDate": "2017-09-18T05:00:00Z",
+            "gameVersionName": "1.12.2"
+          }
+        ],
+        "hasInstallScript": false,
+        "isCompatibleWithClient": false,
+        "categorySectionPackageType": 6,
+        "restrictProjectFileAccess": 1,
+        "projectStatus": 4,
+        "renderCacheId": 1463328,
+        "projectId": 250957,
+        "packageFingerprintId": 271707879,
+        "gameVersionDateReleased": "2008-03-01T06:00:00Z",
+        "gameVersionMappingId": 1687335,
+        "gameVersionId": 4458,
+        "gameId": 432,
+        "isServerPack": false,
+        "FileNameOnDisk": "TinkerToolLeveling-1.12.2-1.1.0.jar"
+      },
+      "dateInstalled": "2020-08-19T01:50:27.7035527Z",
+      "dateUpdated": "2019-08-19T01:50:27.7035527Z",
+      "dateLastUpdateAttempted": "0001-01-01T00:00:00",
+      "status": 5,
+      "preferenceAutoInstallUpdates": false,
+      "preferenceAlternateFile": false,
+      "preferenceIsIgnored": false,
+      "isModified": false,
+      "isWorkingCopy": false,
+      "isFuzzyMatch": false,
+      "preferenceReleaseType": null,
+      "manifestName": null,
+      "installedTargets": []
     },
     {
       "addonID": 265917,
