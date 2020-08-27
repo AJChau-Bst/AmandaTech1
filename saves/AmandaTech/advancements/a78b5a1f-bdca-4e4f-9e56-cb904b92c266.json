@@ -257,6 +257,12 @@
     },
     "done": true
   },
+  "enderiomachines:basics/sagmill/1_sagmill_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_sag_mill": "2020-08-26 19:16:23 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/red_sandstone_stairs": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
@@ -607,6 +613,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_myrmex": {
+    "criteria": {
+      "jungle": "2020-08-26 18:06:59 -0400"
+    },
+    "done": true
+  },
   "aether_legacy:recipes/building_blocks/aerogel_wall": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
@@ -720,6 +732,12 @@
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
     },
     "done": true
+  },
+  "enderiomachines:basics/goal/1_all_simple_get": {
+    "criteria": {
+      "inv_changed-enderio:block_simple_sag_mill": "2020-08-26 19:16:23 -0400"
+    },
+    "done": false
   },
   "minecraft:recipes/decorations/purple_bed": {
     "criteria": {
@@ -1594,6 +1612,12 @@
   "minecraft:recipes/decorations/white_banner": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
+    },
+    "done": true
+  },
+  "mysticalworld:amethyst": {
+    "criteria": {
+      "book": "2020-08-27 00:06:38 -0400"
     },
     "done": true
   },
@@ -2481,6 +2505,12 @@
     },
     "done": true
   },
+  "enderio:start/2_simple_chassis_get": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:15:00 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/fir_fence_gate": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
@@ -2574,6 +2604,12 @@
   "aether_legacy:recipes/tools/gravitite_shovel": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
+    },
+    "done": true
+  },
+  "refinedstorage:drives": {
+    "criteria": {
+      "disk_drive_in_inventory": "2020-08-26 21:17:06 -0400"
     },
     "done": true
   },
@@ -3328,6 +3364,12 @@
     },
     "done": true
   },
+  "refinedstorage:viewing_items": {
+    "criteria": {
+      "grid_in_inventory": "2020-08-26 22:11:17 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/iron_axe": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
@@ -3796,6 +3838,12 @@
     },
     "done": true
   },
+  "refinedstorage:binding": {
+    "criteria": {
+      "cutting_tool_in_inventory": "2020-08-26 21:12:02 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/decorations/black_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
@@ -3938,6 +3986,12 @@
     },
     "done": true
   },
+  "refinedstorage:storing_items": {
+    "criteria": {
+      "storage_disk_in_inventory": "2020-08-26 22:13:56 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/eucalyptus_fence": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
@@ -3998,9 +4052,21 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/myrmex_resin": {
+    "criteria": {
+      "jungle": "2020-08-27 00:06:38 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/topaz": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
+    },
+    "done": true
+  },
+  "refinedstorage:root": {
+    "criteria": {
+      "controller_in_inventory": "2020-08-26 21:14:54 -0400"
     },
     "done": true
   },
@@ -4481,6 +4547,12 @@
   "minecraft:recipes/brewing/brewing_stand": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:49:19 -0400"
+    },
+    "done": true
+  },
+  "enderio:gears/g2_stone_gear": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:09:53 -0400"
     },
     "done": true
   },

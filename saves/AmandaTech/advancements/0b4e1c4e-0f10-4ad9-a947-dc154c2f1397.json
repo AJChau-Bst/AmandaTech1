@@ -1597,6 +1597,12 @@
     },
     "done": true
   },
+  "exoticbirds:eb/place_phoenixegg": {
+    "criteria": {
+      "phoenix_egg": "2020-08-26 19:49:39 -0400"
+    },
+    "done": true
+  },
   "aether_legacy:recipes/combat/iron_gloves": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -4063,6 +4069,12 @@
   "biomesoplenty:recipes/misc/topaz": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
+    },
+    "done": true
+  },
+  "astralsorcery:craft_t3_altar": {
+    "criteria": {
+      "altar_craft_t3_altar": "2020-08-26 19:55:09 -0400"
     },
     "done": true
   },

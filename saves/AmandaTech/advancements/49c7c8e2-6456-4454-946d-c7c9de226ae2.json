@@ -835,6 +835,12 @@
     },
     "done": true
   },
+  "enderio:start/1_infinity_powder_get": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:00:31 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/coarse_loamy_dirt": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -1060,6 +1066,12 @@
   "iceandfire:iceandfire/kill_stymphalian_bird": {
     "criteria": {
       "killed_fire_dragon": "2020-08-19 21:32:26 -0400"
+    },
+    "done": true
+  },
+  "enderiomachines:basics/sagmill/3_sagmill_bushes": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:31:55 -0400"
     },
     "done": true
   },
@@ -2468,6 +2480,12 @@
     },
     "done": true
   },
+  "enderio:start/2_simple_chassis_get": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:04:28 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/fir_fence_gate": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -2810,6 +2828,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_forge_brick": {
+    "criteria": {
+      "fire": "2020-08-26 23:30:02 -0400"
+    },
+    "done": true
+  },
   "aether_legacy:recipes/building_blocks/holystone_wall": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -2890,22 +2914,26 @@
   },
   "biomesoplenty:biomesoplenty/all_biomes": {
     "criteria": {
+      "oasis": "2020-08-26 19:20:16 -0400",
       "woodland": "2020-08-25 16:58:04 -0400",
       "shrubland": "2020-08-25 22:54:52 -0400",
       "steppe": "2020-08-20 19:16:26 -0400",
+      "bayou": "2020-08-26 23:44:53 -0400",
       "highland": "2020-08-25 19:40:45 -0400",
       "marsh": "2020-08-25 19:57:49 -0400",
       "cold_desert": "2020-08-25 17:58:46 -0400",
       "maple_woods": "2020-08-25 21:42:56 -0400",
       "bog": "2020-08-25 19:41:34 -0400",
       "mangrove": "2020-08-25 20:04:12 -0400",
+      "redwood_forest": "2020-08-26 23:46:15 -0400",
       "visceral_heap": "2020-08-19 22:38:44 -0400",
       "snowy_forest": "2020-08-25 23:00:58 -0400",
       "seasonal_forest": "2020-08-20 15:57:32 -0400",
       "glacier": "2020-08-25 21:56:49 -0400",
       "grassland": "2020-08-25 20:01:16 -0400",
       "snowy_coniferous_forest": "2020-08-25 21:40:36 -0400",
-      "undergarden": "2020-08-19 22:40:34 -0400"
+      "undergarden": "2020-08-19 22:40:34 -0400",
+      "brushland": "2020-08-26 23:37:02 -0400"
     },
     "done": false
   },
@@ -3023,6 +3051,7 @@
       "wither_skeleton": "2020-08-19 22:47:16 -0400",
       "zombie_villager": "2020-08-24 19:01:09 -0400",
       "skeleton": "2020-08-19 22:22:11 -0400",
+      "husk": "2020-08-26 19:30:51 -0400",
       "blaze": "2020-08-19 22:43:08 -0400",
       "zombie": "2020-08-19 21:04:41 -0400",
       "cave_spider": "2020-08-25 22:18:19 -0400",
@@ -3098,6 +3127,12 @@
   "minecraft:recipes/building_blocks/green_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_forge_core": {
+    "criteria": {
+      "fire": "2020-08-26 23:54:52 -0400"
     },
     "done": true
   },
@@ -3432,6 +3467,12 @@
     },
     "done": true
   },
+  "enderiomachines:basics/sagmill/4_brown": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:32:23 -0400"
+    },
+    "done": true
+  },
   "astralsorcery:rock_crystals": {
     "criteria": {
       "rock_crystal_in_inventory": "2020-08-25 16:52:53 -0400"
@@ -3465,8 +3506,10 @@
       "swampland": "2020-08-19 21:31:04 -0400",
       "birch_forest": "2020-08-19 22:50:48 -0400",
       "extreme_hills_with_trees": "2020-08-25 20:40:39 -0400",
+      "desert_hills": "2020-08-26 19:18:59 -0400",
       "forest_hills": "2020-08-19 21:27:23 -0400",
       "plains": "2020-08-19 20:52:18 -0400",
+      "savanna": "2020-08-26 19:20:49 -0400",
       "ice_mountains": "2020-08-19 21:47:28 -0400",
       "taiga": "2020-08-20 19:49:48 -0400",
       "taiga_hills": "2020-08-25 21:42:38 -0400",
@@ -3476,6 +3519,7 @@
       "extreme_hills": "2020-08-25 16:55:40 -0400",
       "roofed_forest": "2020-08-19 20:52:11 -0400",
       "river": "2020-08-19 21:28:53 -0400",
+      "desert": "2020-08-26 19:18:47 -0400",
       "stone_beach": "2020-08-25 20:29:20 -0400"
     },
     "done": false
@@ -3798,6 +3842,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_meal": {
+    "criteria": {
+      "bestiary": "2020-08-26 22:11:29 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/redstone/mangrove_fence_gate": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -3869,6 +3919,7 @@
       "cooked_mutton": "2020-08-19 21:15:10 -0400",
       "beef": "2020-08-19 23:21:22 -0400",
       "baked_potato": "2020-08-19 22:14:33 -0400",
+      "porkchop": "2020-08-26 22:53:15 -0400",
       "clownfish": "2020-08-20 20:01:23 -0400",
       "apple": "2020-08-19 20:57:32 -0400",
       "spider_eye": "2020-08-21 18:27:41 -0400",
@@ -3903,6 +3954,12 @@
   "biomesoplenty:recipes/decorations/fir_fence": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "enderiomachines:basics/sagmill/9_white": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:29:39 -0400"
     },
     "done": true
   },
@@ -4062,6 +4119,12 @@
     },
     "done": true
   },
+  "enderiomachines:basics/sagmill/7_black": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:27:49 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/acacia_door": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -4191,6 +4254,12 @@
   "minecraft:recipes/decorations/glass_pane": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "enderiomachines:basics/sagmill/6_coal": {
+    "criteria": {
+      "inv_changed-enderio:item_material": "2020-08-26 19:07:11 -0400"
     },
     "done": true
   },
@@ -4773,6 +4842,12 @@
   "minecraft:recipes/building_blocks/nether_brick": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_horn": {
+    "criteria": {
+      "bestiary": "2020-08-26 22:38:25 -0400"
     },
     "done": true
   },
