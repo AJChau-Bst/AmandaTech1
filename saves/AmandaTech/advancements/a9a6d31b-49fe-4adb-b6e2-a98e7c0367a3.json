@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "refinedstorage:wireless_items": {
+    "criteria": {
+      "wireless_grid_in_inventory": "2020-08-27 22:38:43 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -679,6 +685,12 @@
     },
     "done": true
   },
+  "mysticalworld:aubergine": {
+    "criteria": {
+      "book": "2020-08-28 20:42:54 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/light_blue_stained_glass": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -914,6 +926,12 @@
     },
     "done": true
   },
+  "ebwizardry:defeat_evil_wizard": {
+    "criteria": {
+      "criteria_0": "2020-08-28 20:14:58 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/ruby_block": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -1004,6 +1022,12 @@
     },
     "done": true
   },
+  "enderioconduits:fluid/2_fluid_conduit_pressurized": {
+    "criteria": {
+      "inv_changed-enderio:liquid_conduit_pressurized": "2020-08-28 18:51:43 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/tools/golden_pickaxe": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -1067,6 +1091,12 @@
   "minecraft:recipes/building_blocks/purpur_slab": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/kill_stymphalian_bird": {
+    "criteria": {
+      "killed_fire_dragon": "2020-08-28 22:43:42 -0400"
     },
     "done": true
   },
@@ -1769,6 +1799,7 @@
   "enderioconduits:goals/all_conduits": {
     "criteria": {
       "inv_changed-enderio:liquid_conduit2": "2020-08-20 16:36:46 -0400",
+      "inv_changed-enderio:liquid_conduit_pressurized2": "2020-08-28 18:51:43 -0400",
       "inv_changed-enderio:power_conduit2": "2020-08-21 22:18:36 -0400",
       "inv_changed-enderio:item_conduit2": "2020-08-20 16:20:23 -0400"
     },
@@ -1819,6 +1850,12 @@
   "enderio:gears/g1_wooden_gear": {
     "criteria": {
       "inv_changed-enderio:item_material": "2020-08-25 15:25:44 -0400"
+    },
+    "done": true
+  },
+  "aether_legacy:like_a_bossaru": {
+    "criteria": {
+      "enter_aether": "2020-08-27 17:02:20 -0400"
     },
     "done": true
   },
@@ -2285,6 +2322,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2020-08-30 23:31:30 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -2303,9 +2346,21 @@
     },
     "done": true
   },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2020-08-30 23:21:08 -0400"
+    },
+    "done": true
+  },
   "aether_legacy:recipes/combat/golden_dart": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2020-08-28 14:48:24 -0400"
     },
     "done": true
   },
@@ -2920,11 +2975,13 @@
     "criteria": {
       "oasis": "2020-08-24 17:35:22 -0400",
       "highland": "2020-08-20 14:50:15 -0400",
+      "marsh": "2020-08-28 22:45:18 -0400",
       "cold_desert": "2020-08-25 21:58:17 -0400",
       "bog": "2020-08-20 14:49:32 -0400",
       "outback": "2020-08-24 17:33:39 -0400",
       "visceral_heap": "2020-08-21 20:44:06 -0400",
       "seasonal_forest": "2020-08-20 14:47:04 -0400",
+      "grassland": "2020-08-28 22:46:15 -0400",
       "lavender_fields": "2020-08-20 23:52:22 -0400",
       "brushland": "2020-08-20 23:52:54 -0400"
     },
@@ -2945,6 +3002,12 @@
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "fire_sword": "2020-08-28 23:07:34 -0400"
     },
     "done": true
   },
@@ -3034,11 +3097,14 @@
   },
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
+      "shulker": "2020-08-30 23:32:33 -0400",
       "zombie_villager": "2020-08-20 20:21:19 -0400",
       "slime": "2020-08-25 19:28:20 -0400",
       "skeleton": "2020-08-19 22:37:22 -0400",
       "husk": "2020-08-24 17:34:54 -0400",
       "zombie": "2020-08-19 21:25:49 -0400",
+      "cave_spider": "2020-08-27 20:43:48 -0400",
+      "silverfish": "2020-08-30 22:50:56 -0400",
       "witch": "2020-08-19 21:25:51 -0400",
       "spider": "2020-08-19 22:24:49 -0400",
       "creeper": "2020-08-19 22:27:28 -0400",
@@ -3154,6 +3220,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-08-30 22:50:07 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_block": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -3181,6 +3253,12 @@
   "biomesoplenty:recipes/redstone/eucalyptus_door": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-08-30 22:57:14 -0400"
     },
     "done": true
   },
@@ -3419,6 +3497,12 @@
     },
     "done": true
   },
+  "cutepuppymod:cutepuppymod/killenderpuppy": {
+    "criteria": {
+      "enderpuppy": "2020-08-30 23:03:30 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_bricks": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -3472,6 +3556,7 @@
       "forest_hills": "2020-08-20 19:59:22 -0400",
       "plains": "2020-08-19 20:36:36 -0400",
       "savanna": "2020-08-24 19:00:11 -0400",
+      "mesa_clear_rock": "2020-08-28 22:56:26 -0400",
       "taiga_hills": "2020-08-24 17:32:59 -0400",
       "birch_forest_hills": "2020-08-20 22:49:52 -0400",
       "extreme_hills": "2020-08-19 21:49:45 -0400",
@@ -3538,6 +3623,12 @@
   "minecraft:recipes/misc/red_dye_from_tulip": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
+    },
+    "done": true
+  },
+  "refinedstorage:autocrafting": {
+    "criteria": {
+      "crafter_in_inventory": "2020-08-30 16:06:17 -0400"
     },
     "done": true
   },
@@ -3861,6 +3952,7 @@
   },
   "minecraft:husbandry/balanced_diet": {
     "criteria": {
+      "chorus_fruit": "2020-08-30 23:45:50 -0400",
       "baked_potato": "2020-08-20 22:54:15 -0400",
       "potato": "2020-08-25 16:29:55 -0400",
       "bread": "2020-08-20 23:38:46 -0400",
@@ -3877,6 +3969,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_if_dragon": {
+    "criteria": {
+      "killed_fire_dragon": "2020-08-27 17:06:44 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/magic_fence": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -3886,6 +3984,12 @@
   "biomesoplenty:recipes/decorations/fir_fence": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
+    },
+    "done": true
+  },
+  "refinedstorage:connecting": {
+    "criteria": {
+      "cable_in_inventory": "2020-08-30 16:02:58 -0400"
     },
     "done": true
   },
@@ -4381,6 +4485,12 @@
     },
     "done": true
   },
+  "refinedstorage:monitoring": {
+    "criteria": {
+      "crafting_monitor_in_inventory": "2020-08-30 16:58:45 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/light_weighted_pressure_plate": {
     "criteria": {
       "has_gold_ingot": "2020-08-19 22:15:45 -0400"
@@ -4621,6 +4731,12 @@
     },
     "done": true
   },
+  "refinedstorage:importing": {
+    "criteria": {
+      "importer_in_inventory": "2020-08-30 16:10:03 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/honeycomb_block": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -4687,6 +4803,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-08-30 22:57:14 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/white_sandstone": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
@@ -4719,6 +4841,7 @@
   },
   "enderioconduits:goals/all_filters": {
     "criteria": {
+      "inv_changed-enderio:item_existing_item_filter2": "2020-08-28 23:37:10 -0400",
       "inv_changed-enderio:item_basic_item_filter2": "2020-08-23 15:33:37 -0400"
     },
     "done": false
@@ -4798,6 +4921,12 @@
   "biomesoplenty:recipes/misc/gray_dye_from_ash": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:36:35 -0400"
+    },
+    "done": true
+  },
+  "immersiveengineering:main/craft_skyhook": {
+    "criteria": {
+      "craft_hammer": "2020-08-27 22:34:27 -0400"
     },
     "done": true
   },

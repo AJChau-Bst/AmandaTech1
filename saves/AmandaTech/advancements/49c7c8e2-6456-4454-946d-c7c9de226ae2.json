@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "refinedstorage:wireless_items": {
+    "criteria": {
+      "wireless_grid_in_inventory": "2020-08-27 20:43:21 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -290,6 +296,12 @@
   "minecraft:recipes/redstone/hopper": {
     "criteria": {
       "has_iron_ingot": "2020-08-19 21:10:24 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/tame_cockatrice": {
+    "criteria": {
+      "tame_rat": "2020-08-28 19:29:31 -0400"
     },
     "done": true
   },
@@ -499,6 +511,12 @@
     },
     "done": true
   },
+  "aether_legacy:extinquished": {
+    "criteria": {
+      "enter_aether": "2020-08-27 21:07:17 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/ethereal_wooden_slab": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -562,6 +580,12 @@
   "biomesoplenty:recipes/decorations/origin_terrarium": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/kill_dragon": {
+    "criteria": {
+      "killed_dragon": "2020-08-30 23:01:31 -0400"
     },
     "done": true
   },
@@ -985,6 +1009,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_sea_serpent": {
+    "criteria": {
+      "killed_fire_dragon": "2020-08-28 20:52:59 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/redstone/noteblock": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -1072,6 +1102,12 @@
   "enderiomachines:basics/sagmill/3_sagmill_bushes": {
     "criteria": {
       "inv_changed-enderio:item_material": "2020-08-26 19:31:55 -0400"
+    },
+    "done": true
+  },
+  "aether_legacy:dethroned": {
+    "criteria": {
+      "enter_aether": "2020-08-27 17:16:19 -0400"
     },
     "done": true
   },
@@ -1240,6 +1276,12 @@
   "biomesoplenty:recipes/buildingblocks/palm_stairs": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "refinedstorage:covering": {
+    "criteria": {
+      "cover_in_inventory": "2020-08-27 16:17:37 -0400"
     },
     "done": true
   },
@@ -1570,6 +1612,12 @@
   "minecraft:recipes/decorations/yellow_bed_from_white_bed": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel": {
+    "criteria": {
+      "fire": "2020-08-27 19:32:30 -0400"
     },
     "done": true
   },
@@ -2276,6 +2324,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2020-08-30 23:30:58 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -2291,6 +2345,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2020-08-30 23:21:01 -0400"
     },
     "done": true
   },
@@ -2381,6 +2441,12 @@
   "biomesoplenty:recipes/misc/magenta_dye_from_wildflower": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:adventure/shoot_arrow": {
+    "criteria": {
+      "shot_arrow": "2020-08-30 22:44:31 -0400"
     },
     "done": true
   },
@@ -2870,6 +2936,12 @@
     },
     "done": true
   },
+  "ebwizardry:handbook/scrolls": {
+    "criteria": {
+      "criteria_0": "2020-08-27 19:43:37 -0400"
+    },
+    "done": true
+  },
   "aether_legacy:recipes/building_blocks/angelic_stairs": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -2917,23 +2989,32 @@
       "oasis": "2020-08-26 19:20:16 -0400",
       "woodland": "2020-08-25 16:58:04 -0400",
       "shrubland": "2020-08-25 22:54:52 -0400",
+      "xeric_shrubland": "2020-08-27 17:38:48 -0400",
       "steppe": "2020-08-20 19:16:26 -0400",
+      "alps_foothills": "2020-08-27 17:18:39 -0400",
       "bayou": "2020-08-26 23:44:53 -0400",
       "highland": "2020-08-25 19:40:45 -0400",
       "marsh": "2020-08-25 19:57:49 -0400",
+      "chaparral": "2020-08-27 18:31:47 -0400",
       "cold_desert": "2020-08-25 17:58:46 -0400",
       "maple_woods": "2020-08-25 21:42:56 -0400",
+      "orchard": "2020-08-27 18:31:01 -0400",
       "bog": "2020-08-25 19:41:34 -0400",
+      "outback": "2020-08-27 17:06:20 -0400",
       "mangrove": "2020-08-25 20:04:12 -0400",
       "redwood_forest": "2020-08-26 23:46:15 -0400",
       "visceral_heap": "2020-08-19 22:38:44 -0400",
       "snowy_forest": "2020-08-25 23:00:58 -0400",
       "seasonal_forest": "2020-08-20 15:57:32 -0400",
       "glacier": "2020-08-25 21:56:49 -0400",
+      "meadow": "2020-08-27 21:33:37 -0400",
       "grassland": "2020-08-25 20:01:16 -0400",
       "snowy_coniferous_forest": "2020-08-25 21:40:36 -0400",
+      "tundra": "2020-08-27 21:31:58 -0400",
       "undergarden": "2020-08-19 22:40:34 -0400",
-      "brushland": "2020-08-26 23:37:02 -0400"
+      "gravel_beach": "2020-08-27 17:18:17 -0400",
+      "brushland": "2020-08-26 23:37:02 -0400",
+      "ominous_woods": "2020-08-27 17:20:56 -0400"
     },
     "done": false
   },
@@ -2952,6 +3033,12 @@
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "fire_sword": "2020-08-27 19:48:15 -0400"
     },
     "done": true
   },
@@ -3048,8 +3135,10 @@
   "minecraft:adventure/kill_all_mobs": {
     "criteria": {
       "stray": "2020-08-19 23:43:24 -0400",
+      "shulker": "2020-08-30 23:30:59 -0400",
       "wither_skeleton": "2020-08-19 22:47:16 -0400",
       "zombie_villager": "2020-08-24 19:01:09 -0400",
+      "magma_cube": "2020-08-28 22:51:11 -0400",
       "skeleton": "2020-08-19 22:22:11 -0400",
       "husk": "2020-08-26 19:30:51 -0400",
       "blaze": "2020-08-19 22:43:08 -0400",
@@ -3172,6 +3261,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-08-30 22:50:11 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_block": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -3199,6 +3294,12 @@
   "biomesoplenty:recipes/redstone/eucalyptus_door": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-08-30 22:57:14 -0400"
     },
     "done": true
   },
@@ -3265,7 +3366,9 @@
   "biomesoplenty:biomesoplenty/terrestrial_artifact": {
     "criteria": {
       "emerald": "2020-08-20 19:16:43 -0400",
-      "sapphire": "2020-08-20 18:49:09 -0400"
+      "sapphire": "2020-08-20 18:49:09 -0400",
+      "ruby": "2020-08-27 19:43:35 -0400",
+      "tanzanite": "2020-08-27 22:13:36 -0400"
     },
     "done": false
   },
@@ -3443,6 +3546,12 @@
     },
     "done": true
   },
+  "cutepuppymod:cutepuppymod/killenderpuppy": {
+    "criteria": {
+      "enderpuppy": "2020-08-30 22:59:44 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_bricks": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -3505,14 +3614,21 @@
       "forest": "2020-08-19 21:27:53 -0400",
       "swampland": "2020-08-19 21:31:04 -0400",
       "birch_forest": "2020-08-19 22:50:48 -0400",
+      "deep_ocean": "2020-08-27 17:18:22 -0400",
+      "beaches": "2020-08-27 18:32:49 -0400",
       "extreme_hills_with_trees": "2020-08-25 20:40:39 -0400",
       "desert_hills": "2020-08-26 19:18:59 -0400",
+      "mesa": "2020-08-27 17:06:06 -0400",
       "forest_hills": "2020-08-19 21:27:23 -0400",
       "plains": "2020-08-19 20:52:18 -0400",
       "savanna": "2020-08-26 19:20:49 -0400",
+      "mesa_clear_rock": "2020-08-27 17:36:54 -0400",
+      "savanna_rock": "2020-08-27 17:32:42 -0400",
       "ice_mountains": "2020-08-19 21:47:28 -0400",
       "taiga": "2020-08-20 19:49:48 -0400",
+      "redwood_taiga": "2020-08-27 21:33:09 -0400",
       "taiga_hills": "2020-08-25 21:42:38 -0400",
+      "redwood_taiga_hills": "2020-08-27 21:33:22 -0400",
       "birch_forest_hills": "2020-08-25 16:54:55 -0400",
       "taiga_cold": "2020-08-19 21:35:30 -0400",
       "ocean": "2020-08-20 19:56:22 -0400",
@@ -3581,6 +3697,12 @@
   "biomesoplenty:recipes/buildingblocks/hellbark_stairs": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "ebwizardry:handbook/throwables": {
+    "criteria": {
+      "criteria_0": "2020-08-27 21:19:58 -0400"
     },
     "done": true
   },
@@ -3881,6 +4003,12 @@
   "aether_legacy:recipes/building_blocks/skyroot_stairs": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
+    },
+    "done": true
+  },
+  "roots:terra_moss": {
+    "criteria": {
+      "book": "2020-08-27 16:21:46 -0400"
     },
     "done": true
   },
@@ -4749,6 +4877,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-08-30 22:57:14 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/white_sandstone": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:52:11 -0400"
@@ -4848,6 +4982,12 @@
   "iceandfire:iceandfire/dragon_horn": {
     "criteria": {
       "bestiary": "2020-08-26 22:38:25 -0400"
+    },
+    "done": true
+  },
+  "roots:guide": {
+    "criteria": {
+      "book": "2020-08-27 16:21:46 -0400"
     },
     "done": true
   },

@@ -155,6 +155,12 @@
     },
     "done": true
   },
+  "refinedstorage:wireless_items": {
+    "criteria": {
+      "wireless_grid_in_inventory": "2020-08-27 20:39:05 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/lime_stained_hardened_clay": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -625,6 +631,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/kill_troll": {
+    "criteria": {
+      "killed_fire_dragon": "2020-08-27 22:29:10 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/misc/amethyst": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -1081,6 +1093,18 @@
     },
     "done": true
   },
+  "aether_legacy:dethroned": {
+    "criteria": {
+      "enter_aether": "2020-08-27 17:30:21 -0400"
+    },
+    "done": true
+  },
+  "minecraft:nether/brew_potion": {
+    "criteria": {
+      "potion": "2020-08-27 20:36:34 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/decorations/jacaranda_fence": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -1180,6 +1204,12 @@
   "minecraft:recipes/building_blocks/light_gray_stained_glass": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/dragon_egg": {
+    "criteria": {
+      "dragon_egg": "2020-08-30 23:47:33 -0400"
     },
     "done": true
   },
@@ -2270,6 +2300,12 @@
     },
     "done": true
   },
+  "minecraft:end/find_end_city": {
+    "criteria": {
+      "in_city": "2020-08-30 23:31:02 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/string_to_wool": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -2285,6 +2321,12 @@
   "minecraft:recipes/combat/leather_chestplate": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/enter_end_gateway": {
+    "criteria": {
+      "entered_end_gateway": "2020-08-30 23:21:01 -0400"
     },
     "done": true
   },
@@ -2931,6 +2973,7 @@
       "cold_desert": "2020-08-25 18:50:15 -0400",
       "mountain_foothills": "2020-08-25 18:51:36 -0400",
       "maple_woods": "2020-08-20 20:03:52 -0400",
+      "coral_reef": "2020-08-28 20:12:05 -0400",
       "land_of_lakes": "2020-08-24 18:03:44 -0400",
       "bog": "2020-08-20 14:28:17 -0400",
       "eucalyptus_forest": "2020-08-20 20:07:47 -0400",
@@ -2940,11 +2983,14 @@
       "seasonal_forest": "2020-08-20 14:27:03 -0400",
       "temperate_rainforest": "2020-08-24 18:55:21 -0400",
       "lush_swamp": "2020-08-23 16:46:14 -0400",
+      "fungi_forest": "2020-08-27 20:31:45 -0400",
       "grassland": "2020-08-20 21:00:29 -0400",
       "undergarden": "2020-08-19 22:40:46 -0400",
       "grove": "2020-08-20 21:05:56 -0400",
       "lavender_fields": "2020-08-21 21:29:22 -0400",
-      "crag": "2020-08-24 18:04:11 -0400"
+      "crag": "2020-08-24 18:04:11 -0400",
+      "ominous_woods": "2020-08-28 20:15:40 -0400",
+      "brushland": "2020-08-30 22:51:22 -0400"
     },
     "done": false
   },
@@ -2963,6 +3009,12 @@
   "minecraft:recipes/misc/yellow_dye_from_sunflower": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragonsteel_weapon": {
+    "criteria": {
+      "ice_sword": "2020-08-30 22:30:55 -0400"
     },
     "done": true
   },
@@ -3054,8 +3106,10 @@
     "criteria": {
       "zombie_pigman": "2020-08-25 22:07:40 -0400",
       "stray": "2020-08-20 19:14:49 -0400",
+      "shulker": "2020-08-30 23:31:02 -0400",
       "wither_skeleton": "2020-08-19 22:50:48 -0400",
       "zombie_villager": "2020-08-25 15:20:24 -0400",
+      "magma_cube": "2020-08-27 20:33:48 -0400",
       "skeleton": "2020-08-19 21:10:30 -0400",
       "blaze": "2020-08-24 19:29:11 -0400",
       "zombie": "2020-08-19 21:07:25 -0400",
@@ -3175,6 +3229,12 @@
     },
     "done": true
   },
+  "minecraft:story/follow_ender_eye": {
+    "criteria": {
+      "in_stronghold": "2020-08-30 22:50:12 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/brick_block": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -3202,6 +3262,12 @@
   "biomesoplenty:recipes/redstone/eucalyptus_door": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
+    },
+    "done": true
+  },
+  "minecraft:end/root": {
+    "criteria": {
+      "entered_end": "2020-08-30 22:57:14 -0400"
     },
     "done": true
   },
@@ -3458,6 +3524,12 @@
     },
     "done": true
   },
+  "cutepuppymod:cutepuppymod/killenderpuppy": {
+    "criteria": {
+      "enderpuppy": "2020-08-30 22:58:27 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/building_blocks/prismarine_bricks": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -3599,6 +3671,12 @@
   "biomesoplenty:recipes/buildingblocks/hellbark_stairs": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
+    },
+    "done": true
+  },
+  "ebwizardry:handbook/throwables": {
+    "criteria": {
+      "criteria_0": "2020-08-27 22:03:42 -0400"
     },
     "done": true
   },
@@ -3902,6 +3980,12 @@
     },
     "done": true
   },
+  "iceandfire:iceandfire/dragon_egg": {
+    "criteria": {
+      "sapphire": "2020-08-28 19:40:26 -0400"
+    },
+    "done": true
+  },
   "minecraft:recipes/food/mushroom_stew": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -3931,6 +4015,7 @@
       "cooked_porkchop": "2020-08-24 17:46:12 -0400",
       "cooked_mutton": "2020-08-24 18:13:03 -0400",
       "cooked_beef": "2020-08-19 22:28:41 -0400",
+      "chorus_fruit": "2020-08-30 23:27:30 -0400",
       "beef": "2020-08-24 17:48:46 -0400",
       "porkchop": "2020-08-21 20:06:55 -0400",
       "clownfish": "2020-08-20 21:15:13 -0400",
@@ -4750,6 +4835,12 @@
     },
     "done": true
   },
+  "minecraft:story/enter_the_end": {
+    "criteria": {
+      "entered_end": "2020-08-30 22:57:14 -0400"
+    },
+    "done": true
+  },
   "biomesoplenty:recipes/buildingblocks/white_sandstone": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
@@ -4843,6 +4934,12 @@
   "minecraft:recipes/building_blocks/nether_brick": {
     "criteria": {
       "has_the_recipe": "2020-08-19 20:50:25 -0400"
+    },
+    "done": true
+  },
+  "iceandfire:iceandfire/dragon_horn": {
+    "criteria": {
+      "bestiary": "2020-08-28 19:41:12 -0400"
     },
     "done": true
   },
